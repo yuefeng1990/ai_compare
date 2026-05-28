@@ -1,0 +1,10 @@
+Manufacture
+OsFullName
+MarketName
+ProductModel
+DeviceType
+Brand
+DisplayVersion
+SecurityPatchTag
+VersionId
+BuildRootHash

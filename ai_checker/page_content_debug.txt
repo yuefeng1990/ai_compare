@@ -1,0 +1,148 @@
+导出审核列表
+重置
+查询
+	
+测评编号
+	
+ProdId
+	
+测评类型
+	
+操作系统类型
+	
+操作系统版本号
+	
+传播名
+	
+设备型号
+	
+芯片型号
+	
+软件版本号
+	
+提交时间
+	
+企业名称
+	
+测评状态
+	
+审核人
+	
+操作
+
+	OHC862700006765		模组/开发板	轻量系统	OpenHarmony 5.1.0 Release	海信HL3412模组		Hi3863e	OpenHarmony 5.1.0 Release	2026-05-27 14:45:32	海信家电集团股份有限公司青岛分公司	待审核		详情
+	OHC995100006732	OH0001OI	商用设备	轻量系统	OpenHarmony 5.1.0 Release	左点数字助听器	zdeer D2	YH601M	1.0.0	2026-05-26 19:42:38	左点实业（湖北）有限公司	待审核		详情
+	OHC924200006672		模组/开发板	轻量系统	OpenHarmony 6.1 Release	星火实验室CST92F46开发板		CST92F46	1.0.0.1	2026-05-26 18:12:13	鸿蒙生态服务（深圳）有限公司长沙分公司	待审核		详情
+	OHC313100006738	OH0001OK	商用设备	轻量系统	OpenHarmony 6.1 Release	4G RID	WD1000	WS63-H3863	WD1000-V1.0.0_OpenHarmony_6.1_Release	2026-05-26 18:09:26	成都微思格科技有限公司	待审核		详情
+	OHC295400006398		模组/开发板	轻量系统	OpenHarmony 6.1 Release	OM6629_EVB		OM6629	v1.0.0	2026-05-26 16:41:27	北京昂瑞微电子技术股份有限公司	待审核		详情
+	OHC315300006586	OH0001NC	商用设备	轻量系统	OpenHarmony 5.0.3 Release	OpenHarmony Community IP	OCIP-A001	ASR1606S	OCIP00001	2026-05-26 16:30:17	深圳市尚格实业有限公司	已发证	50383911b56d11f097907f8366a43cfb	详情
+	OHC344200006354	OH0001L2	商用设备	轻量系统	OpenHarmony 6.0 Release	防火门监控器	SA-DC03A	国民N32H492	DC_SA_FaceBorad_V1.3_code_V3.0.0	2026-05-26 16:21:43	广州六瑞消防科技有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
+	OHC983700006794	OH0001PK	商用设备	轻量系统	OpenHarmony 5.0.1 Release	电梯势能回收装置	DC-AFE-4015/4022/4037		KaihongOS 5.0.1 Lite	2026-05-26 15:56:20	深圳市汇川技术股份有限公司	待审核		详情
+	OHC996200006784	OH0001P9	商用设备	轻量系统	OpenHarmony 5.0.3 Release	达伦智能台灯 大想	DL-31WS	WS63Q261	1.0.2	2026-05-26 14:41:35	江苏达伦电子股份有限公司	待审核		详情
+	OHC788900006353	OH0001L1	商用设备	轻量系统	OpenHarmony 6.0 Release	电气火灾监控设备	SA-DQ03	国民N32H492	DC_SA_FaceBorad_V1.3_code_V3.0.0	2026-05-26 11:35:27	广州六瑞消防科技有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
+	OHC889200006352	OH0001L0	商用设备	轻量系统	OpenHarmony 6.0 Release	余压监控器	SA-YJ01	国民N32H492	DC_SA_FaceBorad_V1.3_code_V3.0.0	2026-05-26 10:19:38	广州六瑞消防科技有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
+	OHC154700006820	OH0001PU	商用设备	轻量系统	OpenHarmony 5.1.0 Release	YIRENOVA EDU 套件	EDU_ESP32_S3	ESP32-S3-WROOM-1	OHOS_V5.1	2026-05-25 23:43:27	深圳颐人科技有限公司	待审核		详情
+	OHC021800006721		模组/开发板	轻量系统	OpenHarmony 5.0.0 Release	NT26-HCN		HI2131	0950Q01_V01_Rev01	2026-05-25 19:25:18	浙江利尔达物联网技术有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
+	OHC443600006741	OH0001OM	商用设备	轻量系统	OpenHarmony 5.1.0 Release	二参数融合控制器	YNS-200	Hi3863V100	V2.0.4-3	2026-05-25 17:28:41	福建远恩智能技术有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
+	OHC345000006762	OH0001P7	商用设备	小型系统	OpenHarmony 6.1 Release	边缘计算主机	iDS-6732NX-I/HWF		1.0.0	2026-05-25 16:55:38	杭州海康威视数字技术股份有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
+	
+测评编号
+	
+ProdId
+	
+测评类型
+	
+操作系统类型
+	
+操作系统版本号
+	
+传播名
+	
+设备型号
+	
+芯片型号
+	
+软件版本号
+	
+提交时间
+	
+企业名称
+	
+测评状态
+	
+审核人
+	
+操作
+
+	OHC862700006765		模组/开发板	轻量系统	OpenHarmony 5.1.0 Release	海信HL3412模组		Hi3863e	OpenHarmony 5.1.0 Release	2026-05-27 14:45:32	海信家电集团股份有限公司青岛分公司	待审核		详情
+	OHC995100006732	OH0001OI	商用设备	轻量系统	OpenHarmony 5.1.0 Release	左点数字助听器	zdeer D2	YH601M	1.0.0	2026-05-26 19:42:38	左点实业（湖北）有限公司	待审核		详情
+	OHC924200006672		模组/开发板	轻量系统	OpenHarmony 6.1 Release	星火实验室CST92F46开发板		CST92F46	1.0.0.1	2026-05-26 18:12:13	鸿蒙生态服务（深圳）有限公司长沙分公司	待审核		详情
+	OHC313100006738	OH0001OK	商用设备	轻量系统	OpenHarmony 6.1 Release	4G RID	WD1000	WS63-H3863	WD1000-V1.0.0_OpenHarmony_6.1_Release	2026-05-26 18:09:26	成都微思格科技有限公司	待审核		详情
+	OHC295400006398		模组/开发板	轻量系统	OpenHarmony 6.1 Release	OM6629_EVB		OM6629	v1.0.0	2026-05-26 16:41:27	北京昂瑞微电子技术股份有限公司	待审核		详情
+	OHC315300006586	OH0001NC	商用设备	轻量系统	OpenHarmony 5.0.3 Release	OpenHarmony Community IP	OCIP-A001	ASR1606S	OCIP00001	2026-05-26 16:30:17	深圳市尚格实业有限公司	已发证	50383911b56d11f097907f8366a43cfb	详情
+	OHC344200006354	OH0001L2	商用设备	轻量系统	OpenHarmony 6.0 Release	防火门监控器	SA-DC03A	国民N32H492	DC_SA_FaceBorad_V1.3_code_V3.0.0	2026-05-26 16:21:43	广州六瑞消防科技有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
+	OHC983700006794	OH0001PK	商用设备	轻量系统	OpenHarmony 5.0.1 Release	电梯势能回收装置	DC-AFE-4015/4022/4037		KaihongOS 5.0.1 Lite	2026-05-26 15:56:20	深圳市汇川技术股份有限公司	待审核		详情
+	OHC996200006784	OH0001P9	商用设备	轻量系统	OpenHarmony 5.0.3 Release	达伦智能台灯 大想	DL-31WS	WS63Q261	1.0.2	2026-05-26 14:41:35	江苏达伦电子股份有限公司	待审核		详情
+	OHC788900006353	OH0001L1	商用设备	轻量系统	OpenHarmony 6.0 Release	电气火灾监控设备	SA-DQ03	国民N32H492	DC_SA_FaceBorad_V1.3_code_V3.0.0	2026-05-26 11:35:27	广州六瑞消防科技有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
+	OHC889200006352	OH0001L0	商用设备	轻量系统	OpenHarmony 6.0 Release	余压监控器	SA-YJ01	国民N32H492	DC_SA_FaceBorad_V1.3_code_V3.0.0	2026-05-26 10:19:38	广州六瑞消防科技有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
+	OHC154700006820	OH0001PU	商用设备	轻量系统	OpenHarmony 5.1.0 Release	YIRENOVA EDU 套件	EDU_ESP32_S3	ESP32-S3-WROOM-1	OHOS_V5.1	2026-05-25 23:43:27	深圳颐人科技有限公司	待审核		详情
+	OHC021800006721		模组/开发板	轻量系统	OpenHarmony 5.0.0 Release	NT26-HCN		HI2131	0950Q01_V01_Rev01	2026-05-25 19:25:18	浙江利尔达物联网技术有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
+	OHC443600006741	OH0001OM	商用设备	轻量系统	OpenHarmony 5.1.0 Release	二参数融合控制器	YNS-200	Hi3863V100	V2.0.4-3	2026-05-25 17:28:41	福建远恩智能技术有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
+	OHC345000006762	OH0001P7	商用设备	小型系统	OpenHarmony 6.1 Release	边缘计算主机	iDS-6732NX-I/HWF		1.0.0	2026-05-25 16:55:38	杭州海康威视数字技术股份有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
+	
+测评编号
+	
+ProdId
+	
+测评类型
+	
+操作系统类型
+	
+操作系统版本号
+	
+传播名
+	
+设备型号
+	
+芯片型号
+	
+软件版本号
+	
+提交时间
+	
+企业名称
+	
+测评状态
+	
+审核人
+	
+操作
+
+	OHC862700006765		模组/开发板	轻量系统	OpenHarmony 5.1.0 Release	海信HL3412模组		Hi3863e	OpenHarmony 5.1.0 Release	2026-05-27 14:45:32	海信家电集团股份有限公司青岛分公司	待审核		详情
+	OHC995100006732	OH0001OI	商用设备	轻量系统	OpenHarmony 5.1.0 Release	左点数字助听器	zdeer D2	YH601M	1.0.0	2026-05-26 19:42:38	左点实业（湖北）有限公司	待审核		详情
+	OHC924200006672		模组/开发板	轻量系统	OpenHarmony 6.1 Release	星火实验室CST92F46开发板		CST92F46	1.0.0.1	2026-05-26 18:12:13	鸿蒙生态服务（深圳）有限公司长沙分公司	待审核		详情
+	OHC313100006738	OH0001OK	商用设备	轻量系统	OpenHarmony 6.1 Release	4G RID	WD1000	WS63-H3863	WD1000-V1.0.0_OpenHarmony_6.1_Release	2026-05-26 18:09:26	成都微思格科技有限公司	待审核		详情
+	OHC295400006398		模组/开发板	轻量系统	OpenHarmony 6.1 Release	OM6629_EVB		OM6629	v1.0.0	2026-05-26 16:41:27	北京昂瑞微电子技术股份有限公司	待审核		详情
+	OHC315300006586	OH0001NC	商用设备	轻量系统	OpenHarmony 5.0.3 Release	OpenHarmony Community IP	OCIP-A001	ASR1606S	OCIP00001	2026-05-26 16:30:17	深圳市尚格实业有限公司	已发证	50383911b56d11f097907f8366a43cfb	详情
+	OHC344200006354	OH0001L2	商用设备	轻量系统	OpenHarmony 6.0 Release	防火门监控器	SA-DC03A	国民N32H492	DC_SA_FaceBorad_V1.3_code_V3.0.0	2026-05-26 16:21:43	广州六瑞消防科技有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
+	OHC983700006794	OH0001PK	商用设备	轻量系统	OpenHarmony 5.0.1 Release	电梯势能回收装置	DC-AFE-4015/4022/4037		KaihongOS 5.0.1 Lite	2026-05-26 15:56:20	深圳市汇川技术股份有限公司	待审核		详情
+	OHC996200006784	OH0001P9	商用设备	轻量系统	OpenHarmony 5.0.3 Release	达伦智能台灯 大想	DL-31WS	WS63Q261	1.0.2	2026-05-26 14:41:35	江苏达伦电子股份有限公司	待审核		详情
+	OHC788900006353	OH0001L1	商用设备	轻量系统	OpenHarmony 6.0 Release	电气火灾监控设备	SA-DQ03	国民N32H492	DC_SA_FaceBorad_V1.3_code_V3.0.0	2026-05-26 11:35:27	广州六瑞消防科技有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
+	OHC889200006352	OH0001L0	商用设备	轻量系统	OpenHarmony 6.0 Release	余压监控器	SA-YJ01	国民N32H492	DC_SA_FaceBorad_V1.3_code_V3.0.0	2026-05-26 10:19:38	广州六瑞消防科技有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
+	OHC154700006820	OH0001PU	商用设备	轻量系统	OpenHarmony 5.1.0 Release	YIRENOVA EDU 套件	EDU_ESP32_S3	ESP32-S3-WROOM-1	OHOS_V5.1	2026-05-25 23:43:27	深圳颐人科技有限公司	待审核		详情
+	OHC021800006721		模组/开发板	轻量系统	OpenHarmony 5.0.0 Release	NT26-HCN		HI2131	0950Q01_V01_Rev01	2026-05-25 19:25:18	浙江利尔达物联网技术有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
+	OHC443600006741	OH0001OM	商用设备	轻量系统	OpenHarmony 5.1.0 Release	二参数融合控制器	YNS-200	Hi3863V100	V2.0.4-3	2026-05-25 17:28:41	福建远恩智能技术有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
+	OHC345000006762	OH0001P7	商用设备	小型系统	OpenHarmony 6.1 Release	边缘计算主机	iDS-6732NX-I/HWF		1.0.0	2026-05-25 16:55:38	杭州海康威视数字技术股份有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
+显示第 1 到第 15 条记录，总共 224 条记录 每页显示 
+15 
+ 条记录
+‹
+1
+2
+3
+4
+5
+...
+15
+›
+查看详情
