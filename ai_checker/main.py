@@ -1,5 +1,12 @@
 import sys
 import os
+
+# 设置标准输出编码为UTF-8，解决Windows命令行中文乱码问题
+if sys.platform == 'win32':
+    import io
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
+
 import pandas as pd
 from openpyxl import load_workbook
 from tools.excel_reader import ExcelReader
@@ -67,9 +74,9 @@ def main(measurement_id=None):
             print(f"警告: {log_txt_path} 不存在")
             return
         
-        # 4. 初始化对比工具
+        # 4. 初始化对比工具（传入目标测评编号用于精确定位表格行）
         print("\n4. 初始化对比工具...")
-        compare_tool = CompareTool()
+        compare_tool = CompareTool(target_measurement_id=measurement_id)
         
         # 5. 如果提供了测评编号，启动浏览器自动化
         web_content = ""
@@ -116,23 +123,31 @@ def main(measurement_id=None):
                             target_frame.evaluate("window.scrollTo(0, document.body.scrollHeight)")
                             time.sleep(2)
                             
-                            # 获取页面文本
+                            # 获取页面HTML内容（用于成对div结构提取）
+                            page_html = target_frame.content()
+                            
+                            # 同时获取纯文本作为备选
                             page_content = target_frame.inner_text('body')
                             
-                            if page_content:
+                            # 优先使用HTML内容，如果为空则使用纯文本
+                            if page_html and len(page_html) > 100:
+                                web_content = page_html
+                                print(f"\n✓ 成功获取页面HTML内容: {len(web_content)} 字符")
+                            elif page_content:
                                 web_content = page_content
-                                print(f"\n✓ 成功获取页面内容: {len(web_content)} 字符")
-                                
-                                # 保存页面内容用于调试
+                                print(f"\n✓ 成功获取页面文本内容: {len(web_content)} 字符")
+                            else:
+                                print("\n✗ 未能获取到页面内容")
+                                web_content = ""
+                            
+                            # 保存页面内容用于调试
+                            if web_content:
                                 debug_file = os.path.join(current_dir, 'page_content_debug.txt')
                                 with open(debug_file, 'w', encoding='utf-8') as f:
                                     f.write(web_content)
                                 print(f"✓ 页面内容已保存到: {debug_file}")
-                            else:
-                                print("\n✗ 未能获取到页面内容")
                         except Exception as e:
                             print(f"\n✗ 获取页面内容失败: {str(e)}")
-                            web_content = ""
                     else:
                         print("\n✗ 浏览器对象无效，无法获取页面内容")
                         
@@ -202,7 +217,7 @@ def main(measurement_id=None):
             
             comparison_results.append({
                 '关键字': keyword,
-                'log值': log_value or '',
+                'log값': log_value or '',
                 'web값': web_value or '',
                 '是否一致': '是' if is_match else '否'
             })

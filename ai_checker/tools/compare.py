@@ -1,6 +1,7 @@
 class CompareTool:
-    def __init__(self):
+    def __init__(self, target_measurement_id=None):
         self.results = {}
+        self._target_measurement_id = target_measurement_id  # 保存目标测评编号用于表格数据定位
     
     def extract_value_from_log(self, log_content, keyword):
         """从log.txt中提取关键字对应的值"""
@@ -21,22 +22,23 @@ class CompareTool:
         """从网页内容中提取关键字对应的值（中文）"""
         # 建立英文关键字到中文标签的精确映射关系
         keyword_mapping = {
-            'MarketName': ['设备名称（传播名）', '设备名称', '传播名'],
-            'ProductModel': ['设备型号', '产品型号', '型号'],
-            'DeviceType': ['设备类型'],  # 设备类型
-            'Brand': ['品牌英文名', '品牌英文名称', '品牌'],
-            'Manufacture': ['企业简称（英文）', '企业简称', '英文简称', 'Manufacturer'],
-            'DisplayVersion': ['软件版本号', '显示版本', '软件版本'],
-            'SecurityPatchTag': ['安全补丁标签', '安全补丁', '补丁标签'],
-            'VersionId': ['版本Id', '版本ID', '版本标识', 'ProdId'],
-            'BuildRootHash': ['版本Hash', '版本哈希', '根哈希', 'Hash'],
-            'OsFullName': ['操作系统版本号', '系统版本', 'OS版本']
+            'MarketName': ['设备名称（传播名）'],
+            'ProductModel': ['设备型号'],
+            'DeviceType': ['设备类型'],
+            'Brand': ['品牌英文名'],
+            'Manufacture': ['企业简称（英文）'],
+            'DisplayVersion': ['软件版本号'],
+            'SecurityPatchTag': ['安全补丁标签'],
+            'VersionId': ['版本Id'],
+            'BuildRootHash': ['版本Hash'],
+            'OsFullName': ['操作系统版本号']
         }
         
         # 获取可能的中文标签
         chinese_labels = keyword_mapping.get(keyword, [keyword])
         
-        # 方法1：尝试从结构化HTML中提取（label + text结构）
+        # 方法1：尝试从结构化HTML中提取（label + text结构，包括成对div）
+        # 这是最精确的提取方式，优先使用
         for label in chinese_labels:
             value = self._extract_value_from_html_structure(web_content, label)
             if value:
@@ -45,12 +47,21 @@ class CompareTool:
                     return value.split('/')[0].strip()
                 return value.strip()
         
-        # 方法2：尝试从表格格式中提取（制表符分隔的行列数据）
+        # 方法2：尝试从垂直文本结构中提取（标签行 + 值行）
+        # 作为备选方案，当HTML结构提取失败时使用
+        vertical_value = self._extract_value_from_vertical_text(web_content, chinese_labels)
+        if vertical_value:
+            # 特殊处理：DeviceType需要从VersionId中提取第一个/前的部分
+            if keyword == 'DeviceType' and '/' in vertical_value:
+                return vertical_value.split('/')[0].strip()
+            return vertical_value.strip()
+        
+        # 方法3：尝试从表格格式中提取（制表符分隔的行列数据）
         table_value = self._extract_value_from_table_format(web_content, keyword, chinese_labels)
         if table_value:
             return table_value.strip()
         
-        # 方法3：回退到文本行匹配（兼容旧格式）
+        # 方法4：回退到文本行匹配（兼容旧格式）
         lines = web_content.split('\n')
         for line in lines:
             for label in chinese_labels:
@@ -65,63 +76,59 @@ class CompareTool:
         
         return None
     
-    def _extract_value_from_table_format(self, web_content, keyword, chinese_labels):
+    def _extract_value_from_vertical_text(self, web_content, chinese_labels):
         """
-        从表格格式中提取值
-        支持两种格式：
-        1. 传统表格：表头和数据都是水平排列
-        2. 垂直表头：每个字段名单独一行，数据在后续行中
+        从垂直文本结构中提取值（标签行 + 下一行是值）
+        结构示例：
+        设备名称（传播名）：
+        二参数融合控制器
         
-        当前页面格式（垂直表头）：
-        测评编号
-        ProdId
-        测评类型
-        ...
-        传播名          <- 第6个标签
-        设备型号         <- 第7个标签
-        ...
-        (空行)
-        OHC443600006741	OH0001OM	商用设备	...	二参数融合控制器	YNS-200	...	V2.0.4-3
+        设备型号：
+        YNS-200
         """
         lines = web_content.split('\n')
         
-        # 首先尝试传统的水平表格格式
         for i, line in enumerate(lines):
-            if any(label in line for label in chinese_labels):
-                if line.count('\t') >= 5:
-                    # 找到表头行，使用传统方法提取
-                    header_line_idx = i
-                    header_line = lines[header_line_idx]
-                    columns = header_line.split('\t')
-                    
-                    target_col_idx = None
-                    for idx, col_name in enumerate(columns):
-                        col_name_stripped = col_name.strip()
-                        for label in chinese_labels:
-                            if label in col_name_stripped:
-                                target_col_idx = idx
-                                break
-                        if target_col_idx is not None:
-                            break
-                    
-                    if target_col_idx is not None:
-                        for j in range(header_line_idx + 1, min(header_line_idx + 10, len(lines))):
-                            data_line = lines[j]
-                            if not data_line.strip() or data_line.count('\t') < 3:
-                                continue
-                            
-                            data_columns = data_line.split('\t')
-                            if target_col_idx < len(data_columns):
-                                value = data_columns[target_col_idx].strip()
-                                if value and len(value) > 0:
-                                    return value
+            line_stripped = line.strip()
+            
+            # 跳过空行和包含问号的行（可能是占位符）
+            if not line_stripped or '?' in line_stripped or '？' in line_stripped:
+                continue
+            
+            # 检查当前行是否是目标标签
+            for label in chinese_labels:
+                # 精确匹配：标签应该在行的开头或包含在行中
+                if line_stripped.startswith(label) or line_stripped == label:
+                    # 找到标签后，向后查找第一个非空、非标签的值行
+                    for j in range(i + 1, min(i + 5, len(lines))):  # 最多查找4行
+                        value_line = lines[j].strip()
+                        
+                        # 跳过空行
+                        if not value_line:
+                            continue
+                        
+                        # 跳过包含问号的行（占位符）
+                        if '?' in value_line or '？' in value_line:
+                            continue
+                        
+                        # 跳过看起来像标签的行（以冒号结尾）
+                        if value_line.endswith('：') or value_line.endswith(':'):
+                            continue
+                        
+                        # 找到了有效值
+                        return value_line
         
-        # 如果传统方法失败，尝试垂直表头格式
-        # 策略：找到第一组标签（前14个），建立标签到列索引的映射
+        return None
+    
+    def _extract_value_from_table_format(self, web_content, keyword, chinese_labels):
+        """从表格格式中提取关键字对应的值（支持多行数据，定位到目标测评编号行）"""
+        lines = web_content.split('\n')
         
-        known_labels = ['测评编号', 'ProdId', '测评类型', '操作系统类型', '操作系统版本号', 
-                       '传播名', '设备型号', '芯片型号', '软件版本号', '提交时间', 
-                       '企业名称', '企业简称（英文）', '测评状态', '审核人', '操作']
+        # 已知的表头标签列表（按顺序）
+        known_labels = ['测评编号', 'ProdId', '测评类型', '操作系统类型', 
+                       '操作系统版本号', '传播名', '设备型号', '芯片型号', 
+                       '软件版本号', '提交时间', '企业名称', '企业简称（英文）', 
+                       '测评状态', '审核人', '操作']
         
         # 步骤1：收集第一组标签行（遇到数据行就停止）
         label_to_index = {}
@@ -150,18 +157,34 @@ class CompareTool:
         if not found_data_row or not label_to_index:
             return None
         
-        # 步骤2：找到第一个数据行
-        data_line = None
+        # 步骤2：查找包含目标测评编号的数据行
+        target_measurement_id = getattr(self, '_target_measurement_id', None)
+        target_data_line = None
+        
         for line in lines:
-            if line.count('\t') >= 10:
-                data_line = line
-                break
+            if line.count('\t') >= 10:  # 这是一个数据行
+                # 如果有目标测评编号，查找匹配的行
+                if target_measurement_id and target_measurement_id in line:
+                    target_data_line = line
+                    print(f"      ✓ 找到目标测评编号 {target_measurement_id} 所在行")
+                    break
+                # 如果没有目标ID，使用第一个数据行（向后兼容）
+                elif not target_measurement_id and not target_data_line:
+                    target_data_line = line
         
-        if not data_line:
-            return None
+        if not target_data_line:
+            if target_measurement_id:
+                print(f"      ⚠ 未找到包含测评编号 {target_measurement_id} 的行，使用第一个数据行")
+                # 回退到第一个数据行
+                for line in lines:
+                    if line.count('\t') >= 10:
+                        target_data_line = line
+                        break
+            else:
+                return None
         
-        # 步骤3：解析数据行
-        data_columns = data_line.split('\t')
+        # 步骤3：解析目标数据行
+        data_columns = target_data_line.split('\t')
         
         # 步骤4：查找目标标签对应的列
         for label in chinese_labels:
@@ -177,45 +200,98 @@ class CompareTool:
     def _extract_value_from_html_structure(self, html_content, label):
         """
         从HTML结构中提取label对应的值
-        结构示例：
+        支持两种结构：
+        
+        结构1：垂直文本结构（纯文本）
+        设备名称（传播名）：
+        二参数融合控制器
+        
+        结构2：成对div结构（HTML源码）
         <div class="form_div">
-            <label class="label_left color-b5b5b5">品牌英文名：</label>
+            <label class="label_left">企业全称：</label>
+            <label class="label_right">企业全称（英文）：</label>
         </div>
         <div class="form_div mb-28">
-            <text class="label_left" style="white-space: pre-wrap;">zdeer</text>
+            <text class="label_left">福建远恩智能技术有限公司</text>
+            <text class="label_right">Fujian Yuanen Intelligent Technology Co., Ltd.</text>
         </div>
         """
         import re
         
-        # 查找包含label的div
-        # 模式：<label...>label_text</label>
+        # 首先尝试从成对div结构中提取
+        paired_div_value = self._extract_value_from_paired_divs(html_content, label)
+        if paired_div_value:
+            return paired_div_value
+        
+        # 回退到原有的label+text结构
         label_pattern = rf'<label[^>]*>{re.escape(label)}[：:]?\s*</label>'
         label_matches = list(re.finditer(label_pattern, html_content))
         
         if not label_matches:
             return None
         
-        # 对于每个找到的label，查找紧随其后的text元素
         for label_match in label_matches:
             label_end_pos = label_match.end()
-            
-            # 在label之后查找下一个包含text或span元素的div
-            # 查找模式：<div...><text...>value</text></div> 或 <div...><span...>value</span></div>
             remaining_content = html_content[label_end_pos:]
             
-            # 尝试匹配各种可能的值容器结构
             value_patterns = [
-                r'<text[^>]*>([^<]+)</text>',  # <text>value</text>
-                r'<span[^>]*>([^<]+)</span>',  # <span>value</span>
-                r'<div[^>]*class="form_div[^"]*"[^>]*>\s*<[^>]+>([^<]+)</[^>]+>',  # div内的任何元素
+                r'<text[^>]*>([^<]+)</text>',
+                r'<span[^>]*>([^<]+)</span>',
+                r'<div[^>]*class="form_div[^"]*"[^>]*>\s*<[^>]+>([^<]+)</[^>]+>',
             ]
             
             for pattern in value_patterns:
-                value_match = re.search(pattern, remaining_content[:500])  # 限制搜索范围
+                value_match = re.search(pattern, remaining_content[:500])
                 if value_match:
                     value = value_match.group(1).strip()
                     if value and len(value) > 0:
                         return value
+        
+        return None
+    
+    def _extract_value_from_paired_divs(self, html_content, label):
+        """
+        从成对div结构中提取值
+        结构：
+        <div class="form_div">
+            <label class="label_left">标签1</label>
+            <label class="label_right">标签2</label>
+        </div>
+        <div class="form_div mb-28">
+            <text class="label_left">值1</text>
+            <text class="label_right">값2</text>
+        </div>
+        """
+        import re
+        
+        # 查找所有包含目标label的form_div（标签div）
+        # 模式：<div class="form_div">...<label...>label_text</label>...</div>
+        div_pattern = r'<div[^>]*class="form_div[^"]*"[^>]*>(.*?)</div>'
+        div_matches = list(re.finditer(div_pattern, html_content, re.DOTALL))
+        
+        for i, div_match in enumerate(div_matches):
+            div_content = div_match.group(1)
+            
+            # 检查这个div是否包含目标label（支持label_left或label_right）
+            label_pattern = rf'<label[^>]*class="label_(left|right)[^"]*"[^>]*>{re.escape(label)}[：:]?\s*</label>'
+            label_match = re.search(label_pattern, div_content)
+            
+            if label_match:
+                # 确定是左边还是右边
+                position = label_match.group(1)  # 'left' or 'right'
+                
+                # 查找下一个form_div（应该包含对应的值）
+                if i + 1 < len(div_matches):
+                    next_div_content = div_matches[i + 1].group(1)
+                    
+                    # 在下一个div中查找对应位置的text元素
+                    text_pattern = rf'<text[^>]*class="label_{position}[^"]*"[^>]*>([^<]+)</text>'
+                    text_match = re.search(text_pattern, next_div_content)
+                    
+                    if text_match:
+                        value = text_match.group(1).strip()
+                        if value:
+                            return value
         
         return None
     

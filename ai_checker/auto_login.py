@@ -1223,137 +1223,240 @@ def automate_browser_with_search(web_checker, measurement_id):
         if not search_clicked:
             print("      ⚠ 未能触发搜索/排序操作，但仍继续尝试查找数据")
         
-        # === 第四步：进入详情页 ===
-        print(f"\n      === 进入测评编号 {measurement_id} 的详情页 ===")
+        # === 第四步：查找目标测评编号（支持分页）===
+        print(f"\n      === 查找测评编号 {measurement_id} ===")
         
-        # 等待搜索结果
-        print("      - 等待搜索结果...")
-        time.sleep(3)
-        
-        # 查找包含测评编号的链接或行
-        detail_clicked = False
-        
-        try:
-            # 获取所有表格行
-            rows = target_frame.query_selector_all('tr')
-            for row in rows:
-                try:
-                    text = row.inner_text()
-                    if measurement_id in text:
-                        print(f"      ✓ 找到包含 {measurement_id} 的行，点击进入详情...")
-                        # 查找行中的第一个可点击元素（通常是链接或按钮）
-                        clickable = row.query_selector('a, button, [role="button"]')
-                        if clickable:
-                            target_frame.evaluate('(el) => el.click()', clickable)
-                        else:
-                            # 如果没有可点击元素，直接点击行
-                            target_frame.evaluate('(el) => el.click()', row)
-                        print("      ✓ 已点击进入详情页")
-                        detail_clicked = True
-                        break
-                except:
-                    continue
-        except Exception as e:
-            print(f"      ⚠ 查找详情链接失败: {str(e)}")
-        
-        if not detail_clicked:
-            print(f"      ⚠ 未找到包含 {measurement_id} 的可点击元素")
-            return False
-        
-        # 等待详情页加载
-        print("      - 等待详情页加载...")
-        time.sleep(5)
-        
-        # 重新检测iframe（详情页可能在新iframe中打开）
-        print("      - 检查是否有新的iframe（详情页）...")
+        # 重新检测iframe（因为之前的操作可能导致frame被销毁）
+        print("      - 重新检测有效iframe...")
         try:
             frames = web_checker.page.frames
-            print(f"      找到 {len(frames)} 个frame")
+            print(f"      - 当前有 {len(frames)} 个frame")
             
-            # 查找最新的非主frame（可能是详情页）
-            # 注意：这里我们遍历所有frame，寻找内容最丰富且包含ID的那个
+            # 查找内容最多的非主frame
             best_frame = None
             max_content_len = 0
             
             for i, frame in enumerate(frames):
                 if frame != web_checker.page.main_frame and frame.url:
-                    print(f"      Frame[{i}]: {frame.url}")
-                    
-                    # 尝试获取内容
                     try:
                         frame_text = frame.inner_text('body')
                         content_len = len(frame_text)
-                        print(f"      Frame[{i}] 内容长度: {content_len} 字符")
+                        print(f"      Frame[{i}]: {frame.url[:60]}... ({content_len} 字符)")
                         
-                        # 如果内容足够多且包含测评编号，优先使用这个frame
-                        if content_len > 500 and measurement_id in frame_text:
-                            best_frame = frame
+                        if content_len > max_content_len:
                             max_content_len = content_len
-                            print(f"      ✓ 发现候选详情页iframe，内容长度: {content_len} 字符")
-                            # 不立即break，继续查找是否有更合适的，或者直接使用第一个匹配的
-                            # 这里为了稳健性，如果找到匹配ID且内容多的，直接选中并break
-                            target_frame = frame
-                            print(f"      ✓ 选定该Frame为详情页Frame")
+                            best_frame = frame
+                    except Exception as e:
+                        print(f"      Frame[{i}] 不可用: {str(e)[:50]}")
+            
+            if best_frame:
+                target_frame = best_frame
+                print(f"      ✓ 使用有效frame: {target_frame.url[:60]}...")
+            else:
+                print(f"      ⚠ 未找到有效frame，使用主页面")
+                target_frame = web_checker.page
+        except Exception as e:
+            print(f"      ⚠ iframe重新检测失败: {str(e)}")
+        
+        found_target = False
+        max_pages = 10  # 最多翻10页
+        
+        for page_num in range(1, max_pages + 1):
+            print(f"\n      - 检查第 {page_num} 页...")
+            
+            # 等待页面加载
+            time.sleep(2)
+            
+            # 获取所有表格行
+            try:
+                rows = target_frame.query_selector_all('tr')
+                print(f"      - 找到 {len(rows)} 个表格行")
+                
+                # 遍历所有行查找目标测评编号
+                for row in rows:
+                    try:
+                        text = row.inner_text()
+                        if measurement_id in text:
+                            print(f"      ✓ 在第 {page_num} 页找到包含 {measurement_id} 的行")
+                            print(f"      - 行内容预览: {text[:100]}...")
+                            
+                            # 查找行中的"详情"链接或按钮
+                            detail_link = None
+                            detail_selectors = [
+                                'a:has-text("详情")',
+                                'button:has-text("详情")',
+                                'td a:last-child',  # 最后一列的操作列中的链接
+                                '.operation a'
+                            ]
+                            
+                            for selector in detail_selectors:
+                                try:
+                                    link = row.query_selector(selector)
+                                    if link and link.is_visible():
+                                        detail_link = link
+                                        print(f"      - 找到详情链接，点击进入详情页...")
+                                        target_frame.evaluate('(el) => el.click()', detail_link)
+                                        print(f"      ✓ 已点击详情按钮")
+                                        found_target = True
+                                        break
+                                except Exception as e:
+                                    continue
+                            
+                            if not detail_link:
+                                print(f"      ⚠ 未找到详情按钮，尝试直接点击行...")
+                                target_frame.evaluate('(el) => el.click()', row)
+                                found_target = True
+                            
                             break
                     except Exception as e:
-                        print(f"      Frame[{i}] 读取内容失败: {str(e)}")
                         continue
-            
-            # 如果没找到包含ID的frame，但之前有切换过frame，保持原样或尝试最后一个
-            if 'target_frame' not in locals() or target_frame == web_checker.page:
-                 # 如果上面循环没break导致target_frame未更新，或者初始就是page
-                 # 尝试使用刚才找到的best_frame，或者最后一个frame
-                 if best_frame:
-                     target_frame = best_frame
-                 elif len(frames) > 1:
-                     target_frame = frames[-1]
-                     print(f"      ⚠ 未找到明确匹配的详情页iframe，使用最后一个frame")
-                 
-        except Exception as e:
-            print(f"      ⚠ iframe检测失败: {str(e)}")
-        
-        # 滚动页面触发懒加载
-        try:
-            print("      - 滚动页面以触发懒加载...")
-            target_frame.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-            time.sleep(2)
-        except Exception as e:
-            print(f"      ⚠ 滚动失败: {str(e)}")
-        
-        # 检测详情页特征（wrapper元素）
-        wrapper_found = False
-        wrapper_selectors = [
-            '.detail-wrapper',
-            '.page-detail',
-            '.detail-container',
-            '#detailContent',
-            '.el-card'
-        ]
-        
-        for selector in wrapper_selectors:
-            try:
-                target_frame.wait_for_selector(selector, timeout=5000)
-                print(f"      ✓ 检测到详情页wrapper元素: {selector}")
-                wrapper_found = True
-                break
-            except:
-                continue
-        
-        if wrapper_found:
-            print(f"      ✓ 详情页加载成功（检测到wrapper元素）")
-            time.sleep(2)
-        else:
-            print(f"      ⚠ 未找到wrapper元素，但仍继续提取数据")
                 
-        print("\n      ✓ 已完成搜索并进入详情页")
+                if found_target:
+                    print(f"      - 等待详情页加载...")
+                    time.sleep(5)  # 等待详情页完全加载
+                    break
+                    
+                # 如果当前页没找到，尝试点击下一页
+                if page_num < max_pages:
+                    print(f"      ⚠ 第 {page_num} 页未找到，尝试翻页...")
+                    
+                    # 查找"下一页"按钮
+                    next_page_selectors = [
+                        'a[aria-label="下一页"]',
+                        'a.page-link[aria-label="下一页"]',
+                        '.pagination a:has-text("›")',
+                        '.pagination a:has-text("下一页")'
+                    ]
+                    
+                    next_button_clicked = False
+                    for selector in next_page_selectors:
+                        try:
+                            next_btn = target_frame.query_selector(selector)
+                            if next_btn and next_btn.is_visible():
+                                print(f"      - 找到下一页按钮，点击...")
+                                target_frame.evaluate('(el) => el.click()', next_btn)
+                                print(f"      ✓ 已点击下一页")
+                                next_button_clicked = True
+                                
+                                # 等待新页面加载
+                                print(f"      - 等待新页面加载...")
+                                time.sleep(3)
+                                
+                                # 翻页后重新获取有效frame
+                                print(f"      - 翻页后重新检测iframe...")
+                                time.sleep(2)
+                                frames = web_checker.page.frames
+                                for frame in frames:
+                                    if frame != web_checker.page.main_frame and frame.url:
+                                        try:
+                                            frame_text = frame.inner_text('body')
+                                            if len(frame_text) > 100:
+                                                target_frame = frame
+                                                print(f"      ✓ 更新为有效frame")
+                                                break
+                                        except:
+                                            pass
+                                break
+                        except Exception as e:
+                            continue
+                    
+                    if not next_button_clicked:
+                        print(f"      ⚠ 未找到下一页按钮或已到最后一页")
+                        break
+                        
+            except Exception as e:
+                print(f"      ⚠ 第 {page_num} 页检查失败: {str(e)}")
+                # 尝试重新获取frame
+                try:
+                    frames = web_checker.page.frames
+                    for frame in frames:
+                        if frame != web_checker.page.main_frame and frame.url:
+                            try:
+                                frame_text = frame.inner_text('body')
+                                if len(frame_text) > 100:
+                                    target_frame = frame
+                                    print(f"      ✓ 恢复有效frame，继续尝试")
+                                    break
+                            except:
+                                pass
+                except:
+                    pass
+                break
         
-        # 将target_frame保存到web_checker对象，以便main.py使用
-        web_checker.detail_frame = target_frame
+        if not found_target:
+            print(f"\n      ✗ 在 {max_pages} 页内未找到测评编号 {measurement_id}")
+            return False
         
-        return True  # 成功
+        print(f"\n      ✓ 成功找到目标测评编号，已进入详情页")
+        
+        # === 第五步：重新检测详情页的iframe ===
+        print("\n      === 检测详情页iframe ===")
+        time.sleep(3)  # 等待详情页完全渲染
+        
+        try:
+            frames = web_checker.page.frames
+            print(f"      - 当前有 {len(frames)} 个frame")
+            
+            # 查找详情页iframe（优先选择URL包含applyDetail的frame）
+            detail_frame = None
+            max_content_len = 0
+            
+            for i, frame in enumerate(frames):
+                if frame != web_checker.page.main_frame and frame.url:
+                    try:
+                        frame_text = frame.inner_text('body')
+                        content_len = len(frame_text)
+                        print(f"      Frame[{i}]: {frame.url[:80]}... ({content_len} 字符)")
+                        
+                        # 优先选择URL包含applyDetail的frame（详情页）
+                        if 'applyDetail' in frame.url:
+                            detail_frame = frame
+                            max_content_len = content_len
+                            print(f"      ✓ 识别为详情页iframe")
+                            break
+                        
+                        # 如果没有找到详情页，则选择内容最多的frame
+                        elif content_len > max_content_len and content_len > 500:
+                            max_content_len = content_len
+                            detail_frame = frame
+                    except Exception as e:
+                        print(f"      Frame[{i}] 不可用: {str(e)[:50]}")
+            
+            if detail_frame:
+                print(f"\n      ✓ 找到详情页iframe: {detail_frame.url[:80]}...")
+                print(f"      ✓ 详情页内容长度: {max_content_len} 字符")
+                
+                # 检查是否包含企业信息关键字
+                detail_text = detail_frame.inner_text('body')
+                enterprise_keywords = ['企业名称', '企业简称', '品牌', 'Manufacturer']
+                found_enterprise_info = False
+                
+                for keyword in enterprise_keywords:
+                    if keyword in detail_text:
+                        print(f"      ✓ 检测到企业信息字段: {keyword}")
+                        found_enterprise_info = True
+                        break
+                
+                if found_enterprise_info:
+                    print(f"      ✓ 企业信息确认成功")
+                else:
+                    print(f"      ⚠ 未检测到明显企业信息字段，但仍继续提取")
+                
+                # 将detail_frame保存到web_checker对象，以便main.py使用
+                web_checker.detail_frame = detail_frame
+                return True
+            else:
+                print(f"      ⚠ 未找到详情页iframe，使用主页面")
+                web_checker.detail_frame = web_checker.page
+                return True
+                
+        except Exception as e:
+            print(f"      ⚠ 详情页iframe检测失败: {str(e)}")
+            web_checker.detail_frame = web_checker.page
+            return True
         
     except Exception as e:
         print(f"\n      ✗ 自动化操作失败: {str(e)}")
         import traceback
         traceback.print_exc()
-        return False  # 失败
+        return False

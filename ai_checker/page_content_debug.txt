@@ -1,148 +1,1374 @@
-导出审核列表
-重置
-查询
-	
-测评编号
-	
-ProdId
-	
-测评类型
-	
-操作系统类型
-	
-操作系统版本号
-	
-传播名
-	
-设备型号
-	
-芯片型号
-	
-软件版本号
-	
-提交时间
-	
-企业名称
-	
-测评状态
-	
-审核人
-	
-操作
+<!DOCTYPE html><html><head><meta charset="utf-8">
 
-	OHC862700006765		模组/开发板	轻量系统	OpenHarmony 5.1.0 Release	海信HL3412模组		Hi3863e	OpenHarmony 5.1.0 Release	2026-05-27 14:45:32	海信家电集团股份有限公司青岛分公司	待审核		详情
-	OHC995100006732	OH0001OI	商用设备	轻量系统	OpenHarmony 5.1.0 Release	左点数字助听器	zdeer D2	YH601M	1.0.0	2026-05-26 19:42:38	左点实业（湖北）有限公司	待审核		详情
-	OHC924200006672		模组/开发板	轻量系统	OpenHarmony 6.1 Release	星火实验室CST92F46开发板		CST92F46	1.0.0.1	2026-05-26 18:12:13	鸿蒙生态服务（深圳）有限公司长沙分公司	待审核		详情
-	OHC313100006738	OH0001OK	商用设备	轻量系统	OpenHarmony 6.1 Release	4G RID	WD1000	WS63-H3863	WD1000-V1.0.0_OpenHarmony_6.1_Release	2026-05-26 18:09:26	成都微思格科技有限公司	待审核		详情
-	OHC295400006398		模组/开发板	轻量系统	OpenHarmony 6.1 Release	OM6629_EVB		OM6629	v1.0.0	2026-05-26 16:41:27	北京昂瑞微电子技术股份有限公司	待审核		详情
-	OHC315300006586	OH0001NC	商用设备	轻量系统	OpenHarmony 5.0.3 Release	OpenHarmony Community IP	OCIP-A001	ASR1606S	OCIP00001	2026-05-26 16:30:17	深圳市尚格实业有限公司	已发证	50383911b56d11f097907f8366a43cfb	详情
-	OHC344200006354	OH0001L2	商用设备	轻量系统	OpenHarmony 6.0 Release	防火门监控器	SA-DC03A	国民N32H492	DC_SA_FaceBorad_V1.3_code_V3.0.0	2026-05-26 16:21:43	广州六瑞消防科技有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
-	OHC983700006794	OH0001PK	商用设备	轻量系统	OpenHarmony 5.0.1 Release	电梯势能回收装置	DC-AFE-4015/4022/4037		KaihongOS 5.0.1 Lite	2026-05-26 15:56:20	深圳市汇川技术股份有限公司	待审核		详情
-	OHC996200006784	OH0001P9	商用设备	轻量系统	OpenHarmony 5.0.3 Release	达伦智能台灯 大想	DL-31WS	WS63Q261	1.0.2	2026-05-26 14:41:35	江苏达伦电子股份有限公司	待审核		详情
-	OHC788900006353	OH0001L1	商用设备	轻量系统	OpenHarmony 6.0 Release	电气火灾监控设备	SA-DQ03	国民N32H492	DC_SA_FaceBorad_V1.3_code_V3.0.0	2026-05-26 11:35:27	广州六瑞消防科技有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
-	OHC889200006352	OH0001L0	商用设备	轻量系统	OpenHarmony 6.0 Release	余压监控器	SA-YJ01	国民N32H492	DC_SA_FaceBorad_V1.3_code_V3.0.0	2026-05-26 10:19:38	广州六瑞消防科技有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
-	OHC154700006820	OH0001PU	商用设备	轻量系统	OpenHarmony 5.1.0 Release	YIRENOVA EDU 套件	EDU_ESP32_S3	ESP32-S3-WROOM-1	OHOS_V5.1	2026-05-25 23:43:27	深圳颐人科技有限公司	待审核		详情
-	OHC021800006721		模组/开发板	轻量系统	OpenHarmony 5.0.0 Release	NT26-HCN		HI2131	0950Q01_V01_Rev01	2026-05-25 19:25:18	浙江利尔达物联网技术有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
-	OHC443600006741	OH0001OM	商用设备	轻量系统	OpenHarmony 5.1.0 Release	二参数融合控制器	YNS-200	Hi3863V100	V2.0.4-3	2026-05-25 17:28:41	福建远恩智能技术有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
-	OHC345000006762	OH0001P7	商用设备	小型系统	OpenHarmony 6.1 Release	边缘计算主机	iDS-6732NX-I/HWF		1.0.0	2026-05-25 16:55:38	杭州海康威视数字技术股份有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
-	
-测评编号
-	
-ProdId
-	
-测评类型
-	
-操作系统类型
-	
-操作系统版本号
-	
-传播名
-	
-设备型号
-	
-芯片型号
-	
-软件版本号
-	
-提交时间
-	
-企业名称
-	
-测评状态
-	
-审核人
-	
-操作
 
-	OHC862700006765		模组/开发板	轻量系统	OpenHarmony 5.1.0 Release	海信HL3412模组		Hi3863e	OpenHarmony 5.1.0 Release	2026-05-27 14:45:32	海信家电集团股份有限公司青岛分公司	待审核		详情
-	OHC995100006732	OH0001OI	商用设备	轻量系统	OpenHarmony 5.1.0 Release	左点数字助听器	zdeer D2	YH601M	1.0.0	2026-05-26 19:42:38	左点实业（湖北）有限公司	待审核		详情
-	OHC924200006672		模组/开发板	轻量系统	OpenHarmony 6.1 Release	星火实验室CST92F46开发板		CST92F46	1.0.0.1	2026-05-26 18:12:13	鸿蒙生态服务（深圳）有限公司长沙分公司	待审核		详情
-	OHC313100006738	OH0001OK	商用设备	轻量系统	OpenHarmony 6.1 Release	4G RID	WD1000	WS63-H3863	WD1000-V1.0.0_OpenHarmony_6.1_Release	2026-05-26 18:09:26	成都微思格科技有限公司	待审核		详情
-	OHC295400006398		模组/开发板	轻量系统	OpenHarmony 6.1 Release	OM6629_EVB		OM6629	v1.0.0	2026-05-26 16:41:27	北京昂瑞微电子技术股份有限公司	待审核		详情
-	OHC315300006586	OH0001NC	商用设备	轻量系统	OpenHarmony 5.0.3 Release	OpenHarmony Community IP	OCIP-A001	ASR1606S	OCIP00001	2026-05-26 16:30:17	深圳市尚格实业有限公司	已发证	50383911b56d11f097907f8366a43cfb	详情
-	OHC344200006354	OH0001L2	商用设备	轻量系统	OpenHarmony 6.0 Release	防火门监控器	SA-DC03A	国民N32H492	DC_SA_FaceBorad_V1.3_code_V3.0.0	2026-05-26 16:21:43	广州六瑞消防科技有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
-	OHC983700006794	OH0001PK	商用设备	轻量系统	OpenHarmony 5.0.1 Release	电梯势能回收装置	DC-AFE-4015/4022/4037		KaihongOS 5.0.1 Lite	2026-05-26 15:56:20	深圳市汇川技术股份有限公司	待审核		详情
-	OHC996200006784	OH0001P9	商用设备	轻量系统	OpenHarmony 5.0.3 Release	达伦智能台灯 大想	DL-31WS	WS63Q261	1.0.2	2026-05-26 14:41:35	江苏达伦电子股份有限公司	待审核		详情
-	OHC788900006353	OH0001L1	商用设备	轻量系统	OpenHarmony 6.0 Release	电气火灾监控设备	SA-DQ03	国民N32H492	DC_SA_FaceBorad_V1.3_code_V3.0.0	2026-05-26 11:35:27	广州六瑞消防科技有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
-	OHC889200006352	OH0001L0	商用设备	轻量系统	OpenHarmony 6.0 Release	余压监控器	SA-YJ01	国民N32H492	DC_SA_FaceBorad_V1.3_code_V3.0.0	2026-05-26 10:19:38	广州六瑞消防科技有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
-	OHC154700006820	OH0001PU	商用设备	轻量系统	OpenHarmony 5.1.0 Release	YIRENOVA EDU 套件	EDU_ESP32_S3	ESP32-S3-WROOM-1	OHOS_V5.1	2026-05-25 23:43:27	深圳颐人科技有限公司	待审核		详情
-	OHC021800006721		模组/开发板	轻量系统	OpenHarmony 5.0.0 Release	NT26-HCN		HI2131	0950Q01_V01_Rev01	2026-05-25 19:25:18	浙江利尔达物联网技术有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
-	OHC443600006741	OH0001OM	商用设备	轻量系统	OpenHarmony 5.1.0 Release	二参数融合控制器	YNS-200	Hi3863V100	V2.0.4-3	2026-05-25 17:28:41	福建远恩智能技术有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
-	OHC345000006762	OH0001P7	商用设备	小型系统	OpenHarmony 6.1 Release	边缘计算主机	iDS-6732NX-I/HWF		1.0.0	2026-05-25 16:55:38	杭州海康威视数字技术股份有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
-	
-测评编号
-	
-ProdId
-	
-测评类型
-	
-操作系统类型
-	
-操作系统版本号
-	
-传播名
-	
-设备型号
-	
-芯片型号
-	
-软件版本号
-	
-提交时间
-	
-企业名称
-	
-测评状态
-	
-审核人
-	
-操作
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link href="/mng/css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+  <link href="/mng/css/font-awesome.css?v=4.4.0" rel="stylesheet">
+  <link href="/mng/css/font-editormd.css" rel="stylesheet">
+  <link href="/mng/css/plugins/bootstrap-table1.22.1/bootstrap-table.css" rel="stylesheet">
+  <link href="/mng/css/plugins/jsTree/style.min.css" rel="stylesheet">
+  <link href="/mng/css/plugins/jqTreeGrid/jquery.treegrid.css" rel="stylesheet">
+  <link href="/mng/css/plugins/jQueryUI/jquery-ui-1.10.4.custom.min.css" rel="stylesheet">
+  <!--summernote css -->
+  <link href="/mng/css/plugins/summernote/summernote-0.8.8.css" rel="stylesheet">
+  <link href="/mng/css/animate.css" rel="stylesheet">
+  <link href="/mng/css/plugins/chosen/chosen.css" rel="stylesheet">
+  <link href="/mng/css/style.css?v=4.1.0" rel="stylesheet">
+  <link href="/mng/css/content.css" rel="stylesheet">
+<style type="text/css">@-webkit-keyframes xm-upbit {
+  from {
+    -webkit-transform: translate3d(0, 30px, 0);
+    opacity: 0.3;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+@keyframes xm-upbit {
+  from {
+    transform: translate3d(0, 30px, 0);
+    opacity: 0.3;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+xm-select {
+  background-color: #FFF;
+  position: relative;
+  border: 1px solid #E6E6E6;
+  border-radius: 2px;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+}
+xm-select * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+xm-select:hover {
+  border-color: #C0C4CC;
+}
+xm-select > .xm-tips {
+  color: #999999;
+  padding: 0 10px;
+  position: absolute;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+xm-select > .xm-icon {
+  display: inline-block;
+  overflow: hidden;
+  position: absolute;
+  width: 0;
+  height: 0;
+  right: 10px;
+  top: 50%;
+  margin-top: -3px;
+  cursor: pointer;
+  border: 6px dashed transparent;
+  border-top-color: #C2C2C2;
+  border-top-style: solid;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+xm-select > .xm-icon-expand {
+  margin-top: -9px;
+  transform: rotate(180deg);
+}
+xm-select > .xm-label.single-row {
+  position: absolute;
+  top: 0;
+  bottom: 0px;
+  left: 0px;
+  right: 30px;
+  overflow: auto hidden;
+}
+xm-select > .xm-label.single-row .scroll {
+  overflow-y: hidden;
+}
+xm-select > .xm-label.single-row .label-content {
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+xm-select > .xm-label.auto-row .label-content {
+  flex-wrap: wrap;
+  padding-right: 30px !important;
+}
+xm-select > .xm-label.auto-row .xm-label-block > span {
+  white-space: unset;
+  height: 100%;
+}
+xm-select > .xm-label .scroll .label-content {
+  display: flex;
+  padding: 3px 10px;
+}
+xm-select > .xm-label .xm-label-block {
+  display: flex;
+  position: relative;
+  padding: 0px 5px;
+  margin: 2px 5px 2px 0;
+  border-radius: 3px;
+  align-items: baseline;
+  color: #FFF;
+}
+xm-select > .xm-label .xm-label-block > span {
+  display: flex;
+  color: #FFF;
+  white-space: nowrap;
+}
+xm-select > .xm-label .xm-label-block > i {
+  color: #FFF;
+  margin-left: 8px;
+  font-size: 12px;
+  cursor: pointer;
+  display: flex;
+}
+xm-select > .xm-label .xm-label-block.disabled {
+  background-color: #C2C2C2 !important;
+  cursor: no-drop !important;
+}
+xm-select > .xm-label .xm-label-block.disabled > i {
+  cursor: no-drop !important;
+}
+xm-select > .xm-body {
+  position: absolute;
+  left: 0;
+  top: 42px;
+  padding: 5px 0;
+  z-index: 999;
+  width: 100%;
+  min-width: fit-content;
+  border: 1px solid #E6E6E6;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+  animation-name: xm-upbit;
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+}
+xm-select > .xm-body .scroll-body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+xm-select > .xm-body .scroll-body::-webkit-scrollbar {
+  width: 8px;
+}
+xm-select > .xm-body .scroll-body::-webkit-scrollbar-track {
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  -ms-border-radius: 2em;
+  border-radius: 2em;
+  background-color: #FFF;
+}
+xm-select > .xm-body .scroll-body::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  -ms-border-radius: 2em;
+  border-radius: 2em;
+  background-color: #C2C2C2;
+}
+xm-select > .xm-body.up {
+  top: auto;
+  bottom: 42px;
+}
+xm-select > .xm-body.relative {
+  position: relative;
+  display: block !important;
+  top: 0;
+  box-shadow: none;
+  border: none;
+  animation-name: none;
+  animation-duration: 0;
+  min-width: 100%;
+}
+xm-select > .xm-body .xm-group {
+  cursor: default;
+}
+xm-select > .xm-body .xm-group-item {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0 10px;
+  color: #999;
+  font-size: 12px;
+}
+xm-select > .xm-body .xm-option {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0 10px;
+  cursor: pointer;
+}
+xm-select > .xm-body .xm-option-icon {
+  color: transparent;
+  display: flex;
+  border: 1px solid #E6E6E6;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+}
+xm-select > .xm-body .xm-option-icon.xm-custom-icon {
+  color: unset;
+  border: unset;
+}
+xm-select > .xm-body .xm-option-icon-hidden {
+  margin-right: -10px;
+}
+xm-select > .xm-body .xm-option-icon.xm-icon-danx {
+  border-radius: 100%;
+}
+xm-select > .xm-body .xm-option-content {
+  display: flex;
+  position: relative;
+  padding-left: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #666;
+  width: calc(100% - 20px);
+}
+xm-select > .xm-body .xm-option.hide-icon .xm-option-content {
+  padding-left: 0;
+}
+xm-select > .xm-body .xm-option.selected.hide-icon .xm-option-content {
+  color: #FFF !important;
+}
+xm-select > .xm-body .xm-option .loader {
+  width: 0.8em;
+  height: 0.8em;
+  margin-right: 6px;
+  color: #C2C2C2;
+}
+xm-select > .xm-body .xm-select-empty {
+  text-align: center;
+  color: #999;
+}
+xm-select > .xm-body .disabled {
+  cursor: no-drop;
+}
+xm-select > .xm-body .disabled:hover {
+  background-color: #FFF;
+}
+xm-select > .xm-body .disabled .xm-option-icon {
+  border-color: #C2C2C2 !important;
+}
+xm-select > .xm-body .disabled .xm-option-content {
+  color: #C2C2C2 !important;
+}
+xm-select > .xm-body .disabled.selected > .xm-option-icon {
+  color: #C2C2C2 !important;
+}
+xm-select > .xm-body .xm-search {
+  background-color: #FFF !important;
+  position: relative;
+  padding: 0 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+xm-select > .xm-body .xm-search > i {
+  position: absolute;
+  color: #666;
+}
+xm-select > .xm-body .xm-search-input {
+  border: none;
+  border-bottom: 1px solid #E6E6E6;
+  padding-left: 27px;
+  cursor: text;
+}
+xm-select > .xm-body .xm-paging {
+  padding: 0 10px;
+  display: flex;
+  margin-top: 5px;
+}
+xm-select > .xm-body .xm-paging > span:first-child {
+  border-radius: 2px 0 0 2px;
+}
+xm-select > .xm-body .xm-paging > span:last-child {
+  border-radius: 0 2px 2px 0;
+}
+xm-select > .xm-body .xm-paging > span {
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  vertical-align: middle;
+  margin: 0 -1px 0 0;
+  background-color: #fff;
+  color: #333;
+  font-size: 12px;
+  border: 1px solid #e2e2e2;
+  flex-wrap: nowrap;
+  width: 100%;
+  overflow: hidden;
+  min-width: 50px;
+}
+xm-select > .xm-body .xm-toolbar {
+  padding: 0 10px;
+  display: flex;
+  margin: -3px 0;
+  cursor: default;
+}
+xm-select > .xm-body .xm-toolbar .toolbar-tag {
+  cursor: pointer;
+  display: flex;
+  margin-right: 20px;
+  color: #666;
+  align-items: baseline;
+}
+xm-select > .xm-body .xm-toolbar .toolbar-tag:hover {
+  opacity: 0.8;
+}
+xm-select > .xm-body .xm-toolbar .toolbar-tag:active {
+  opacity: 1;
+}
+xm-select > .xm-body .xm-toolbar .toolbar-tag > i {
+  margin-right: 2px;
+  font-size: 14px;
+}
+xm-select > .xm-body .xm-toolbar .toolbar-tag:last-child {
+  margin-right: 0;
+}
+xm-select > .xm-body .xm-body-custom {
+  line-height: initial;
+  cursor: default;
+}
+xm-select > .xm-body .xm-body-custom * {
+  box-sizing: initial;
+}
+xm-select > .xm-body .xm-tree {
+  position: relative;
+}
+xm-select > .xm-body .xm-tree-icon {
+  display: inline-block;
+  margin-right: 3px;
+  cursor: pointer;
+  border: 6px dashed transparent;
+  border-left-color: #C2C2C2;
+  border-left-style: solid;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  z-index: 2;
+  visibility: hidden;
+}
+xm-select > .xm-body .xm-tree-icon.expand {
+  margin-top: 3px;
+  margin-right: 5px;
+  margin-left: -2px;
+  transform: rotate(90deg);
+}
+xm-select > .xm-body .xm-tree-icon.xm-visible {
+  visibility: visible;
+}
+xm-select > .xm-body .xm-tree .left-line {
+  position: absolute;
+  left: 13px;
+  width: 0;
+  z-index: 1;
+  border-left: 1px dotted #c0c4cc !important;
+}
+xm-select > .xm-body .xm-tree .top-line {
+  position: absolute;
+  left: 13px;
+  height: 0;
+  z-index: 1;
+  border-top: 1px dotted #c0c4cc !important;
+}
+xm-select > .xm-body .xm-tree .xm-tree-icon + .top-line {
+  margin-left: 1px;
+}
+xm-select > .xm-body .scroll-body > .xm-tree > .xm-option > .top-line,
+xm-select > .xm-body .scroll-body > .xm-option > .top-line {
+  width: 0 !important;
+}
+xm-select > .xm-body .xm-cascader-box {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 5px 0;
+  border: 1px solid #E6E6E6;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+  margin: -1px;
+}
+xm-select > .xm-body .xm-cascader-box::before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-right-color: #E6E6E6;
+  top: 10px;
+  left: -12px;
+}
+xm-select > .xm-body .xm-cascader-box::after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-right-color: #fff;
+  top: 10px;
+  left: -11px;
+}
+xm-select > .xm-body .xm-cascader-scroll {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+xm-select > .xm-body.cascader {
+  width: unset;
+  min-width: unset;
+}
+xm-select > .xm-body.cascader .xm-option-content {
+  padding-left: 8px;
+}
+xm-select > .xm-body.cascader .disabled .xm-right-arrow {
+  color: #C2C2C2 !important;
+}
+xm-select .xm-input {
+  cursor: pointer;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #E6E6E6;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #FFF;
+  line-height: 1.3;
+  padding-left: 10px;
+  outline: 0;
+  user-select: text;
+  -ms-user-select: text;
+  -moz-user-select: text;
+  -webkit-user-select: text;
+}
+xm-select .dis {
+  display: none;
+}
+xm-select .loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+xm-select .loader {
+  border: 0.2em dotted currentcolor;
+  border-radius: 50%;
+  -webkit-animation: 1s loader linear infinite;
+  animation: 1s loader linear infinite;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  color: inherit;
+  vertical-align: middle;
+  pointer-events: none;
+}
+xm-select .xm-select-default {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: none;
+  visibility: hidden;
+}
+xm-select .xm-select-disabled {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  cursor: no-drop;
+  z-index: 2;
+  opacity: 0.3;
+  background-color: #FFF;
+}
+xm-select .item--divided {
+  border-top: 1px solid #ebeef5;
+  width: calc(100% - 20px);
+  cursor: initial;
+}
+xm-select .xm-right-arrow {
+  position: absolute;
+  color: #666;
+  right: 5px;
+  top: -1px;
+  font-weight: 700;
+  transform: scale(0.6, 1);
+}
+xm-select .xm-right-arrow::after {
+  content: '>';
+}
+xm-select[size='large'] {
+  min-height: 40px;
+  line-height: 40px;
+}
+xm-select[size='large'] .xm-input {
+  height: 40px;
+}
+xm-select[size='large'] .xm-label .scroll .label-content {
+  line-height: 34px;
+}
+xm-select[size='large'] .xm-label .xm-label-block {
+  height: 30px;
+  line-height: 30px;
+}
+xm-select[size='large'] .xm-body .xm-option .xm-option-icon {
+  height: 20px;
+  width: 20px;
+  font-size: 20px;
+}
+xm-select[size='large'] .xm-paging > span {
+  height: 34px;
+  line-height: 34px;
+}
+xm-select[size='large'] .xm-tree .left-line {
+  height: 100%;
+  bottom: 20px;
+}
+xm-select[size='large'] .xm-tree .left-line-group {
+  height: calc(100% - 40px);
+}
+xm-select[size='large'] .xm-tree .xm-tree-icon.xm-hidden + .top-line {
+  top: 19px;
+}
+xm-select[size='large'] .item--divided {
+  margin: 10px;
+}
+xm-select {
+  min-height: 36px;
+  line-height: 36px;
+}
+xm-select .xm-input {
+  height: 36px;
+}
+xm-select .xm-label .scroll .label-content {
+  line-height: 30px;
+}
+xm-select .xm-label .xm-label-block {
+  height: 26px;
+  line-height: 26px;
+}
+xm-select .xm-body .xm-option .xm-option-icon {
+  height: 18px;
+  width: 18px;
+  font-size: 18px;
+}
+xm-select .xm-paging > span {
+  height: 30px;
+  line-height: 30px;
+}
+xm-select .xm-tree .left-line {
+  height: 100%;
+  bottom: 18px;
+}
+xm-select .xm-tree .left-line-group {
+  height: calc(100% - 36px);
+}
+xm-select .xm-tree .xm-tree-icon.xm-hidden + .top-line {
+  top: 17px;
+}
+xm-select .item--divided {
+  margin: 9px;
+}
+xm-select[size='small'] {
+  min-height: 32px;
+  line-height: 32px;
+}
+xm-select[size='small'] .xm-input {
+  height: 32px;
+}
+xm-select[size='small'] .xm-label .scroll .label-content {
+  line-height: 26px;
+}
+xm-select[size='small'] .xm-label .xm-label-block {
+  height: 22px;
+  line-height: 22px;
+}
+xm-select[size='small'] .xm-body .xm-option .xm-option-icon {
+  height: 16px;
+  width: 16px;
+  font-size: 16px;
+}
+xm-select[size='small'] .xm-paging > span {
+  height: 26px;
+  line-height: 26px;
+}
+xm-select[size='small'] .xm-tree .left-line {
+  height: 100%;
+  bottom: 16px;
+}
+xm-select[size='small'] .xm-tree .left-line-group {
+  height: calc(100% - 32px);
+}
+xm-select[size='small'] .xm-tree .xm-tree-icon.xm-hidden + .top-line {
+  top: 15px;
+}
+xm-select[size='small'] .item--divided {
+  margin: 8px;
+}
+xm-select[size='mini'] {
+  min-height: 28px;
+  line-height: 28px;
+}
+xm-select[size='mini'] .xm-input {
+  height: 28px;
+}
+xm-select[size='mini'] .xm-label .scroll .label-content {
+  line-height: 22px;
+}
+xm-select[size='mini'] .xm-label .xm-label-block {
+  height: 18px;
+  line-height: 18px;
+}
+xm-select[size='mini'] .xm-body .xm-option .xm-option-icon {
+  height: 14px;
+  width: 14px;
+  font-size: 14px;
+}
+xm-select[size='mini'] .xm-paging > span {
+  height: 22px;
+  line-height: 22px;
+}
+xm-select[size='mini'] .xm-tree .left-line {
+  height: 100%;
+  bottom: 14px;
+}
+xm-select[size='mini'] .xm-tree .left-line-group {
+  height: calc(100% - 28px);
+}
+xm-select[size='mini'] .xm-tree .xm-tree-icon.xm-hidden + .top-line {
+  top: 13px;
+}
+xm-select[size='mini'] .item--divided {
+  margin: 7px;
+}
+.layui-form-pane xm-select {
+  margin: -1px -1px -1px 0;
+}
+</style><style type="text/css">@font-face {
+  font-family: "xm-iconfont";
+  src: url('//at.alicdn.com/t/font_792691_ptvyboo0bno.eot?t=1574048839056');
+  /* IE9 */
+  src: url('//at.alicdn.com/t/font_792691_ptvyboo0bno.eot?t=1574048839056#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('data:application/x-font-woff2;charset=utf-8;base64,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') format('woff2'), url('//at.alicdn.com/t/font_792691_ptvyboo0bno.woff?t=1574048839056') format('woff'), url('//at.alicdn.com/t/font_792691_ptvyboo0bno.ttf?t=1574048839056') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */ url('//at.alicdn.com/t/font_792691_ptvyboo0bno.svg?t=1574048839056#iconfont') format('svg');
+  /* iOS 4.1- */
+}
+.xm-iconfont {
+  font-family: "xm-iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.xm-icon-quanxuan:before {
+  content: "\e62c";
+}
+.xm-icon-caidan:before {
+  content: "\e610";
+}
+.xm-icon-fanxuan:before {
+  content: "\e837";
+}
+.xm-icon-pifu:before {
+  content: "\e668";
+}
+.xm-icon-qingkong:before {
+  content: "\e63e";
+}
+.xm-icon-sousuo:before {
+  content: "\e600";
+}
+.xm-icon-danx:before {
+  content: "\e62b";
+}
+.xm-icon-duox:before {
+  content: "\e613";
+}
+.xm-icon-close:before {
+  content: "\e601";
+}
+.xm-icon-expand:before {
+  content: "\e641";
+}
+.xm-icon-banxuan:before {
+  content: "\e60d";
+}
+</style><link rel="stylesheet" href="https://compatibility.openharmony.cn/mng/js/plugins/layer/theme/default/layer.css?v=3.1.0" id="layuicss-layer"></head>
 
-	OHC862700006765		模组/开发板	轻量系统	OpenHarmony 5.1.0 Release	海信HL3412模组		Hi3863e	OpenHarmony 5.1.0 Release	2026-05-27 14:45:32	海信家电集团股份有限公司青岛分公司	待审核		详情
-	OHC995100006732	OH0001OI	商用设备	轻量系统	OpenHarmony 5.1.0 Release	左点数字助听器	zdeer D2	YH601M	1.0.0	2026-05-26 19:42:38	左点实业（湖北）有限公司	待审核		详情
-	OHC924200006672		模组/开发板	轻量系统	OpenHarmony 6.1 Release	星火实验室CST92F46开发板		CST92F46	1.0.0.1	2026-05-26 18:12:13	鸿蒙生态服务（深圳）有限公司长沙分公司	待审核		详情
-	OHC313100006738	OH0001OK	商用设备	轻量系统	OpenHarmony 6.1 Release	4G RID	WD1000	WS63-H3863	WD1000-V1.0.0_OpenHarmony_6.1_Release	2026-05-26 18:09:26	成都微思格科技有限公司	待审核		详情
-	OHC295400006398		模组/开发板	轻量系统	OpenHarmony 6.1 Release	OM6629_EVB		OM6629	v1.0.0	2026-05-26 16:41:27	北京昂瑞微电子技术股份有限公司	待审核		详情
-	OHC315300006586	OH0001NC	商用设备	轻量系统	OpenHarmony 5.0.3 Release	OpenHarmony Community IP	OCIP-A001	ASR1606S	OCIP00001	2026-05-26 16:30:17	深圳市尚格实业有限公司	已发证	50383911b56d11f097907f8366a43cfb	详情
-	OHC344200006354	OH0001L2	商用设备	轻量系统	OpenHarmony 6.0 Release	防火门监控器	SA-DC03A	国民N32H492	DC_SA_FaceBorad_V1.3_code_V3.0.0	2026-05-26 16:21:43	广州六瑞消防科技有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
-	OHC983700006794	OH0001PK	商用设备	轻量系统	OpenHarmony 5.0.1 Release	电梯势能回收装置	DC-AFE-4015/4022/4037		KaihongOS 5.0.1 Lite	2026-05-26 15:56:20	深圳市汇川技术股份有限公司	待审核		详情
-	OHC996200006784	OH0001P9	商用设备	轻量系统	OpenHarmony 5.0.3 Release	达伦智能台灯 大想	DL-31WS	WS63Q261	1.0.2	2026-05-26 14:41:35	江苏达伦电子股份有限公司	待审核		详情
-	OHC788900006353	OH0001L1	商用设备	轻量系统	OpenHarmony 6.0 Release	电气火灾监控设备	SA-DQ03	国民N32H492	DC_SA_FaceBorad_V1.3_code_V3.0.0	2026-05-26 11:35:27	广州六瑞消防科技有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
-	OHC889200006352	OH0001L0	商用设备	轻量系统	OpenHarmony 6.0 Release	余压监控器	SA-YJ01	国民N32H492	DC_SA_FaceBorad_V1.3_code_V3.0.0	2026-05-26 10:19:38	广州六瑞消防科技有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
-	OHC154700006820	OH0001PU	商用设备	轻量系统	OpenHarmony 5.1.0 Release	YIRENOVA EDU 套件	EDU_ESP32_S3	ESP32-S3-WROOM-1	OHOS_V5.1	2026-05-25 23:43:27	深圳颐人科技有限公司	待审核		详情
-	OHC021800006721		模组/开发板	轻量系统	OpenHarmony 5.0.0 Release	NT26-HCN		HI2131	0950Q01_V01_Rev01	2026-05-25 19:25:18	浙江利尔达物联网技术有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
-	OHC443600006741	OH0001OM	商用设备	轻量系统	OpenHarmony 5.1.0 Release	二参数融合控制器	YNS-200	Hi3863V100	V2.0.4-3	2026-05-25 17:28:41	福建远恩智能技术有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
-	OHC345000006762	OH0001P7	商用设备	小型系统	OpenHarmony 6.1 Release	边缘计算主机	iDS-6732NX-I/HWF		1.0.0	2026-05-25 16:55:38	杭州海康威视数字技术股份有限公司	实验室审核中	50383911b56d11f097907f8366a43cfb	详情
-显示第 1 到第 15 条记录，总共 224 条记录 每页显示 
-15 
- 条记录
-‹
-1
-2
-3
-4
-5
-...
-15
-›
-查看详情
+<body class="gray-bg">
+    <style type="text/css">
+        .btn-white {
+            color: inherit;
+            background: white;
+            border: 1px solid #ccc;
+        }
+
+        .btn-white:hover {
+            color: inherit;
+            border: 1px solid #777;
+        }
+
+        .color-b5b5b5 {
+            color: #b5b5b5
+        }
+
+        .label_left {
+            font-size: 14px;
+        }
+
+        .label_right {
+            font-size: 14px;
+        }
+
+        .label_left_single {
+            font-size: 14px;
+        }
+
+        .mb-28 {
+            margin-bottom: 28px;
+        }
+
+        .apply-log-font-yellow {
+            font-size: 14px;
+        }
+
+        .apply-log-font-red {
+            font-size: 14px;
+        }
+
+        .device {
+            margin-left: 12.5%;
+        }
+
+        .number {
+            margin-left: 0;
+            font-family: HarmonyOS_Sans_SC_Medium;
+            font-size: 12px;
+            color: #ed6f21;
+        }
+
+        .word_break {
+            word-break: break-all;
+        }
+    </style>
+    <div class="wrapper wrapper-content ">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-content">
+                        <form class="form-horizontal m-t" id="signupForm0">
+                            <div class="form_div">
+                                <label class="label_title_l">OHC443600006741</label>
+                            </div>
+                            <div class="form_div">
+                                <div>
+                                    <label class="label_title_m">ProdId：</label>
+                                    <text>OH0001OM</text>
+                                    <span style="margin: 0px 20px;color: #000000;opacity: 0.5;">|</span>
+                                </div>
+                                <label class="label_title_m">状态：</label>
+                                <text class="apply-log-font-yellow">实验室审核中</text>
+                                <span style="margin: 0px 20px;color: #000000;opacity: 0.5;">|</span>
+                                <label class="label_title_m">更新时间：</label>
+                                <text>2026-05-25 17:28:41</text>
+                                
+                            </div>
+                        </form>
+                    </div>
+                    <div class="ibox-content">
+                        <form class="form-horizontal m-t" id="signupForm" novalidate="novalidate">
+                            <input id="id" name="id" value="da311b50ca6d43099a31b43d6632b9fb" type="hidden">
+                            <input id="status" name="status" value="2" type="hidden">
+                            <div class="form_div">
+                                <img class="img_split" src="/mng/img/split.svg">
+                                <label class="label_title_l">企业信息</label>
+                            </div>
+                            <div class="form_div">
+                                <label class="label_left color-b5b5b5">企业全称：</label>
+                                <label class="label_right color-b5b5b5">企业全称（英文）：</label>
+                            </div>
+                            <div class="form_div mb-28">
+                                <text class="label_left">福建远恩智能技术有限公司</text>
+                                <text class="label_right" style="white-space: pre-wrap;">Fujian Yuanen Intelligent Technology Co., Ltd.</text>
+                            </div>
+                            <div class="form_div">
+                                <label class="label_left color-b5b5b5">企业简称：</label>
+                                <label class="label_right color-b5b5b5">企业简称（英文）：</label>
+                            </div>
+                            <div class="form_div mb-28">
+                                <text class="label_left">远恩智能</text>
+                                <text class="label_right">Yuanen Intelligent</text>
+                            </div>
+                            <div class="form_div">
+                                <label class="label_left color-b5b5b5">ManufacturedID：</label>
+                                <label class="label_right color-b5b5b5">社会信用代码：</label>
+                            </div>
+                            <div class="form_div mb-28">
+                                <text class="label_left">20a</text>
+                                <text class="label_right">91350103MA31T2YW5K</text>
+                            </div>
+
+
+                            <div class="form_div">
+                                <img class="img_split" src="/mng/img/split.svg">
+                                <label class="label_title_l">联系人</label>
+                            </div>
+                            <div class="form_div">
+                                <label class="label_left color-b5b5b5">姓名：</label>
+                                <label class="label_right color-b5b5b5">电话：</label>
+                            </div>
+                            <div class="form_div mb-28">
+                                <text class="label_left">9444ec01532b11f1b3596b744ad431d8</text>
+                                <text class="label_right">13365910037</text>
+                            </div>
+                            <div class="form_div">
+                                <label class="label_left_single color-b5b5b5">邮箱：</label>
+                            </div>
+                            <div class="form_div mb-28">
+                                <text class="label_left_single">yuanen@ynsmart.com.cn</text>
+                            </div>
+
+
+                            <div class="form_div">
+                                <img class="img_split" src="/mng/img/split.svg">
+                                <label class="label_title_l">产品定义</label>
+                            </div>
+                            <div class="form_div">
+                                <label class="label_left color-b5b5b5">测评编号：</label>
+                            </div>
+                            <div class="form_div mb-28">
+                                <text class="label_left">OHC443600006741</text>
+                            </div>
+                            <div class="form_div">
+                                <label class="label_left color-b5b5b5">测评类型：</label>
+<!--                                <label class="label_right color-b5b5b5"-->
+<!--                                       th:if="${not #strings.isEmpty(certificationApply.productInfo)}">软证书类型：-->
+<!--                                </label>-->
+                            </div>
+                            <div class="form_div mb-28">
+                                <text class="label_left">商用设备</text>
+<!--                                <text class="label_right"-->
+<!--                                      th:if="${not #strings.isEmpty(certificationApply.productInfo)}"-->
+<!--                                      th:text="${certificationApply.authTypeName}"></text>-->
+                            </div>
+                            <div class="form_div">
+                                <label class="label_left color-b5b5b5">操作系统类型：</label>
+                                <label class="label_right color-b5b5b5">操作系统版本号：</label>
+                            </div>
+                            <div class="form_div mb-28">
+                                <text class="label_left">轻量系统</text>
+                                <text class="label_right">OpenHarmony 5.1.0 Release</text>
+                            </div>
+
+                            <!-- 商用产品 -->
+                            <div>
+                                <input id="productInfoID" name="id" value="379f8ebed4d14c94ae847d27966e7192" type="hidden">
+                                <div class="form_div">
+                                    <label class="label_left color-b5b5b5">设备名称（传播名）：</label>
+<!--                                    <label class="label_right color-b5b5b5">设备英文名称：</label>-->
+                                </div>
+                                <div class="form_div mb-28">
+                                    <text class="label_left">二参数融合控制器</text>
+<!--                                    <text class="label_right" th:text="${certificationApply.productInfo.nameEn}"></text>-->
+                                </div>
+                                <div class="form_div">
+                                    <label class="label_left color-b5b5b5">设备型号：</label>
+                                    <label class="label_right color-b5b5b5">硬件设备版本号：</label>
+                                </div>
+                                <div class="form_div mb-28">
+                                    <text class="label_left" style="white-space: pre-wrap;">YNS-200</text>
+                                    <text class="label_right">V2.0.4</text>
+                                </div>
+                                <div class="form_div">
+                                    <label class="label_left color-b5b5b5">设备类型：</label>
+                                    <label class="label_right color-b5b5b5">品牌：</label>
+                                </div>
+                                <div class="form_div mb-28">
+                                    <text class="label_left">多功能传感器</text>
+                                    <text class="label_right">远恩</text>
+                                </div>
+                                <div class="form_div">
+                                    <label class="label_left color-b5b5b5">品牌英文名：</label>
+                                </div>
+                                <div class="form_div mb-28">
+                                    <text class="label_left" style="white-space: pre-wrap;">Two-parameter fusion controller</text>
+                                </div>
+                                <div class="form_div">
+                                    <label class="label_left color-b5b5b5">模组型号：</label>
+                                    <label class="label_right color-b5b5b5">芯片型号：</label>
+                                </div>
+                                <div class="form_div mb-28">
+                                    <text class="label_left">WS63</text>
+                                    <text class="label_right">Hi3863V100</text>
+                                </div>
+                                
+                                
+
+
+
+
+                                
+                                
+
+
+
+
+
+
+
+
+                                
+                                
+                                <div class="form_div">
+                                    <label class="label_left color-b5b5b5">是否允许公示：</label>
+                                    
+                                </div>
+                                <div class="form_div mb-28">
+                                    
+                                    <text class="label_left">发证即公示</text>
+                                    
+                                    
+                                </div>
+                                <div class="form_div">
+                                    <label class="label_left color-b5b5b5">基本信息描述：</label>
+                                </div>
+                                <div class="form_div mb-28">
+                                    <text class="label_left word_break">YNS-200二参数智能控制器提供2路数字传感器、3路模拟量传感器接入。通过深度定制传感器通讯协议，拥有采集传感器的主测量参数、测量过程动态数据、校准曲线管理、故障状态信息读取功能。打破传统控制器只能对传感器主参数进行简单的读取显示模式。拥有3路数字量DO输出接口，能与传感器测量值进行多端联动，完成复杂的工业控制逻辑。物联网化工业设计基础，控制器数据可通过管理平台、手机APP等多方式查看，异常数据能通过手机APP发出告警通知。</text>
+                                </div>
+                            </div>
+
+                            <!-- 发行版 -->
+                            
+
+                            <!-- 开发板 -->
+                            
+
+                            <div class="form_div">
+                                <label class="label_left color-b5b5b5">外观图：</label>
+                            </div>
+                            <!--  已发证 可编辑 可删除重新上传-->
+                            
+                            <!--非已发证 保持原样 不可编辑-->
+                            <div>
+                                <div class="form_div">
+                                    <div class="label_left">
+                                        <div class="slider">
+                                            <ul class="sliderbox">
+                                                <li class="current" style="position: absolute; left: 0px; top: 0px; float: left;">
+                                                    <a><img src="https://oh-compatibility.obs.cn-south-1.myhuaweicloud.com:443/451b5b60-cccf-4c4b-a973-febe1aa2ee4f.png?AccessKeyId=HPUA3HTFCQBHSVM4B3IS&amp;Expires=1780029117&amp;Signature=1pNIk1E3iRgPxrY3uinWCVu%2BcN4%3D" onclick="showImage(this)" num="0"></a>
+                                                </li>
+                                                <li style="position: absolute; left: 112px; top: 0px; float: left;">
+                                                    <a><img src="https://oh-compatibility.obs.cn-south-1.myhuaweicloud.com:443/d1b5599f-14d5-4cb4-a3dd-153e19724bbb.png?AccessKeyId=HPUA3HTFCQBHSVM4B3IS&amp;Expires=1780029117&amp;Signature=rtDw7li6WHoReUIVXJCdLPqkAsM%3D" onclick="showImage(this)" num="1"></a>
+                                                </li>
+                                                <li style="position: absolute; left: 224px; top: 0px; float: left;">
+                                                    <a><img src="https://oh-compatibility.obs.cn-south-1.myhuaweicloud.com:443/e8567b10-9579-4e2e-a0d9-bc9965a09424.png?AccessKeyId=HPUA3HTFCQBHSVM4B3IS&amp;Expires=1780029117&amp;Signature=KbUT0XuyWLUOl3X7guU%2Bacx3GDs%3D" onclick="showImage(this)" num="2"></a>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form_div">
+                                <img class="img_split" src="/mng/img/split.svg">
+                                <label class="label_title_l">软件定义</label>
+                            </div>
+<!--                            <div class="form_div" th:if="${not #strings.isEmpty(certificationApply.productInfo)}">-->
+<!--                                <label class="label_left color-b5b5b5">是否存在审核通过的授权验证豁免：</label>-->
+<!--                            </div>-->
+<!--                            <div class="form_div mb-28" th:if="${not #strings.isEmpty(certificationApply.productInfo)}">-->
+<!--                                <text class="label_left" th:text="${certificationApply.hasAuthExempt ? '是' : '否'}"></text>-->
+<!--                            </div>-->
+                            <div class="form_div">
+                                <label class="label_left color-b5b5b5">软件版本号：</label>
+                                <label class="label_right color-b5b5b5">安全补丁标签：</label>
+                            </div>
+                            <div class="form_div mb-28">
+                                <text class="label_left">V2.0.4-3</text>
+                                <text class="label_right">2026-05-1</text>
+                            </div>
+
+                            <!-- 发行版 -->
+                            
+                            <!-- 商用产品 || 开发板 -->
+                            <div>
+                                <div class="form_div">
+                                    <label class="label_left color-b5b5b5">版本Id：</label>
+                                    <label class="label_right color-b5b5b5">版本Hash：</label>
+                                </div>
+                                
+                                <div class="form_div mb-28">
+                                    <text class="label_left word_break" style="white-space: pre-wrap;">OpenHarmony 5.1.0</text>
+                                    <text class="label_right word_break">NULL</text>
+                                </div>
+                            </div>
+                            <div class="form_div">
+                                <img class="img_split" src="/mng/img/split.svg">
+                                <label class="label_title_l">报告上传</label>
+                            </div>
+                            <div class="form_div">
+                                <label class="label_left color-b5b5b5">镜像文件：</label>
+                            </div>
+                            <div class="form_div mb-28">
+                                <div class="label_left">
+                                    <a style="color:blue" name="1fe9b078338746d59b1b187439b771a0" onclick="downloadFile(this)">
+                                        <text>镜像文件.zip</text>
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="form_div">
+                                    <label class="label_left color-b5b5b5">XTS报告：</label>
+                                    <label class="label_right color-b5b5b5">PCS自检表：</label>
+                                </div>
+                                <div class="form_div mb-28">
+                                    <div class="label_left">
+                                        <a style="color:blue" name="ad451bb3d39240f9b652bd1618a48cce" onclick="downloadFile(this)">
+                                            <text>设备日志.zip</text>
+                                        </a>
+
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <a style="color:blue" name="159c9c7f509b426384ad7ea3a927532d" onclick="report(this)" id="showReport">
+                                            
+                                        </a>
+                                        <div style="margin-top:8px">
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="label_right">
+                                        <a style="color:blue" name="a6d8cb9ec1484a048106a6ee1bb90365" onclick="downloadFile(this)">
+                                            <text>OpenHarmony设备兼容性规范5.x自检表_轻量系统.xlsx</text>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                            
+
+                            <div class="form_div">
+                                <img class="img_split" src="/mng/img/split.svg">
+                                <label class="label_title_l">样机寄送</label>
+                            </div>
+                            <div class="form_div">
+                                <label class="label_left color-b5b5b5">快递单号：</label>
+                                <label class="label_right color-b5b5b5">快递物品清单：</label>
+                            </div>
+                            <div class="form_div mb-28">
+                                <div class="label_left">
+                                    <span style="margin-right:20px">
+                                        <text>SF1567052605406</text>
+                                    </span>
+                                </div>
+                                <div class="label_right">
+                                    <a style="color:blue" name="cf4fbab0da654f49a2c07b7871e546c1" onclick="downloadFile(this)">
+                                        <text>OpenHarmony兼容性测试样品清单.xlsx</text>
+                                    </a>
+                                    <a style="color:blue;margin-left: 30px" name="da311b50ca6d43099a31b43d6632b9fb" onclick="prototype(this)">
+                                        <text>样机签收录入清单（含补寄）</text>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            
+                            
+                            
+
+                            <div class="form_div">
+                                <img class="img_split" src="/mng/img/split.svg">
+                                <label class="label_title_l">授权信息</label>
+                            </div>
+                            <div>
+                                <div class="form_div">
+                                    <label class="label_left color-b5b5b5">审核人员：</label>
+                                    
+                                    <label class="label_right color-b5b5b5">开始审核时间：</label>
+                                    
+                                </div>
+                                <div class="form_div mb-28">
+                                    <text class="label_left">50383911b56d11f097907f8366a43cfb</text>
+                                    <text class="label_right">2026-05-27 14:29:31</text>
+                                </div>
+                            </div>
+
+                            <!-- 待审核 -->
+                            <div>
+                                <div class="form_div">
+                                    <label class="label_left color-b5b5b5">PCID：</label>
+                                    <label class="label_right color-b5b5b5">达标等级：</label>
+                                </div>
+                                <div class="form_div mb-28">
+                                    <div class="label_left">
+                                        <text>解析前：</text>
+                                        <a style="color:blue" name="41f7e77323cf4852aa7619c49c6f4bb5" onclick="downloadFile(this)">
+                                            <text>pcid.sc</text>
+                                        </a>
+                                        <text style="margin-left:24px">解析后：</text>
+                                        <a style="color:blue" name="fc255769a0bd429e9a8bdc3193269a17" onclick="downloadFile(this)">
+                                            PCID.json
+                                        </a>
+                                    </div>
+                                    <div class="label_right">
+                                        <select id="standardLevel" class="form-control cus_input">
+                                            <option value="">请选择</option>
+                                            <option value="A">A</option>
+                                            <option value="B">B</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- 审核过直接显示,只有商用设备有pcid和达标等级 -->
+                            <div>
+                                
+                                
+                            </div>
+
+
+                            <div class="form_div">
+                                <label class="label_left color-b5b5b5">原因说明：</label>
+                            </div>
+
+                            <div class="form_div">
+                                <textarea id="reasons" class="form-control label_left" style="height: 120px;" maxlength="5000" placeholder="请输入"></textarea>
+                            </div>
+                            <div class="form_div">
+                                <span class="label_left" style="margin-bottom: 20px;">提示：驳回必须填写原因说明。</span>
+                            </div>
+                            
+
+<!--                            &lt;!&ndash; 审核过直接显示,只有商用设备有pcid和达标等级 &ndash;&gt;-->
+<!--                            <div th:each="item : ${certificationApply.testReportRels}">-->
+<!--                                <div class="form_div"-->
+<!--                                    th:if="${(certificationApply.status eq '5' || certificationApply.status eq '4' || certificationApply.innerStatus eq '53' || certificationApply.innerStatus eq '56') }">-->
+<!--                                    <label class="label_left color-b5b5b5"-->
+<!--                                        th:if="${not #strings.isEmpty(item.pcidFileId)}"-->
+<!--                                        th:text="${#strings.isEmpty(item.pcidModuleChip) ? 'PCID-222：' : item.pcidModuleChip}"></label>-->
+<!--                                    <label class="label_right color-b5b5b5"-->
+<!--                                        th:if="${not #strings.isEmpty(certificationApply.productInfo)}">达标等级：</label>-->
+<!--                                </div>-->
+<!--                                <div class="form_div mb-28"-->
+<!--                                    th:if="${(certificationApply.status eq '5' || certificationApply.status eq '4' || certificationApply.innerStatus eq '53' || certificationApply.innerStatus eq '56')}">-->
+<!--                                    <div class="label_left" th:if="${not #strings.isEmpty(item.pcidFileId)}">-->
+<!--                                        <text>解析前-1：</text>-->
+<!--                                        <a style="color:blue" th:name="${item.pcidFileId}" onclick="downloadFile(this)">-->
+<!--                                            <text th:if="${not #strings.isEmpty(item.pcidFileName)}"-->
+<!--                                                th:text="${item.pcidFileName}"></text>-->
+<!--                                        </a>-->
+<!--                                        <text th:if="${not #strings.isEmpty(item.pcidJsonFileId)}"-->
+<!--                                            style="margin-left:24px">解析后：</text>-->
+<!--                                        <a th:if="${not #strings.isEmpty(item.pcidJsonFileId)}" style="color:blue"-->
+<!--                                            th:name="${item.pcidJsonFileId}" onclick="downloadFile(this)">-->
+<!--                                            PCID.json-->
+<!--                                        </a>-->
+<!--                                    </div>-->
+<!--                                    <text class="label_right" th:text="${certificationApply.standardLevel}"></text>-->
+<!--                                </div>-->
+<!--                            </div>-->
+                            
+
+                            
+
+                            
+                            <!-- 审核人员审核按钮-begin-->
+                            <div class="form_div">
+                                <div class="center-block">
+                                    <button type="button" class="btn btn-white btn_large" onclick="transfer()">转他人审核
+                                    </button>
+                                    
+                                    <button type="button" class="btn btn-primary btn_large" onclick="update('53')">通过
+                                    </button>
+                                    <button type="button" class="btn btn-primary btn_large" onclick="update('-1')">驳回
+                                    </button>
+                                    <button type="button" class="btn btn-primary btn_large" onclick="update('3')">抽检
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- 审核人员审核按钮-end-->
+
+                            <!-- 超级管理员（即工作组成员）审核按钮-begin-->
+                            <div class="form_div">
+                                <div class="center-block">
+                                    
+
+                                    
+                                    
+                                    
+                                </div>
+                            </div>
+                            <!-- 超级管理员（即工作组成员）审核按钮-end-->
+
+                            
+                            
+
+                            <div class="form_div">
+                                <hr class="label_left" style="border: 1px solid #f8f8f8;margin: 60px 0 60px 0;">
+                            </div>
+                            <div class="form_div">
+                                <div class="label_left">
+                                    <div style="margin-bottom: 16px;">
+                                        <span>
+                                            <text>2026-05-27 14:29:32</text>
+                                            <span style="margin-left: 18px;">
+                                                <text style="color: #0000cc;">50383911b56d11f097907f8366a43cfb</text>
+                                                
+                                                <text>处理了申请，当前状态：</text>
+                                                <text class="apply-log-font-yellow">实验室审核中</text>
+                                                <span>。</span>
+                                            </span>
+                                        </span>
+                                        
+                                    </div>
+                                    <div style="margin-bottom: 16px;">
+                                        <span>
+                                            <text>2026-05-25 17:28:41</text>
+                                            <span style="margin-left: 18px;">
+                                                <text style="color: #0000cc;">9444ec01532b11f1b3596b744ad431d8</text>
+                                                
+                                                <text>发起了申请，当前状态：</text>
+                                                <text class="apply-log-font-yellow">待审核</text>
+                                                <span>。</span>
+                                            </span>
+                                        </span>
+                                        <div style="margin-left: 152px;">
+                                            <label class="control-label color-b5b5b5">操作说明：</label>
+                                            <text>设备包含 样机2台 供电线2根 USB-C测试线2根 样机已烧写XTS测试程序</text>
+                                        </div>
+                                    </div>
+                                    <div style="margin-bottom: 16px;">
+                                        <span>
+                                            <text>2026-05-19 10:52:07</text>
+                                            <span style="margin-left: 18px;">
+                                                <text style="color: #0000cc;">9444ec01532b11f1b3596b744ad431d8</text>
+                                                <text>创建了申请，当前状态：</text>
+                                                
+                                                <text class="apply-log-font-yellow">未提交</text>
+                                                <span>。</span>
+                                            </span>
+                                        </span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+  <script src="/mng/js/jquery.min.js?v=2.1.4"></script>
+  <script src="/mng/js/bootstrap.min.js?v=3.3.6"></script>
+  <script src="/mng/js/xm-select.js"></script>
+  <script src="/mng/js/plugins/bootstrap-table1.22.1/bootstrap-table.min.js"></script>
+  <script src="/mng/js/plugins/bootstrap-table/bootstrap-table-mobile.min.js"></script>
+  <script src="/mng/js/plugins/bootstrap-table1.22.1/locale/bootstrap-table-zh-CN.min.js"></script>
+  <script src="/mng/js/plugins/validate/jquery.validate.min.js"></script>
+  <script src="/mng/js/plugins/validate/messages_zh.min.js"></script>
+  <script src="/mng/js/plugins/jsTree/jstree.min.js"></script>
+  <script src="/mng/js/plugins/jqTreeGrid/jquery.treegrid.min.js"></script>
+  <script src="/mng/js/plugins/jqTreeGrid/jquery.treegrid.extension.js"></script>
+  <script src="/mng/js/plugins/jqTreeGrid/jquery.treegrid.bootstrap3.js"></script>
+  <script src="/mng/js/plugins/chosen/chosen.jquery.js"></script>
+  <script src="/mng/js/plugins/layer/layer.js"></script>
+  <script src="/mng/js/plugins/powerSlider/power-slider.js"></script>
+  <script src="/mng/js/plugins/jquery-ui/jquery-ui.min.js"> </script>
+  <script src="/mng/js/content.js?v=1.0.0"></script>
+  <!--summernote-->
+  <script src="/mng/js/plugins/summernote/summernote.js"></script>
+  <script src="/mng/js/plugins/summernote/summernote-zh-CN.min.js"></script>
+  <script src="/mng/js/ajax-util.js"></script>
+</div>
+    <script src="/mng/js/openTab.js"></script>
+    <script type="application/x-javascript" src="/mng/js/appjs/system/certification/applyDetail.js">
+</script>
+    <script src="/mng/js/layui.js"></script>
+    <link href="/mng/css/layui.css" rel="stylesheet">
+    
+    <!-- 添加处理多值显示的JavaScript代码 -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // 获取后端传递的多值数据
+        var isSupportApplication = "";
+        var withScreen = "";
+        
+        // 处理是否支持应用安装
+        if (isSupportApplication) {
+          var supportValues = isSupportApplication.split(',');
+          for (var i = 0; i < supportValues.length; i++) {
+            var element = document.getElementById('isSupportApplication_' + i);
+            if (element) {
+              element.textContent = supportValues[i] == '0' ? '不支持应用安装' : '支持应用安装';
+            }
+          }
+        }
+        
+        // 处理是否带屏
+        if (withScreen) {
+          var screenValues = withScreen.split(',');
+          for (var i = 0; i < screenValues.length; i++) {
+            var element = document.getElementById('withScreen_' + i);
+            if (element) {
+              element.textContent = screenValues[i] == '1' ? '带屏' : '不带屏';
+            }
+          }
+        }
+      });
+    </script>
+
+
+</body></html>
