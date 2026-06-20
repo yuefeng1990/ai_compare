@@ -235,6 +235,55 @@ def main(measurement_id=None):
         
         print(f"✓ 结果已保存到: {output_excel_path}")
         
+        # 10. 将一致的关键字数据写入data/checklist.xlsx
+        print("\n10. 将一致的关键字数据写入checklist.xlsx...")
+        print("=" * 80)
+        
+        from openpyxl import load_workbook
+        
+        # 关键字 -> checklist C列匹配文本 映射
+        keyword_checklist_map = {
+            'MarketName': '设备名称（传播名）',
+            'ProductModel': '设备型号',
+            'DeviceType': '设备类型',
+            'Brand': '品牌英文名',
+            'Manufacture': '企业简称（英文）',
+            'DisplayVersion': '软件版本号',
+            'SecurityPatchTag': '安全补丁标签',
+            'VersionId': '版本id',
+            'BuildRootHash': '版本Hash',
+            'OsFullName': '操作系统版本号',
+        }
+        
+        wb = load_workbook(input_excel_path)
+        ws = wb.active
+        written_count = 0
+        
+        for row in ws.iter_rows(min_row=5, max_row=ws.max_row):
+            c_value = row[2].value  # C列 - 测试检查项
+            if c_value is None:
+                continue
+            
+            c_text = str(c_value)
+            
+            for keyword, search_text in keyword_checklist_map.items():
+                if search_text in c_text:
+                    # 检查该关键字是否匹配一致
+                    result_item = next(
+                        (item for item in comparison_results if item['关键字'] == keyword),
+                        None
+                    )
+                    if result_item and result_item['是否一致'] == '是':  # ✓
+                        # 写入F列（第6列，索引5）——自检结果
+                        row[5].value = f"✓"
+                        written_count += 1
+                        seq = row[0].value or ''
+                        print(f"  ✓ [序号{seq}] {keyword}: 已写入一致结果")
+                    break
+        
+        wb.save(input_excel_path)
+        print(f"  ✓ 共 {written_count} 项一致数据已写入checklist.xlsx")
+        
         # 统计一致性
         print(f"\n统计信息:")
         print(f"  总比较次数: {total_count}")
