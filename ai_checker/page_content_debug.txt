@@ -801,27 +801,37 @@ xm-select[size='mini'] .item--divided {
                     <div class="ibox-content">
                         <form class="form-horizontal m-t" id="signupForm0">
                             <div class="form_div">
-                                <label class="label_title_l">OHC443600006741</label>
+                                <label class="label_title_l">OHC699100006173</label>
                             </div>
                             <div class="form_div">
                                 <div>
                                     <label class="label_title_m">ProdId：</label>
-                                    <text>OH0001OM</text>
+                                    <text>OH0001JO</text>
                                     <span style="margin: 0px 20px;color: #000000;opacity: 0.5;">|</span>
                                 </div>
                                 <label class="label_title_m">状态：</label>
-                                <text class="apply-log-font-yellow">实验室审核中</text>
+                                <text class="apply-log-font-green">已发证</text>
                                 <span style="margin: 0px 20px;color: #000000;opacity: 0.5;">|</span>
                                 <label class="label_title_m">更新时间：</label>
-                                <text>2026-05-25 17:28:41</text>
+                                <text>2026-04-16 10:17:36</text>
+                                <!-- 审核倒计时 -->
+<!--                                <div th:if="${remainingDays != null}">-->
+<!--                                    <span style="margin: 0px 20px;color: #000000;opacity: 0.5;">|</span>-->
+<!--                                    <label th:if="${remainingDays <= 0}" class="label_title_m" style="color:#ed4014;">-->
+<!--                                        <text th:text="'已超期 ' + ${remainingDays * -1} + ' 个工作日'"></text>-->
+<!--                                    </label>-->
+<!--                                    <label th:if="${remainingDays > 0}" class="label_title_m" style="color:#ff9900;">-->
+<!--                                        <text th:text="'剩余 ' + ${remainingDays} + ' 个工作日'"></text>-->
+<!--                                    </label>-->
+<!--                                </div>-->
                                 
                             </div>
                         </form>
                     </div>
                     <div class="ibox-content">
                         <form class="form-horizontal m-t" id="signupForm" novalidate="novalidate">
-                            <input id="id" name="id" value="da311b50ca6d43099a31b43d6632b9fb" type="hidden">
-                            <input id="status" name="status" value="2" type="hidden">
+                            <input id="id" name="id" value="c0bb1bd8a0df4cf7ba8fea343cf94714" type="hidden">
+                            <input id="status" name="status" value="5" type="hidden">
                             <div class="form_div">
                                 <img class="img_split" src="/mng/img/split.svg">
                                 <label class="label_title_l">企业信息</label>
@@ -831,24 +841,24 @@ xm-select[size='mini'] .item--divided {
                                 <label class="label_right color-b5b5b5">企业全称（英文）：</label>
                             </div>
                             <div class="form_div mb-28">
-                                <text class="label_left">福建远恩智能技术有限公司</text>
-                                <text class="label_right" style="white-space: pre-wrap;">Fujian Yuanen Intelligent Technology Co., Ltd.</text>
+                                <text class="label_left">广州智影科技有限公司</text>
+                                <text class="label_right" style="white-space: pre-wrap;">Guangzhou Zhiying Technology Co., LTD.</text>
                             </div>
                             <div class="form_div">
                                 <label class="label_left color-b5b5b5">企业简称：</label>
                                 <label class="label_right color-b5b5b5">企业简称（英文）：</label>
                             </div>
                             <div class="form_div mb-28">
-                                <text class="label_left">远恩智能</text>
-                                <text class="label_right">Yuanen Intelligent</text>
+                                <text class="label_left">智影科技</text>
+                                <text class="label_right">Zhiying Technology</text>
                             </div>
                             <div class="form_div">
                                 <label class="label_left color-b5b5b5">ManufacturedID：</label>
                                 <label class="label_right color-b5b5b5">社会信用代码：</label>
                             </div>
                             <div class="form_div mb-28">
-                                <text class="label_left">20a</text>
-                                <text class="label_right">91350103MA31T2YW5K</text>
+                                <text class="label_left">1wz</text>
+                                <text class="label_right">91440101MA59PB1D3R</text>
                             </div>
 
 
@@ -861,14 +871,14 @@ xm-select[size='mini'] .item--divided {
                                 <label class="label_right color-b5b5b5">电话：</label>
                             </div>
                             <div class="form_div mb-28">
-                                <text class="label_left">9444ec01532b11f1b3596b744ad431d8</text>
-                                <text class="label_right">13365910037</text>
+                                <text class="label_left">Carmen 颜慧玲</text>
+                                <text class="label_right">13570923879</text>
                             </div>
                             <div class="form_div">
                                 <label class="label_left_single color-b5b5b5">邮箱：</label>
                             </div>
                             <div class="form_div mb-28">
-                                <text class="label_left_single">yuanen@ynsmart.com.cn</text>
+                                <text class="label_left_single">Karmen@syncoaudio.com</text>
                             </div>
 
 
@@ -880,7 +890,7 @@ xm-select[size='mini'] .item--divided {
                                 <label class="label_left color-b5b5b5">测评编号：</label>
                             </div>
                             <div class="form_div mb-28">
-                                <text class="label_left">OHC443600006741</text>
+                                <text class="label_left">OHC699100006173</text>
                             </div>
                             <div class="form_div">
                                 <label class="label_left color-b5b5b5">测评类型：</label>
@@ -905,13 +915,13 @@ xm-select[size='mini'] .item--divided {
 
                             <!-- 商用产品 -->
                             <div>
-                                <input id="productInfoID" name="id" value="379f8ebed4d14c94ae847d27966e7192" type="hidden">
+                                <input id="productInfoID" name="id" value="c014cf5d308549a4bb268ee5976536b0" type="hidden">
                                 <div class="form_div">
                                     <label class="label_left color-b5b5b5">设备名称（传播名）：</label>
 <!--                                    <label class="label_right color-b5b5b5">设备英文名称：</label>-->
                                 </div>
                                 <div class="form_div mb-28">
-                                    <text class="label_left">二参数融合控制器</text>
+                                    <text class="label_left">SYNCO Wireless Microphone</text>
 <!--                                    <text class="label_right" th:text="${certificationApply.productInfo.nameEn}"></text>-->
                                 </div>
                                 <div class="form_div">
@@ -919,30 +929,30 @@ xm-select[size='mini'] .item--divided {
                                     <label class="label_right color-b5b5b5">硬件设备版本号：</label>
                                 </div>
                                 <div class="form_div mb-28">
-                                    <text class="label_left" style="white-space: pre-wrap;">YNS-200</text>
-                                    <text class="label_right">V2.0.4</text>
+                                    <text class="label_left" style="white-space: pre-wrap;">G4 Pro</text>
+                                    <text class="label_right">1.0</text>
                                 </div>
                                 <div class="form_div">
                                     <label class="label_left color-b5b5b5">设备类型：</label>
                                     <label class="label_right color-b5b5b5">品牌：</label>
                                 </div>
                                 <div class="form_div mb-28">
-                                    <text class="label_left">多功能传感器</text>
-                                    <text class="label_right">远恩</text>
+                                    <text class="label_left">麦克风</text>
+                                    <text class="label_right">声刻</text>
                                 </div>
                                 <div class="form_div">
                                     <label class="label_left color-b5b5b5">品牌英文名：</label>
                                 </div>
                                 <div class="form_div mb-28">
-                                    <text class="label_left" style="white-space: pre-wrap;">Two-parameter fusion controller</text>
+                                    <text class="label_left" style="white-space: pre-wrap;">SYNCO</text>
                                 </div>
                                 <div class="form_div">
                                     <label class="label_left color-b5b5b5">模组型号：</label>
                                     <label class="label_right color-b5b5b5">芯片型号：</label>
                                 </div>
                                 <div class="form_div mb-28">
-                                    <text class="label_left">WS63</text>
-                                    <text class="label_right">Hi3863V100</text>
+                                    <text class="label_left"></text>
+                                    <text class="label_right">Hi3372</text>
                                 </div>
                                 
                                 
@@ -976,7 +986,7 @@ xm-select[size='mini'] .item--divided {
                                     <label class="label_left color-b5b5b5">基本信息描述：</label>
                                 </div>
                                 <div class="form_div mb-28">
-                                    <text class="label_left word_break">YNS-200二参数智能控制器提供2路数字传感器、3路模拟量传感器接入。通过深度定制传感器通讯协议，拥有采集传感器的主测量参数、测量过程动态数据、校准曲线管理、故障状态信息读取功能。打破传统控制器只能对传感器主参数进行简单的读取显示模式。拥有3路数字量DO输出接口，能与传感器测量值进行多端联动，完成复杂的工业控制逻辑。物联网化工业设计基础，控制器数据可通过管理平台、手机APP等多方式查看，异常数据能通过手机APP发出告警通知。</text>
+                                    <text class="label_left word_break">G4Pro是一款无线麦克风，基于华为海思半导体星闪技术与芯片。G4Pro具有超大传输带宽、无损音质、强抗干扰、低延时以及Ai降噪。</text>
                                 </div>
                             </div>
 
@@ -990,28 +1000,28 @@ xm-select[size='mini'] .item--divided {
                                 <label class="label_left color-b5b5b5">外观图：</label>
                             </div>
                             <!--  已发证 可编辑 可删除重新上传-->
-                            
-                            <!--非已发证 保持原样 不可编辑-->
                             <div>
+                                
+                                
+
                                 <div class="form_div">
-                                    <div class="label_left">
-                                        <div class="slider">
-                                            <ul class="sliderbox">
-                                                <li class="current" style="position: absolute; left: 0px; top: 0px; float: left;">
-                                                    <a><img src="https://oh-compatibility.obs.cn-south-1.myhuaweicloud.com:443/451b5b60-cccf-4c4b-a973-febe1aa2ee4f.png?AccessKeyId=HPUA3HTFCQBHSVM4B3IS&amp;Expires=1780029117&amp;Signature=1pNIk1E3iRgPxrY3uinWCVu%2BcN4%3D" onclick="showImage(this)" num="0"></a>
-                                                </li>
-                                                <li style="position: absolute; left: 112px; top: 0px; float: left;">
-                                                    <a><img src="https://oh-compatibility.obs.cn-south-1.myhuaweicloud.com:443/d1b5599f-14d5-4cb4-a3dd-153e19724bbb.png?AccessKeyId=HPUA3HTFCQBHSVM4B3IS&amp;Expires=1780029117&amp;Signature=rtDw7li6WHoReUIVXJCdLPqkAsM%3D" onclick="showImage(this)" num="1"></a>
-                                                </li>
-                                                <li style="position: absolute; left: 224px; top: 0px; float: left;">
-                                                    <a><img src="https://oh-compatibility.obs.cn-south-1.myhuaweicloud.com:443/e8567b10-9579-4e2e-a0d9-bc9965a09424.png?AccessKeyId=HPUA3HTFCQBHSVM4B3IS&amp;Expires=1780029117&amp;Signature=KbUT0XuyWLUOl3X7guU%2Bacx3GDs%3D" onclick="showImage(this)" num="2"></a>
+                                    <div class="label_left" id="showImg">
+                                        <div style="margin: 0 auto 15px auto;position: relative;display: flex;flex-direction: row;flex-wrap: wrap;">
+                                            <ul style="display: flex;flex-wrap: wrap;flex-direction: row;" id="imgListShow">
+                                                <li style="position: relative;list-style-type:none;margin-right: 15px">
+                                                    <a id="imgContent" num="0" iurl="https://oh-compatibility.obs.cn-south-1.myhuaweicloud.com:443/10655c8d-7b20-46b8-8cf2-3b6e67224684.png?AccessKeyId=HPUA3HTFCQBHSVM4B3IS&amp;Expires=1782054653&amp;Signature=%2F0zBEKdN6UeU5cyz%2FYunQEglgFM%3D" imgid="124091cbabad47618ebc030a4752282b">
+                                                        
+                                                        <img style="width: 100px; height: 100px; margin-right: 10px; margin-bottom: 10px;" src="https://oh-compatibility.obs.cn-south-1.myhuaweicloud.com:443/10655c8d-7b20-46b8-8cf2-3b6e67224684.png?AccessKeyId=HPUA3HTFCQBHSVM4B3IS&amp;Expires=1782054653&amp;Signature=%2F0zBEKdN6UeU5cyz%2FYunQEglgFM%3D" num="0" onclick="showImage(this)">
+                                                    </a>
                                                 </li>
                                             </ul>
-
                                         </div>
+                                        
                                     </div>
                                 </div>
                             </div>
+                            <!--非已发证 保持原样 不可编辑-->
+                            
                             <div class="form_div">
                                 <img class="img_split" src="/mng/img/split.svg">
                                 <label class="label_title_l">软件定义</label>
@@ -1027,8 +1037,8 @@ xm-select[size='mini'] .item--divided {
                                 <label class="label_right color-b5b5b5">安全补丁标签：</label>
                             </div>
                             <div class="form_div mb-28">
-                                <text class="label_left">V2.0.4-3</text>
-                                <text class="label_right">2026-05-1</text>
+                                <text class="label_left">1.0.0</text>
+                                <text class="label_right">2025/06/17</text>
                             </div>
 
                             <!-- 发行版 -->
@@ -1041,8 +1051,8 @@ xm-select[size='mini'] .item--divided {
                                 </div>
                                 
                                 <div class="form_div mb-28">
-                                    <text class="label_left word_break" style="white-space: pre-wrap;">OpenHarmony 5.1.0</text>
-                                    <text class="label_right word_break">NULL</text>
+                                    <text class="label_left word_break" style="white-space: pre-wrap;">Microphone/Zhiying Technology/SYNCO/G Series/OpenHarmony-5.1.0.0/G4 Pro/1.0.0/12/version/debug:nolog</text>
+                                    <text class="label_right word_break">default</text>
                                 </div>
                             </div>
                             <div class="form_div">
@@ -1054,8 +1064,8 @@ xm-select[size='mini'] .item--divided {
                             </div>
                             <div class="form_div mb-28">
                                 <div class="label_left">
-                                    <a style="color:blue" name="1fe9b078338746d59b1b187439b771a0" onclick="downloadFile(this)">
-                                        <text>镜像文件.zip</text>
+                                    <a style="color:blue" name="bb610922d255426386cdaa4288d81c22" onclick="downloadFile(this)">
+                                        <text>OHC699100006173_镜像和烧写说明.zip</text>
                                     </a>
                                 </div>
                             </div>
@@ -1066,8 +1076,8 @@ xm-select[size='mini'] .item--divided {
                                 </div>
                                 <div class="form_div mb-28">
                                     <div class="label_left">
-                                        <a style="color:blue" name="ad451bb3d39240f9b652bd1618a48cce" onclick="downloadFile(this)">
-                                            <text>设备日志.zip</text>
+                                        <a style="color:blue" name="23da745d21d440f68d83b211bf293eff" onclick="downloadFile(this)">
+                                            <text>SYNCO Wireless Microphone_自动测试用例报告.zip</text>
                                         </a>
 
                                         
@@ -1080,7 +1090,7 @@ xm-select[size='mini'] .item--divided {
                                         
                                         
                                         
-                                        <a style="color:blue" name="159c9c7f509b426384ad7ea3a927532d" onclick="report(this)" id="showReport">
+                                        <a style="color:blue" name="e96f5f3c14984395bc16847b4f314f97" onclick="report(this)" id="showReport">
                                             
                                         </a>
                                         <div style="margin-top:8px">
@@ -1088,15 +1098,31 @@ xm-select[size='mini'] .item--divided {
                                         </div>
                                     </div>
                                     <div class="label_right">
-                                        <a style="color:blue" name="a6d8cb9ec1484a048106a6ee1bb90365" onclick="downloadFile(this)">
-                                            <text>OpenHarmony设备兼容性规范5.x自检表_轻量系统.xlsx</text>
+                                        <a style="color:blue" name="e6bcc769f7344c1f84ad957e6b0180d0" onclick="downloadFile(this)">
+                                            <text>OpenHarmony设备兼容性规范5.1.0自检表_轻量系统_OHC699100006173.xlsx</text>
                                         </a>
                                     </div>
                                 </div>
                             </div>
 
-                            
-                            
+                            <div class="form_div">
+                                <img class="img_split" src="/mng/img/split.svg">
+                                <label class="label_title_l">测评豁免申请</label>
+                            </div>
+                            <div class="form_div mb-28">
+                                <label class="label_left">豁免申请总计:
+                                    <text class="label_right" style="margin:0 18px 0 0">1</text>
+                                    已通过:
+                                    <text class="label_right" style="margin:0 18px 0 0">1</text>
+                                    未通过:
+                                    <text class="label_right" style="margin:0 18px 0 0">0</text>
+                                    审核中:
+                                    <text class="label_right" style="margin:0 18px 0 0">0</text>
+                                    <a style="color:blue" name="OHC699100006173" onclick="showExemptPage(this)">
+                                        <text>查看详情</text>
+                                    </a>
+                                </label>
+                            </div>
 
                             <div class="form_div">
                                 <img class="img_split" src="/mng/img/split.svg">
@@ -1109,14 +1135,14 @@ xm-select[size='mini'] .item--divided {
                             <div class="form_div mb-28">
                                 <div class="label_left">
                                     <span style="margin-right:20px">
-                                        <text>SF1567052605406</text>
+                                        <text>SF0289762406758</text>
                                     </span>
                                 </div>
                                 <div class="label_right">
-                                    <a style="color:blue" name="cf4fbab0da654f49a2c07b7871e546c1" onclick="downloadFile(this)">
-                                        <text>OpenHarmony兼容性测试样品清单.xlsx</text>
+                                    <a style="color:blue" name="1d23edc2cdb447d0be28000a8d4e5ac5" onclick="downloadFile(this)">
+                                        <text>OpenHarmony兼容性测试样品清单_OHC699100006173.xlsx</text>
                                     </a>
-                                    <a style="color:blue;margin-left: 30px" name="da311b50ca6d43099a31b43d6632b9fb" onclick="prototype(this)">
+                                    <a style="color:blue;margin-left: 30px" name="c0bb1bd8a0df4cf7ba8fea343cf94714" onclick="prototype(this)">
                                         <text>样机签收录入清单（含补寄）</text>
                                     </a>
                                 </div>
@@ -1133,17 +1159,24 @@ xm-select[size='mini'] .item--divided {
                             <div>
                                 <div class="form_div">
                                     <label class="label_left color-b5b5b5">审核人员：</label>
+                                    <label class="label_right color-b5b5b5">测评通过时间：</label>
                                     
-                                    <label class="label_right color-b5b5b5">开始审核时间：</label>
                                     
                                 </div>
                                 <div class="form_div mb-28">
                                     <text class="label_left">50383911b56d11f097907f8366a43cfb</text>
-                                    <text class="label_right">2026-05-27 14:29:31</text>
+                                    <text class="label_right">2026-04-23 17:11:28</text>
                                 </div>
                             </div>
 
                             <!-- 待审核 -->
+                            <div>
+                                
+                                
+                            </div>
+
+
+                            <!-- 审核过直接显示,只有商用设备有pcid和达标等级 -->
                             <div>
                                 <div class="form_div">
                                     <label class="label_left color-b5b5b5">PCID：</label>
@@ -1152,42 +1185,23 @@ xm-select[size='mini'] .item--divided {
                                 <div class="form_div mb-28">
                                     <div class="label_left">
                                         <text>解析前：</text>
-                                        <a style="color:blue" name="41f7e77323cf4852aa7619c49c6f4bb5" onclick="downloadFile(this)">
-                                            <text>pcid.sc</text>
+                                        <a style="color:blue" name="6badec3028bb4cde86eba1e2193b5685" onclick="downloadFile(this)">
+                                            <text>PCID.sc</text>
                                         </a>
                                         <text style="margin-left:24px">解析后：</text>
-                                        <a style="color:blue" name="fc255769a0bd429e9a8bdc3193269a17" onclick="downloadFile(this)">
+                                        <a style="color:blue" name="4d60d8825296420ea9cb25bb74ffe921" onclick="downloadFile(this)">
                                             PCID.json
                                         </a>
                                     </div>
-                                    <div class="label_right">
-                                        <select id="standardLevel" class="form-control cus_input">
-                                            <option value="">请选择</option>
-                                            <option value="A">A</option>
-                                            <option value="B">B</option>
-                                        </select>
-                                    </div>
+                                    <text class="label_right">B</text>
                                 </div>
                             </div>
 
 
-                            <!-- 审核过直接显示,只有商用设备有pcid和达标等级 -->
-                            <div>
-                                
-                                
-                            </div>
+                            
 
-
-                            <div class="form_div">
-                                <label class="label_left color-b5b5b5">原因说明：</label>
-                            </div>
-
-                            <div class="form_div">
-                                <textarea id="reasons" class="form-control label_left" style="height: 120px;" maxlength="5000" placeholder="请输入"></textarea>
-                            </div>
-                            <div class="form_div">
-                                <span class="label_left" style="margin-bottom: 20px;">提示：驳回必须填写原因说明。</span>
-                            </div>
+                            
+                            
                             
 
 <!--                            &lt;!&ndash; 审核过直接显示,只有商用设备有pcid和达标等级 &ndash;&gt;-->
@@ -1226,15 +1240,11 @@ xm-select[size='mini'] .item--divided {
                             <!-- 审核人员审核按钮-begin-->
                             <div class="form_div">
                                 <div class="center-block">
-                                    <button type="button" class="btn btn-white btn_large" onclick="transfer()">转他人审核
-                                    </button>
                                     
-                                    <button type="button" class="btn btn-primary btn_large" onclick="update('53')">通过
-                                    </button>
-                                    <button type="button" class="btn btn-primary btn_large" onclick="update('-1')">驳回
-                                    </button>
-                                    <button type="button" class="btn btn-primary btn_large" onclick="update('3')">抽检
-                                    </button>
+                                    
+                                    
+                                    
+                                    
                                 </div>
                             </div>
                             <!-- 审核人员审核按钮-end-->
@@ -1251,8 +1261,16 @@ xm-select[size='mini'] .item--divided {
                             </div>
                             <!-- 超级管理员（即工作组成员）审核按钮-end-->
 
-                            
-                            
+                            <div class="form_div">
+                                <label class="label_left_single color-b5b5b5">测评证书：</label>
+                            </div>
+                            <div class="form_div mb-28">
+                                <div class="label_left_single">
+                                    <a style="color:blue" name="5d6a70f784e8420da469cdd9de7dfdf8" onclick="downloadFile(this)">
+                                        <text>e80b8ce444264710a6a08d92293726ac.pdf</text>
+                                    </a>
+                                </div>
+                            </div>
 
                             <div class="form_div">
                                 <hr class="label_left" style="border: 1px solid #f8f8f8;margin: 60px 0 60px 0;">
@@ -1261,7 +1279,78 @@ xm-select[size='mini'] .item--divided {
                                 <div class="label_left">
                                     <div style="margin-bottom: 16px;">
                                         <span>
-                                            <text>2026-05-27 14:29:32</text>
+                                            <text>2026-04-23 19:43:37</text>
+                                            <span style="margin-left: 18px;">
+                                                <text style="color: #0000cc;">纪永</text>
+                                                
+                                                <text>处理了申请，当前状态：</text>
+                                                <text class="apply-log-font-green">已发证</text>
+                                                <span>。</span>
+                                            </span>
+                                        </span>
+                                        
+                                    </div>
+                                    <div style="margin-bottom: 16px;">
+                                        <span>
+                                            <text>2026-04-23 17:11:28</text>
+                                            <span style="margin-left: 18px;">
+                                                <text style="color: #0000cc;">zhuwei</text>
+                                                
+                                                <text>处理了申请，当前状态：</text>
+                                                <text class="apply-log-font-green">审核通过</text>
+                                                <span>。</span>
+                                            </span>
+                                        </span>
+                                        <div style="margin-left: 152px;">
+                                            <label class="control-label color-b5b5b5">操作说明：</label>
+                                            <text> 样机已投递，固件、PCS自检表、烧录和使用指导齐全，自测报告满足PCS最小集合PCS自检表规范。</text>
+                                        </div>
+                                    </div>
+                                    <div style="margin-bottom: 16px;">
+                                        <span>
+                                            <text>2026-04-23 17:10:29</text>
+                                            <span style="margin-left: 18px;">
+                                                <text style="color: #0000cc;">50383911b56d11f097907f8366a43cfb</text>
+                                                
+                                                <text>处理了申请，当前状态：</text>
+                                                <text class="apply-log-font-yellow">工作组审核中</text>
+                                                <span>。</span>
+                                            </span>
+                                        </span>
+                                        
+                                    </div>
+                                    <div style="margin-bottom: 16px;">
+                                        <span>
+                                            <text>2026-04-16 10:17:36</text>
+                                            <span style="margin-left: 18px;">
+                                                <text style="color: #0000cc;">0521aa01f12d11f0bf3e3d61e67457e0</text>
+                                                
+                                                <text>发起了申请，当前状态：</text>
+                                                <text class="apply-log-font-yellow">实验室审核中</text>
+                                                <span>。</span>
+                                            </span>
+                                        </span>
+                                        
+                                    </div>
+                                    <div style="margin-bottom: 16px;">
+                                        <span>
+                                            <text>2026-04-15 11:15:31</text>
+                                            <span style="margin-left: 18px;">
+                                                <text style="color: #0000cc;">50383911b56d11f097907f8366a43cfb</text>
+                                                
+                                                <text>处理了申请，当前状态：</text>
+                                                <text class="apply-log-font-red">驳回</text>
+                                                <span>。</span>
+                                            </span>
+                                        </span>
+                                        <div style="margin-left: 152px;">
+                                            <label class="control-label color-b5b5b5">操作说明：</label>
+                                            <text>1、材料缺失，缺少烧录的串口软件工具，需提供。2、ACTS材料缺失，OtaFuncTestSuite模块缺少测试执行结果，需提供测试通过的日志或进行豁免。</text>
+                                        </div>
+                                    </div>
+                                    <div style="margin-bottom: 16px;">
+                                        <span>
+                                            <text>2026-04-03 16:59:31</text>
                                             <span style="margin-left: 18px;">
                                                 <text style="color: #0000cc;">50383911b56d11f097907f8366a43cfb</text>
                                                 
@@ -1274,25 +1363,22 @@ xm-select[size='mini'] .item--divided {
                                     </div>
                                     <div style="margin-bottom: 16px;">
                                         <span>
-                                            <text>2026-05-25 17:28:41</text>
+                                            <text>2026-03-31 10:58:43</text>
                                             <span style="margin-left: 18px;">
-                                                <text style="color: #0000cc;">9444ec01532b11f1b3596b744ad431d8</text>
+                                                <text style="color: #0000cc;">0521aa01f12d11f0bf3e3d61e67457e0</text>
                                                 
                                                 <text>发起了申请，当前状态：</text>
                                                 <text class="apply-log-font-yellow">待审核</text>
                                                 <span>。</span>
                                             </span>
                                         </span>
-                                        <div style="margin-left: 152px;">
-                                            <label class="control-label color-b5b5b5">操作说明：</label>
-                                            <text>设备包含 样机2台 供电线2根 USB-C测试线2根 样机已烧写XTS测试程序</text>
-                                        </div>
+                                        
                                     </div>
                                     <div style="margin-bottom: 16px;">
                                         <span>
-                                            <text>2026-05-19 10:52:07</text>
+                                            <text>2026-03-26 10:42:58</text>
                                             <span style="margin-left: 18px;">
-                                                <text style="color: #0000cc;">9444ec01532b11f1b3596b744ad431d8</text>
+                                                <text style="color: #0000cc;">0521aa01f12d11f0bf3e3d61e67457e0</text>
                                                 <text>创建了申请，当前状态：</text>
                                                 
                                                 <text class="apply-log-font-yellow">未提交</text>

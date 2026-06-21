@@ -30,7 +30,7 @@ def main(measurement_id=None):
     # 网站URL定义
     WEB_URL = "https://compatibility.openharmony.cn/mng/index"
     
-    # 要提取的关键字列表（根据用户需求）
+    # 要提取的关键字列表
     TARGET_KEYWORDS = [
         'MarketName',      # 设备名称（传播名）
         'ProductModel',    # 设备型号
@@ -275,7 +275,7 @@ def main(measurement_id=None):
                     )
                     if result_item and result_item['是否一致'] == '是':  # ✓
                         # 写入F列（第6列，索引5）——自检结果
-                        row[5].value = f"✓"
+                        row[5].value = f"✔"
                         written_count += 1
                         seq = row[0].value or ''
                         print(f"  ✓ [序号{seq}] {keyword}: 已写入一致结果")
