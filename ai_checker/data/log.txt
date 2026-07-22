@@ -1,0 +1,1875 @@
+
+[09:51:11.420]ÊÕ¡û¡ôAPP|sys sleep flag: 0
+APP|M run time:228882, M core deepsleep time:0, lightsleep time:0, m sleep flag:0
+APP|M core wfi with veto time:7011595, wfi no veto time:0
+
+[09:51:16.422]ÊÕ¡û¡ôAPP|sys sleep flag: 0
+APP|M run time:234071, M core deepsleep time:0, lightsleep time:0, m sleep flag:0
+APP|M core wfi with veto time:7170994, wfi no veto time:0
+
+[09:51:21.425]ÊÕ¡û¡ôAPP|sys sleep flag: 0
+APP|M run time:239260, M core deepsleep time:0, lightsleep time:0, m sleep flag:0
+APP|M core wfi with veto time:7330427, wfi no veto time:0
+
+[09:51:26.428]ÊÕ¡û¡ôAPP|sys sleep flag: 0
+APP|M run time:244448, M core deepsleep time:0, lightsleep time:0, m sleep flag:0
+APP|M core wfi with veto time:7489840, wfi no veto time:0
+
+[09:51:31.429]ÊÕ¡û¡ôAPP|sys sleep flag: 0
+APP|M run time:249637, M core deepsleep time:0, lightsleep time:0, m sleep flag:0
+APP|M core wfi with veto time:7649269, wfi no veto time:0
+
+[09:51:36.431]ÊÕ¡û¡ôAPP|sys sleep flag: 0
+APP|M run time:254825, M core deepsleep time:0, lightsleep time:0, m sleep flag:0
+APP|M core wfi with veto time:7808659, wfi no veto time:0
+
+[09:51:41.434]ÊÕ¡û¡ôAPP|sys sleep flag: 0
+APP|M run time:260014, M core deepsleep time:0, lightsleep time:0, m sleep flag:0
+APP|M core wfi with veto time:7968089, wfi no veto time:0
+
+[09:51:46.436]ÊÕ¡û¡ôAPP|sys sleep flag: 0
+APP|M run time:265202, M core deepsleep time:0, lightsleep time:0, m sleep flag:0
+APP|M core wfi with veto time:8127500, wfi no veto time:0
+
+[09:51:51.439]ÊÕ¡û¡ôAPP|sys sleep flag: 0
+APP|M run time:270391, M core deepsleep time:0, lightsleep time:0, m sleep flag:0
+APP|M core wfi with veto time:8286918, wfi no veto time:0
+
+[09:51:56.442]ÊÕ¡û¡ôAPP|sys sleep flag: 0
+APP|M run time:275579, M core deepsleep time:0, lightsleep time:0, m sleep flag:0
+APP|M core wfi with veto time:8446339, wfi no veto time:0
+
+[09:52:01.441]ÊÕ¡û¡ôAPP|sys sleep flag: 0
+APP|M run time:280768, M core deepsleep time:0, lightsleep time:0, m sleep flag:0
+APP|M core wfi with veto time:8605753, wfi no veto time:0
+
+[09:52:06.445]ÊÕ¡û¡ôAPP|sys sleep flag: 0
+APP|M run time:285957, M core deepsleep time:0, lightsleep time:0, m sleep flag:0
+APP|M core wfi with veto time:8765176, wfi no veto time:0
+
+[09:52:11.446]ÊÕ¡û¡ôAPP|sys sleep flag: 0
+APP|M run time:291145, M core deepsleep time:0, lightsleep time:0, m sleep flag:0
+APP|M core wfi with veto time:8924589, wfi no veto time:0
+
+[09:52:14.285]ÊÕ¡û¡ô€\0€€€\0€€\0\0€\0€\0\0€\0€€€\0€€\0€\0€€\0\0€€€€€€€\0€€\0\0\0\0€€€\0€\0\0€€€€€€\0€\0\0€€€€€\0€\0\0€\0€€\0\0€\0€€\0€€€\0€€\0€€\0\0€\0€€€€€€\0€€\0€\0\0€€\0\0€\0€\0€€€\0€€\0\0€\0€\0€€€€€\0\0€\0\0€\0€€\0€€\0€\0\0\0\0€€\0€\0€€\0\0\0€€€€€€€€€\0€\0\0€\0\0€€€\0€€€€\0\0€\0€\0€€€\0€€\0\0€\0€\0\0€€€€€€€€€\0\0\0\0€€€\0€\0\0€€€€€€€\0€€€€€€\0€\0€€\0€€\0€\0\0\0\0€\0\0\0\0\0€\0€€€\0€€\0€\0€€\0\0€€€€€€€\0€€€€€€\0€\0€€\0€€\0€\0€\0\0\0\0€€\0\0€\0€\0€€€\0€€\0\0€\0€\0\0€\0€€€\0€€\0€\0€€€€€\0€€€€\0\0€€€€\0€€€\0€€€\0€\0€€€€€\0\0€€\0€\0€\0\0\0\0€\0\0\0\0\0€\0€€€\0€€\0€\0€€€€€€\0€€\0\0€\0€\0\0\0\0€\0€\0\0€\0\0\0\0\0€\0€€€\0€€\0€\0€€\0\0€€\0€€\0€€€€€€€€€\0€\0€\0\0\0\0€\0\0\0€\0\0\0\0€€\0€€\0€\0€\0\0\0\0\0€€\0\0€\0€\0€€€\0€€\0\0€\0€\0\0€€€€€€€€€\0\0€€€€€€€\0€€\0\0\0\0€\0\0€€\0€€\0€€€\0€\0\0€\0€€€€€\0€\0€€\0€\0€\0\0€\0\0\0\0\0\0€€€€€\0€\0\0€€\0\0€\0€\0€€€\0€€\0\0€\0€€€€€€\0€\0\0€\0€€€€€€€€€\0€€\0€€\0€€€€€\0€€€\0€€€€€€€€\0€€€€€€€€\0€€\0€\0\0\0\0€\0\0\0€\0€€€€€€\0€€\0€€€€\0€€€€€€\0€\0\0€€€\0€\0\0€\0€\0€\0\0\0\0€€\0\0€\0€\0€€€\0€€\0\0€\0€€\0€€\0€€€\0€\0\0€\0€€\0\0\0\0€\0€€€\0€€\0€\0€€\0\0€€€€€€€\0€€\0€\0\0€\0\0€\0€€\0\0€\0€\0€€€\0€€\0\0€\0€€\0€\0€€€\0€€\0€\0\0\0\0€€€€€€€\0€€\0\0€€\0€\0\0€\0\0€\0€\0€€\0\0€\0€\0€€€\0€€\0\0€\0€€\0€€€\0€€\0€\0€€€€\0€€€€€\0\0\0€€€€€€€€€€\0€\0\0€\0\0€\0€\0€€€€\0\0€\0€\0€€€\0€€\0\0€\0€€\0€€€\0€€\0€\0€€€€\0€€€€€\0\0\0\0€€€€\0€\0\0€€€€€€€\0€€\0\0€\0€€\0€€€€€€\0€€€\0€\0€\0\0\0\0€\0\0€\0\0\0\0€\0\0\0€\0\0\0\0€€€€€\0€€€\0€\0€€\0\0\0\0€€€\0€\0\0€€€€€€€\0€€\0\0€\0€€€€€€€€\0€€\0€€\0€\0\0\0\0€\0\0\0€€\0€\0€€\0€€€\0€\0€\0€€€\0€€€€€\0€€\0\0\0\0€€€\0€\0\0€€€€€€€\0€€\0\0€\0€€€€€€€€\0€€\0€€\0€\0\0\0€€\0\0€\0€\0€€€\0€€\0\0€\0€€\0€\0€€€€\0€€\0€€€€€\0\0€\0€€€€\0€\0\0€\0€€€€€€\0€€\0€€\0€€\0€\0€\0\0\0\0\0€€\0\0€\0€\0€€€\0€€\0\0€\0€\0\0€€€€\0\0\0€€€€\0€€€\0€\0\0€\0\0\0€€€€€\0\0€€€€\0€€\0€\0\0€€\0€\0\0€€€\0€\0€\0\0€\0\0€\0€€\0\0€\0
+[09:52:14.411]ÊÕ¡û¡ô€\0€€€\0€€\0\0€\0€\0€€€€€€€€€€€\0€€€€\0€€€€€€€€€\0€€\0€€€€€€€\0€€\0€€€\0€\0\0\0€\0\0\0\0€€\0\0€\0
+[09:52:14.523]ÊÕ¡û¡ô[osal_irq_request:61]:LOS_HwiCreate failed! irq[68] ret = 0x2000904.
+cpu 0 entering scheduler
+APP|thread_main start 
+APP|sections max num = b
+APP|copy sections num = 0, type = 1, load_addr = 0, run_addr_gegin = a6004800, section_size = 3000
+APP|copy sections num = 1, type = 3, load_addr = 7020d8f0, run_addr_gegin = a6000400, section_size = 758
+APP|copy sections num = 2, type = 2, load_addr = 0, run_addr_gegin = a6000b60, section_size = 20c8
+APP|copy sections num = 3, type = 3, load_addr = 7020f748, run_addr_gegin = a6007800, section_size = 420
+APP|copy sections num = 4, type = 3, load_addr = 7020e048, run_addr_gegin = a6002c28, section_size = 1700
+APP|copy sections num = 5, type = 3, load_addr = 7020d498, run_addr_gegin = a6000000, section_size = 400
+APP|copy sections num = 6, type = 3, load_addr = 7026a3a0, run_addr_gegin = a6075f58, section_size = 1568
+APP|copy sections num = 7, type = 3, load_addr = 70214448, run_addr_gegin = a6020000, section_size = 55f58
+APP|copy sections num = 8, type = 3, load_addr = 70214444, run_addr_gegin = 60030000, section_size = 0
+APP|img download size:0x0 is not 4 byte aligned, type:3
+APP|copy sections num = 9, type = 3, load_addr = 7020fb68, run_addr_gegin = a6007c20, section_size = 48d8
+APP|copy sections num = a, type = 2, load_addr = 0, run_addr_gegin = a600c500, section_size = 7c50
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_msg_queue_create:25]:qName:sap_msg qID=0x0 
+hievent will init.
+
+hievent init success.
+hilog will init.
+
+[HCtest Service] HCTest Framework inited.
+******To Obtain Product Params Start******
+Device Type = Microphone
+Security Patch = 2025/06/17
+OsFullName = OpenHarmony-5.1.0.0
+DisplayVersion = 1.0.0
+VersionID = Microphone/Zhiying Technology/SYNCO/G Series/OpenHarmony-5.1.0.0/G4 Pro/1.0.0/12/version/debug:nolog
+DevUdid = 464EC2D13BA0DB21A814B6AD7C77C276B12449884E2969985C4DF37AFA92E01C
+manuFacture = Zhiying Technology
+productModel = G4 Pro
+serial = 00179387
+brand = SYNCO
+productSeries = G Series
+softwareModel = 1.0.0
+HardwareModel = 1.0
+BuildRootHash = default
+marketName = SYNCO Wireless Microphone
+SdkApiVersion = 12
+firstApiVersion = 1
+bootloaderVersion = bootloader
+incrementalVersion = version
+buildType = debug:nolog
+buildUser = jenkins
+buildHost = linux
+buildTime = 1774341016
+AbiList = riscv-liteos
+******To Obtain Product Params End  ******
+
+[09:52:14.665]ÊÕ¡û¡ôMount procfs finished.
+in norflash_init
+flash_probe
+Spi Nor ID:0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+ids probe
+[ERR] flash ftl init err = 0x8000134a 
+Spi Nor Flash Info:
+Name:"spinor0" Spi Nor ID x:0xFFFFFFC8 0x60 0x17 0x00 0x00 0x00 0x00 0x00 
+spinor name:spinor0
+spinor id_len:3.
+spinor blocksize:0x2000.
+spinor chipsize:0x800000.
+spinor numchips:1.
+spinor_register:spinor->dev.chipsize:800000
+norflash_init:0
+OOB:20 Byte, Page:512 Byte, BlockPages:15, Block:8192 Byte, total blocks 128
+
+[09:52:14.832]ÊÕ¡û¡ôdisk_init : register /dev/spinorblk0ftl ok!
+DiskAddPart : register /dev/spinorblk0ftlp0 ok!
+APP|mount success! 
+APP|ftl init success! 
+Start to run test suite:SamgrApiTestSuite
+OHOS [1970-01-01 00:00:00] [ERROR] SAMGR: Service<name:Service_NoTask, flag:255> create taskPool failed!
+
+[09:52:15.835]ÊÕ¡û¡ôRun test suite 1 times
+g_sysRun0: 01: 0default: 03: 04: 05: 0ohos/test/xts/acts/startup_lite/bootstrap_hal/src/samgr_api_test.c:417:TestStartBootstrapSamgr007:PASS
+g_sysExFeatureInit0: 01: 0default: 03: 04: 05: 0g_appFeatureInit0: 01: 0default: 03: 04: 05: 0ohos/test/xts/acts/startup_lite/bootstrap_hal/src/samgr_api_test.c:403:TestStartBootstrapSamgr006:PASS
+g_sysExServiceInit0: 01: 0default: 03: 04: 05: 0g_appServiceInit0: 01: 0default: 03: 04: 05: 0ohos/test/xts/acts/startup_lite/bootstrap_hal/src/samgr_api_test.c:389:TestStartBootstrapSamgr005:PASS
+g_sysFeatureInit0: 01: 0default: 03: 04: 05: 0ohos/test/xts/acts/startup_lite/bootstrap_hal/src/samgr_api_test.c:377:TestStartBootstrapSamgr004:PASS
+g_sysServiceInit0: 01: 0default: 03: 04: 05: 0ohos/test/xts/acts/startup_lite/bootstrap_hal/src/samgr_api_test.c:365:TestStartBootstrapSamgr003:PASS
+g_coreInit0: 01: 0default: 03: 04: 05: 0ohos/test/xts/acts/startup_lite/bootstrap_hal/src/samgr_api_test.c:353:TestStartBootstrapSamgr002:PASS
+[TestStartBootstrapSamgr001:0]ohos/test/xts/acts/startup_lite/bootstrap_hal/src/samgr_api_test.c:342:TestStartBootstrapSamgr001:PASS
++-------------------------------------------+
+
+-----------------------
+7 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:UtilsFileFuncTestSuite
+
+[09:52:16.852]ÊÕ¡û¡ôRun test suite 1 times
+
+[09:52:17.069]ÊÕ¡û¡ôohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:811:testDeleteLongNameFile:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:799:testDeleteNotExistFile:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:784:testFileDelete:PASS
+
+[09:52:17.138]ÊÕ¡û¡ôohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:767:testMoveLongNameFile:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:754:testMoveNotExistFile:PASS
+
+[09:52:17.184]ÊÕ¡û¡ôohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:737:testFileMove:PASS
+
+[09:52:17.436]ÊÕ¡û¡ôohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:719:testCopyLongNameFile:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:706:testCopyNotExistFile:PASS
+
+[09:52:17.480]ÊÕ¡û¡ôohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:688:testFileCopy:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:671:testObtainLongNameFileSize:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:658:testReadNotExistFile:PASS
+
+[09:52:17.678]ÊÕ¡û¡ôohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:639:testFileRead:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:626:testObtainSizeForNotExistFile:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:609:testObtainFileSize:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:597:testFileSeekForNotExistFile:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:577:testFileSeek011:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:558:testFileSeek010:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:539:testFileSeek009:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:520:testFileSeek008:PASS
+
+[09:52:17.886]ÊÕ¡û¡ôohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:501:testFileSeek007:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:483:testFileSeek006:PASS
+
+[09:52:18.000]ÊÕ¡û¡ôohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:465:testFileSeek005:PASS
+
+[09:52:18.094]ÊÕ¡û¡ôohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:447:testFileSeek004:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:429:testFileSeek003:PASS
+
+[09:52:18.207]ÊÕ¡û¡ôohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:411:testFileSeek002:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:393:testFileSeek001:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:378:testCreateInvalidlongNameFile:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:366:testCloseNotExistFile:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:354:testWriteNotExistFile:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:342:testOpenNotExistFile:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:328:testCreateLongNameFile:PASS
+
+[09:52:18.358]ÊÕ¡û¡ôohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:306:testFileWrite002:PASS
+
+[09:52:18.445]ÊÕ¡û¡ôohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:289:testFileWrite001:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:270:testFileCreateAndClose008:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:251:testFileCreateAndClose007:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:232:testFileCreatAndClose006:PASS
+
+[09:52:18.547]ÊÕ¡û¡ôohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:213:testFileCreateAndClose005:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:194:testFileCreateAndClose004:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:177:testFileOpenAndClose005:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:160:testFileOpenAndClose004:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:143:testFileOpenAndClose003:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:126:testFileOpenAndClose002:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:109:testFileOpenAndClose001:PASS
+
+[09:52:18.686]ÊÕ¡û¡ôohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:94:testFileCreateAndClose003:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:79:testFileCreateAndClose002:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_func_test.c:64:testFileCreateAndClose001:PASS
++-------------------------------------------+
+
+-----------------------
+46 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:UtilsFileReliTestSuite
+
+[09:52:19.708]ÊÕ¡û¡ôRun test suite 1 times
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_reli_test.c:362:testEmptyFileOperFlow002:PASS
+ohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_reli_test.c:327:testEmptyFileOperFlow001:PASS
+
+[09:52:19.932]ÊÕ¡û¡ôohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_reli_test.c:284:testFileOperFlow002:PASS
+
+[09:52:20.037]ÊÕ¡û¡ôohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_reli_test.c:247:testFileOperFlow001:PASS
+
+[09:52:21.688]ÊÕ¡û¡ôohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_reli_test.c:199:testMoveFileAfterMaxFilesOpened:PASS
+
+[09:52:23.391]ÊÕ¡û¡ôohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_reli_test.c:151:testCopyFileAfterMaxFilesOpened:PASS
+
+[09:52:24.927]ÊÕ¡û¡ôohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_reli_test.c:112:testDeleteFileAfterMaxFilesOpened:PASS
+
+[09:52:25.648]ÊÕ¡û¡ôohos/test/xts/acts/litewearable/commonlibrary_lite/file_hal/src/utils_file_reli_test.c:67:testCreateFileAfterMaxFilesOpened:PASS
++-------------------------------------------+
+
+-----------------------
+8 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:HieventLiteTestSuite
+
+[09:52:26.650]ÊÕ¡û¡ôRun test suite 1 times
+ohos/test/xts/acts/hiviewdfx_lite/hievent_hal/src/hievent_lite_test.c:123:HieventLiteFuncTest004:PASS
+ohos/test/xts/acts/hiviewdfx_lite/hievent_hal/src/hievent_lite_test.c:101:HieventLiteFuncTest003:PASS
+ohos/test/xts/acts/hiviewdfx_lite/hievent_hal/src/hievent_lite_test.c:83:HieventLiteFuncTest002:PASS
+ohos/test/xts/acts/hiviewdfx_lite/hievent_hal/src/hievent_lite_test.c:69:HieventLiteFuncTest001:PASS
++-------------------------------------------+
+
+-----------------------
+4 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:DfxFuncTestSuite
+
+[09:52:27.660]ÊÕ¡û¡ôRun test suite 1 times
+ohos/test/xts/acts/hiviewdfx_lite/hilog_hal/src/dfx_hilog.c:141:subDfxDftHilog0700:PASS
+ohos/test/xts/acts/hiviewdfx_lite/hilog_hal/src/dfx_hilog.c:126:subDfxDftHilog0600:PASS
+OHOS [1970-01-01 00:00:14] [FATAL] HIVIEW: fatallog test pass
+ohos/test/xts/acts/hiviewdfx_lite/hilog_hal/src/dfx_hilog.c:113:subDfxDftHilog0500:PASS
+OHOS [1970-01-01 00:00:14] [ERROR] HIVIEW: errorlog test pass
+ohos/test/xts/acts/hiviewdfx_lite/hilog_hal/src/dfx_hilog.c:100:subDfxDftHilog0400:PASS
+ohos/test/xts/acts/hiviewdfx_lite/hilog_hal/src/dfx_hilog.c:87:subDfxDftHilog0300:PASS
+ohos/test/xts/acts/hiviewdfx_lite/hilog_hal/src/dfx_hilog.c:74:subDfxDftHilog0200:PASS
+ohos/test/xts/acts/hiviewdfx_lite/hilog_hal/src/dfx_hilog.c:60:subDfxDftHilog0100:PASS
++-------------------------------------------+
+
+-----------------------
+7 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:HksAesTest
+
+[09:52:28.677]ÊÕ¡û¡ôRun test suite 1 times
+setup
+HksInitialize Begin!
+
+[09:52:28.710]ÊÕ¡û¡ôHksInitialize End!
+
+[09:52:32.711]ÊÕ¡û¡ôHksAgreementTestSetUp End2!
+HksAesTest004 Begin!
+[INFO]	[TestAes256ByLocal](527): enter
+[INFO]	[TestAes256ByLocal](585): end
+HksAesTest004 End!
+
+[09:52:36.713]ÊÕ¡û¡ôHksAesTest004 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_aes_test.c:193:HksAesTest004:PASS
+tearDown
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:HksAgreementTest
+
+[09:52:37.716]ÊÕ¡û¡ôRun test suite 1 times
+setup
+HksInitialize Begin!
+HksInitialize End!
+
+[09:52:41.716]ÊÕ¡û¡ôHksAgreementTestSetUp End2!
+HksAgreementTest002 Begin!
+
+[09:52:42.061]ÊÕ¡û¡ôHksAgreementTest002 End!
+
+[09:52:46.061]ÊÕ¡û¡ôHksAgreementTest002 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_agreement_test.c:249:HksAgreementTest002:PASS
+HksAgreementTest001 Begin!
+
+[09:52:46.406]ÊÕ¡û¡ôHksAgreementTest001 End!
+
+[09:52:50.405]ÊÕ¡û¡ôHksAgreementTest001 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_agreement_test.c:226:HksAgreementTest001:PASS
+tearDown
+
+-----------------------
+2 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:HksBnExpModTest
+
+[09:52:51.409]ÊÕ¡û¡ôRun test suite 1 times
+setup
+HksInitialize Begin!
+HksInitialize End!
+
+[09:52:55.408]ÊÕ¡û¡ôHksBnExpModTestSetUp End2!
+
+[09:52:56.408]ÊÕ¡û¡ôohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_bn_exp_mod_test.c:126:HksBnExpModTest001:PASS
+tearDown
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:HksCipherTest
+
+[09:52:57.411]ÊÕ¡û¡ôRun test suite 1 times
+setup
+HksInitialize Begin!
+HksInitialize End!
+
+[09:53:01.411]ÊÕ¡û¡ôHksCipherTestSetUp End2!
+HksCipherTest012 Begin!
+
+[09:53:01.525]ÊÕ¡û¡ôHksCipherTest012 End!
+
+[09:53:05.525]ÊÕ¡û¡ôHksCipherTest012 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_cipher_test.c:380:HksCipherTest012:PASS
+HksCipherTest011 Begin!
+
+[09:53:05.592]ÊÕ¡û¡ôHksCipherTest011 End!
+
+[09:53:09.593]ÊÕ¡û¡ôHksCipherTest011 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_cipher_test.c:363:HksCipherTest011:PASS
+HksCipherTest010 Begin!
+HksCipherTest010 End!
+
+[09:53:13.607]ÊÕ¡û¡ôHksCipherTest010 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_cipher_test.c:346:HksCipherTest010:PASS
+HksCipherTest009 Begin!
+
+[09:53:13.743]ÊÕ¡û¡ôHksCipherTest009 End!
+
+[09:53:17.744]ÊÕ¡û¡ôHksCipherTest009 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_cipher_test.c:329:HksCipherTest009:PASS
+HksCipherTest008 Begin!
+
+[09:53:17.809]ÊÕ¡û¡ôHksCipherTest008 End!
+
+[09:53:21.809]ÊÕ¡û¡ôHksCipherTest008 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_cipher_test.c:312:HksCipherTest008:PASS
+HksCipherTest007 Begin!
+
+[09:53:21.946]ÊÕ¡û¡ôHksCipherTest007 End!
+
+[09:53:25.947]ÊÕ¡û¡ôHksCipherTest007 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_cipher_test.c:295:HksCipherTest007:PASS
+HksCipherTest006 Begin!
+
+[09:53:26.000]ÊÕ¡û¡ôHksCipherTest006 End!
+
+[09:53:30.000]ÊÕ¡û¡ôHksCipherTest006 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_cipher_test.c:278:HksCipherTest006:PASS
+HksCipherTest005 Begin!
+
+[09:53:30.132]ÊÕ¡û¡ôHksCipherTest005 End!
+
+[09:53:34.131]ÊÕ¡û¡ôHksCipherTest005 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_cipher_test.c:261:HksCipherTest005:PASS
+HksCipherTest004 Begin!
+
+[09:53:34.197]ÊÕ¡û¡ôHksCipherTest004 End!
+
+[09:53:38.198]ÊÕ¡û¡ôHksCipherTest004 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_cipher_test.c:244:HksCipherTest004:PASS
+HksCipherTest003 Begin!
+
+[09:53:38.333]ÊÕ¡û¡ôHksCipherTest003 End!
+
+[09:53:42.333]ÊÕ¡û¡ôHksCipherTest003 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_cipher_test.c:227:HksCipherTest003:PASS
+HksCipherTest002 Begin!
+HksCipherTest002 End!
+
+[09:53:46.349]ÊÕ¡û¡ôHksCipherTest002 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_cipher_test.c:209:HksCipherTest002:PASS
+HksCipherTest001 Begin!
+HksCipherTest001 End!
+
+[09:53:50.365]ÊÕ¡û¡ôHksCipherTest001 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_cipher_test.c:190:HksCipherTest001:PASS
+tearDown
+
+-----------------------
+12 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:HksDeleteTest
+
+[09:53:51.369]ÊÕ¡û¡ôRun test suite 1 times
+setup
+HksInitialize Begin!
+HksInitialize End!
+
+[09:53:55.367]ÊÕ¡û¡ôHksDeriveTestSetUp End2!
+HksDeleteTest001 Begin!
+[INFO]	[TestGenerateKeyParamSetPre](132): HksAddParams ret = 0x0
+
+[09:53:55.412]ÊÕ¡û¡ôHksDeleteTest001 End!
+
+[09:53:59.413]ÊÕ¡û¡ôHksDeleteTest001 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_delete_test.c:118:HksDeleteTest001:PASS
+tearDown
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:HksDeriveTest
+
+[09:54:00.416]ÊÕ¡û¡ôRun test suite 1 times
+setup
+HksInitialize Begin!
+HksInitialize End!
+
+[09:54:04.416]ÊÕ¡û¡ôHksDeriveTestSetUp End2!
+HksDeriveTest002 Begin!
+HksDeriveTest002 End!
+
+[09:54:08.421]ÊÕ¡û¡ôHksDeriveTest002 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_derive_test.c:330:HksDeriveTest002:PASS
+HksDeriveTest003 Begin!
+[INFO]	[TestGenerateKeyParamSetPre](132): HksAddParams ret = 0x0
+
+[09:54:08.587]ÊÕ¡û¡ôHksDeriveTest003 End!
+
+[09:54:12.587]ÊÕ¡û¡ôHksDeriveTest001 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_derive_test.c:307:HksDeriveTest003:PASS
+HksDeriveTest001 Begin!
+[INFO]	[TestGenerateKeyParamSetPre](132): HksAddParams ret = 0x0
+
+[09:54:12.701]ÊÕ¡û¡ôHksDeriveTest001 End!
+
+[09:54:16.701]ÊÕ¡û¡ôHksDeriveTest001 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_derive_test.c:286:HksDeriveTest001:PASS
+tearDown
+
+-----------------------
+3 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:HksExistTest
+
+[09:54:17.706]ÊÕ¡û¡ôRun test suite 1 times
+setup
+HksInitialize Begin!
+HksInitialize End!
+HksGenerateKeyTestSetUp End2!
+HksExistTest001 Begin!
+[INFO]	[TestGenerateKeyParamSetPre](132): HksAddParams ret = 0x0
+
+[09:54:17.759]ÊÕ¡û¡ôHksExistTest001 End!
+HksExistTest001 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_exist_test.c:130:HksExistTest001:PASS
+tearDown
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:HksGenerateKeyTest
+
+[09:54:18.767]ÊÕ¡û¡ôRun test suite 1 times
+setup
+HksInitialize Begin!
+HksInitialize End!
+
+[09:54:22.767]ÊÕ¡û¡ôHksGenerateKeyTestSetUp End2!
+HksGenerateKeyTest001 Begin!
+
+[09:54:22.897]ÊÕ¡û¡ôHksGenerateKeyTest001 End!
+
+[09:54:26.896]ÊÕ¡û¡ôHksGenerateKeyTest001 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_generate_key_test.c:163:HksGenerateKeyTest001:PASS
+tearDown
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:HksGenerateRandomTest
+
+[09:54:27.899]ÊÕ¡û¡ôRun test suite 1 times
+setup
+HksInitialize Begin!
+HksInitialize End!
+
+[09:54:31.900]ÊÕ¡û¡ôHksGenerateRandomTestSetUp End2!
+HksGenerateRandomTest001 Begin!
+HksGenerateRandomTest001 End!
+
+[09:54:35.902]ÊÕ¡û¡ôHksGenerateRandomTest001 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_generate_random_test.c:121:HksGenerateRandomTest001:PASS
+tearDown
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:HksHashTest
+
+[09:54:36.907]ÊÕ¡û¡ôRun test suite 1 times
+setup
+HksInitialize Begin!
+HksInitialize End!
+
+[09:54:40.907]ÊÕ¡û¡ôHksMacTestSetUp End2!
+HksMacTest003 Begin!
+HksMacTest003 End!
+
+[09:54:44.908]ÊÕ¡û¡ôHksMacTest001 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_hash_test.c:220:HksHashTest003:PASS
+HksMacTest002 Begin!
+HksMacTest002 End!
+
+[09:54:48.913]ÊÕ¡û¡ôHksMacTest001 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_hash_test.c:199:HksHashTest002:PASS
+HksMacTest001 Begin!
+HksMacTest001 End!
+
+[09:54:52.917]ÊÕ¡û¡ôHksMacTest001 End2!
+ohos/test/xts/acts/security_lite/huk
+[09:54:52.936]ÊÕ¡û¡ôs/liteos_m_adapter/hks_hash_test.c:178:HksHashTest001:PASS
+tearDown
+
+-----------------------
+3 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:HksMacTest
+
+[09:54:53.921]ÊÕ¡û¡ôRun test suite 1 times
+setup
+HksInitialize Begin!
+HksInitialize End!
+
+[09:54:57.921]ÊÕ¡û¡ôHksMacTestSetUp End2!
+HksMacTest002 Begin!
+[INFO]	[TestGenerateKeyParamSetPre](132): HksAddParams ret = 0x0
+
+[09:54:58.047]ÊÕ¡û¡ôprint Hmac: 
+buff[ 0] size[32]: "7C84C0EFBBC8D303AC71D0F5B637E78C9AE0223632076EFEDF8ECCE027650634"
+HksMacTest002 End!
+
+[09:55:02.048]ÊÕ¡û¡ôHksMacTest002 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_mac_test.c:401:HksMacTest002:PASS
+HksMacTest001 Begin!
+HksMacTest001 End!
+
+[09:55:06.055]ÊÕ¡û¡ôHksMacTest001 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_mac_test.c:378:HksMacTest001:PASS
+tearDown
+
+-----------------------
+2 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:HksOthersTest
+
+[09:55:07.059]ÊÕ¡û¡ôRun test suite 1 times
+setup
+HksInitialize Begin!
+HksInitialize End!
+
+[09:55:11.057]ÊÕ¡û¡ôHksOthersTestSetUp End2!
+HksOthersTest008 Begin!
+HksOthersTest008 End!
+
+[09:55:15.056]ÊÕ¡û¡ôHksOthersTest008 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_others_test.c:314:HksOthersTest008:PASS
+HksOthersTest007 Begin!
+HksOthersTest007 End!
+
+[09:55:19.060]ÊÕ¡û¡ôHksOthersTest007 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_others_test.c:292:HksOthersTest007:PASS
+HksOthersTest006 Begin!
+HksOthersTest006 End!
+
+[09:55:23.062]ÊÕ¡û¡ôHksOthersTest006 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_others_test.c:270:HksOthersTest006:PASS
+HksOthersTest005 Begin!
+HksOthersTest005 End!
+
+[09:55:27.066]ÊÕ¡û¡ôHksOthersTest005 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_others_test.c:248:HksOthersTest005:PASS
+HksOthersTest004 Begin!
+HksOthersTest004 End!
+
+[09:55:31.068]ÊÕ¡û¡ôHksOthersTest004 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_others_test.c:226:HksOthersTest004:PASS
+HksOthersTest003 Begin!
+HksOthersTest003 End!
+
+[09:55:35.069]ÊÕ¡û¡ôHksOthersTest003 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_others_test.c:204:HksOthersTest003:PASS
+HksOthersTest002 Begin!
+HksOthersTest002 End!
+
+[09:55:39.071]ÊÕ¡û¡ôHksOthersTest002 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_others_test.c:182:HksOthersTest002:PASS
+HksOthersTest001 Begin!
+HksOthersTest001 End!
+
+[09:55:43.075]ÊÕ¡û¡ôHksOthersTest001 End2!
+ohos/test/xts/acts/security_lite/huks/liteos_m_adapter/hks_others_test.c:160:HksOthersTest001:PASS
+tearDo
+[09:55:43.091]ÊÕ¡û¡ôwn
+
+-----------------------
+8 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:CmsisEventFuncTestSuite
+
+[09:55:44.076]ÊÕ¡û¡ôRun test suite 1 times
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_event_func_test.c:352:testOsEventFlagsClear002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_event_func_test.c:313:testOsEventFlagsClear001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_event_func_test.c:301:testOsEventFlagsGet002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_event_func_test.c:281:testOsEventFlagsGet001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_event_func_test.c:268:testOsEventFlagsWait003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_event_func_test.c:250:testOsEventFlagsWait002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_event_func_test.c:214:testOsEventFlagsWait001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_event_func_test.c:201:testOsEventFlagsSet003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_event_func_test.c:159:testOsEventFlagsSet002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_event_func_test.c:143:testOsEventFlagsSet001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_event_func_test.c:130:testOsEventFlagsDelete002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_event_func_test.c:115:testOsEventFlagsDelete001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_event_func_test.c:103:testOsEventFlagsNew001:PASS
++-------------------------------------------+
+
+-----------------------
+13 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:CmsisMsgFuncTestSuite
+
+[09:55:45.116]ÊÕ¡û¡ôRun test suite 1 times
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_msg_func_test.c:382:testOsMessageQueueGetSpace002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_msg_func_test.c:355:testOsMessageQueueGetSpace001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_msg_func_test.c:343:testOsMessageQueueGetCount002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_msg_func_test.c:316:testOsMessageQueueGetCount001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_msg_func_test.c:304:testOsMessageQueueGetCapacity002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_msg_func_test.c:287:testOsMessageQueueGetCapacity001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_msg_func_test.c:275:testOsMessageQueueGetMsgSize002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_msg_func_test.c:257:testOsMessageQueueGetMsgSize001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_msg_func_test.c:238:testOsMessageQueueGet003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_msg_func_test.c:224:testOsMessageQueueGet002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_msg_func_test.c:196:testOsMessageQueueGet001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_msg_func_test.c:178:testOsMessageQueuePut003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_msg_func_test.c:166:testOsMessageQueuePut002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_msg_func_test.c:148:testOsMessageQueuePut001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_msg_func_test.c:136:testOsMessageQueueDelete002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_msg_func_test.c:122:testOsMessageQueueDelete001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_msg_func_test.c:110:testOsMessageQueueNew003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_msg_func_test.c:98:testOsMessageQueueNew002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_msg_func_test.c:85:testOsMessageQueueNew001:PASS
++-------------------------------------------+
+
+-----------------------
+19 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:CmsisMutexFuncTestSuite
+
+[09:55:46.179]ÊÕ¡û¡ôRun test suite 1 times
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_mutex_func_test.c:268:testOsMutexGetOwner002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_mutex_func_test.c:248:testOsMutexGetOwner001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_mutex_func_test.c:236:testOsMutexRelease002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_mutex_func_test.c:212:testOsMutexRelease001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_mutex_func_test.c:193:testOsMutexAcquire002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_mutex_func_test.c:181:testOsMutexAcquire001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_mutex_func_test.c:169:testOsMutexDelete004:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_mutex_func_test.c:149:testOsMutexDelete003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_mutex_func_test.c:132:testOsMutexDelete002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_mutex_func_test.c:115:testOsMutexDelete001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_mutex_func_test.c:102:testOsMutexNew002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_mutex_func_test.c:89:testOsMutexNew001:PASS
++-------------------------------------------+
+
+-----------------------
+12 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:CmsisSemFuncTestSuite
+
+[09:55:47.223]ÊÕ¡û¡ôRun test suite 1 times
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_sem_func_test.c:408:testOsSemaphoreGetCount004:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_sem_func_test.c:389:testOsSemaphoreGetCount003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_sem_func_test.c:370:testOsSemaphoreGetCount002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_sem_func_test.c:347:testOsSemaphoreGetCount001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_sem_func_test.c:334:testOsSemaphoreRelease004:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_sem_func_test.c:308:testOsSemaphoreRelease003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_sem_func_test.c:288:testOsSemaphoreRelease002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_sem_func_test.c:267:testOsSemaphoreRelease001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_sem_func_test.c:254:testOsSemaphoreAcquire004:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_sem_func_test.c:242:testOsSemaphoreAcquire003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_sem_func_test.c:225:testOsSemaphoreAcquire002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_sem_func_test.c:208:testOsSemaphoreAcquire001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_sem_func_test.c:195:testOsSemaphoreDelete003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_sem_func_test.c:177:testOsSemaphoreDelete002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_sem_func_test.c:162:testOsSemaphoreDelete001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_sem_func_test.c:151:testOsSemaphoreNew008:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_sem_func_test.c:138:testOsSemaphoreNew007:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_sem_func_test.c:125:testOsSemaphoreNew006:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_sem_func_test.c:112:testOsSemaphoreNew005:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_sem_func_test.c:99:testOsSemaphoreNew004:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_sem_func_test.c:88:testOsSemaphoreNew003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_sem_func_test.c:75:testOsSemaphoreNew002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_sem_func_test.c:62:testOsSemaphoreNew001:PASS
++-------------------------------------------+
+
+-----------------------
+23 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:CmsisTaskFuncTestSuite
+
+[09:55:48.310]ÊÕ¡û¡ôRun test suite 1 times
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:3371:testOsKernelRestoreLock003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:3355:testOsKernelRestoreLock002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:3340:testOsKernelRestoreLock001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:3324:testOsKernelUnLock003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:3309:testOsKernelUnLock002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:3297:testOsKernelUnLock001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:3268:testOsKernelLock002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:3252:testOsKernelLock001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:3238:testOsKernelGetState002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:3226:testOsKernelGetState001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:3212:testOsKernelGetInfo001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:3182:testOsThreadTerminate009:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:3159:testOsThreadTerminate008:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:3136:testOsThreadTerminate007:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:3112:testOsThreadTerminate006:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:3088:testOsThreadTerminate005:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:3064:testOsThreadTerminate004:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:3040:testOsThreadTerminate003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:3028:testOsThreadTerminate002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:3008:testOsThreadResume003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2995:testOsThreadResume002:PASS
+>> in CmsisThreadGetStackSpaceFunc001
+WaitThreadExit id = 1610722768, uwRet = -3
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2963:testOsThreadGetStackSpace010:PASS
+>> in CmsisThreadGetStackSpaceFunc001
+WaitThreadExit id = 1610722768, uwRet = -3
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2939:testOsThreadGetStackSpace009:PASS
+>> in CmsisThreadGetStackSpaceFunc001
+WaitThreadExit id = 1610722768, uwRet = -3
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2915:testOsThreadGetStackSpace008:PASS
+>> in CmsisThreadGetStackSpaceFunc001
+WaitThreadExit id = 1610722768, uwRet = -3
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2891:testOsThreadGetStackSpace007:PASS
+>> in CmsisThreadGetStackSpaceFunc001
+WaitThreadExit id = 1610722768, uwRet = -3
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2867:testOsThreadGetStackSpace006:PASS
+>> in CmsisThreadGetStackSpaceFunc001
+WaitThreadExit id = 1610722768, uwRet = -3
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2843:testOsThreadGetStackSpace005:PASS
+>> in CmsisThreadGetStackSpaceFunc001
+WaitThreadExit id = 1610722768, uwRet = -3
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2819:testOsThreadGetStackSpace004:PASS
+>> in CmsisThreadGetStackSpaceFunc001
+WaitThreadExit id = 1610722768, uwRet = -3
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2788:testOsThreadGetStackSpace003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2776:testOsThreadGetStackSpace002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2763:testOsThreadGetStackSize010:PASS
+>> in CmsisThreadGetStackSizeFunc001
+WaitThreadExit id = 1610722768, uwRet = -3
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2740:testOsThreadGetStackSize009:PASS
+>> in CmsisThreadGetStackSizeFunc001
+WaitThreadExit id = 1610722664, uwRet = -3
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2717:testOsThreadGetStackSize008:PASS
+>> in CmsisThreadGetStackSizeFunc001
+WaitThreadExit id = 1610722352, uwRet = 0
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2694:testOsThreadGetStackSize007:PASS
+>> in CmsisThreadGetStackSizeFunc001
+WaitThreadExit id = 1610722456, uwRet = 0
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2671:testOsThreadGetStackSize006:PASS
+>> in CmsisThreadGetStackSizeFunc001
+WaitThreadExit id = 1610722560, uwRet = 0
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2648:testOsThreadGetStackSize005:PASS
+>> in CmsisThreadGetStackSizeFunc001
+WaitThreadExit id = 1610722872, uwRet = 0
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2625:testOsThreadGetStackSize004:PASS
+>> in CmsisThreadGetStackSizeFunc001
+WaitThreadExit id = 1610722976, uwRet = 0
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2595:testOsThreadGetStackSize003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2583:testOsThreadGetStackSize002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2549:testOsThreadSuspend009:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2522:testOsThreadSuspend008:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2495:testOsThreadSuspend007:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2467:testOsThreadSuspend006:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2439:testOsThreadSuspend005:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2411:testOsThreadSuspend004:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2383:testOsThreadSuspend003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2371:testOsThreadSuspend002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2358:testOsThreadGetState010:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2328:testOsThreadGetState009:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2304:testOsThreadGetState008:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2280:testOsThreadGetState007:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2256:testOsThreadGetState006:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2232:testOsThreadGetState005:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2208:testOsThreadGetState004:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2178:testOsThreadGetState003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2166:testOsThreadGetState002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2153:testOsThreadGetName010:PASS
+>> in CmsisThreadGetNameFunc001
+WaitThreadExit id = 1610723288, uwRet = -3
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2123:testOsThreadGetName009:PASS
+>> in CmsisThreadGetNameFunc001
+WaitThreadExit id = 1610723392, uwRet = -3
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2100:testOsThreadGetName008:PASS
+>> in CmsisThreadGetNameFunc001
+WaitThreadExit id = 1610723184, uwRet = -3
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2077:testOsThreadGetName007:PASS
+>> in CmsisThreadGetNameFunc001
+WaitThreadExit id = 1610723080, uwRet = -3
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2053:testOsThreadGetName006:PASS
+>> in CmsisThreadGetNameFunc001
+WaitThreadExit id = 1610723080, uwRet = -3
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2029:testOsThreadGetName005:PASS
+>> in CmsisThreadGetNameFunc001
+WaitThreadExit id = 1610723080, uwRet = -3
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:2005:testOsThreadGetName004:PASS
+>> in CmsisThreadGetNameFunc001
+WaitThreadExit id = 1610723080, uwRet = -3
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1974:testOsThreadGetName003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1962:testOsThreadGetName002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1933:testOsThreadGetCount010:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1911:testOsThreadGetCount009:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1889:testOsThreadGetCount008:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1866:testOsThreadGetCount007:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1843:testOsThreadGetCount006:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1820:testOsThreadGetCount005:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1797:testOsThreadGetCount004:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1767:testOsThreadGetCount003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1755:testOsThreadGetCount002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1735:testOsThreadGetCount001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1704:testOsThreadTerminate001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1681:testOsThreadResume001:PASS
+>> in CmsisThreadCreatFunc
+WaitThreadExit id = 1610723080, uwRet = 0
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1661:testOsThreadYield009:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1630:testOsThreadYield008:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1606:testOsThreadYield007:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1582:testOsThreadYield006:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1557:testOsThreadYield005:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1532:testOsThreadYield004:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1507:testOsThreadYield003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1482:testOsThreadYield002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1450:testOsThreadYield001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1436:testOsThreadGetStackSpace001:PASS
+>> in CmsisThreadGetStackSizeFunc001
+WaitThreadExit id = 1610722768, uwRet = -3
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1404:testOsThreadGetStackSize001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1393:testOsThreadGetId010:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1364:testOsThreadGetId009:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1341:testOsThreadGetId008:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1318:testOsThreadGetId007:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1294:testOsThreadGetId006:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1270:testOsThreadGetId005:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1246:testOsThreadGetId004:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1222:testOsThreadGetId003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1192:testOsThreadGetId002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1180:testOsThreadGetId001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1145:testOsThreadSuspend001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1123:testOsThreadGetState001:PASS
+>> in CmsisThreadGetNameFunc001
+WaitThreadExit id = 1610722560, uwRet = -3
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1098:testOsThreadGetName001:PASS
+>> in CmsisThreadCreatFunc
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1077:testOsThreadNew026:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1055:testOsThreadNew025:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1033:testOsThreadNew024:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:1011:testOsThreadNew023:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:989:testOsThreadNew022:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:967:testOsThreadNew021:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:945:testOsThreadNew020:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:924:testOsThreadNew019:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:896:testOsThreadNew018:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:868:testOsThreadNew017:PASS
+>> in CmsisThreadCreatFunc
+WaitThreadExit id = 1610722560, uwRet = -3
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:838:testOsThreadNew016:PASS
+>> in CmsisThreadCreatFunc
+WaitThreadExit id = 1610722664, uwRet = -3
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:815:testOsThreadNew015:PASS
+>> in CmsisThreadCreatFunc
+WaitThreadExit id = 1610722352, uwRet = -3
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:792:testOsThreadNew014:PASS
+>> in CmsisThreadCreatFunc
+WaitThreadExit id = 1610723496, uwRet = 0
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:769:testOsThreadNew013:PASS
+>> in CmsisThreadCreatFunc
+WaitThreadExit id = 1610722768, uwRet = 0
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:746:testOsThreadNew012:PASS
+>> in CmsisThreadCreatFunc
+WaitThreadExit id = 1610722456, uwRet = 0
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:723:testOsThreadNew011:PASS
+>> in CmsisThreadCreatFunc
+WaitThreadExit id = 1610722976, uwRet = 0
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:700:testOsThreadNew010:PASS
+>> in CmsisThreadCreatFunc
+WaitThreadExit id = 1610722872, uwRet = 0
+WaitThreadExit exit
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:670:testOsThreadNew009:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:642:testOsThreadNew008:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:621:testOsThreadNew007:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:600:testOsThreadNew006:PASS
+return ran:10, tickB:215863, tickA:215853	
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:570:testOsThreadNew005:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:547:testOsThreadNew004:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:512:testOsThreadNew003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:482:testOsThreadNew002:PASS
+>> in CmsisThreadCreatFunc
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_func_test.c:447:testOsThreadNew001:PASS
++-------------------------------------------+
+
+-----------------------
+127 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:CmsisTaskPriFuncTestSuite
+
+[09:55:49.889]ÊÕ¡û¡ôRun test suite 1 times
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1956:testOsDelayUntil003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1944:testOsDelayUntil002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1928:testOsDelayUntil001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1908:testOsDelay002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1895:testOsDelay001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1865:testOsThreadSetPriority059:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1836:testOsThreadSetPriority058:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1807:testOsThreadSetPriority057:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1778:testOsThreadSetPriority056:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1749:testOsThreadSetPriority055:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1720:testOsThreadSetPriority054:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1690:testOsThreadSetPriority053:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1660:testOsThreadSetPriority052:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1630:testOsThreadSetPriority051:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1601:testOsThreadSetPriority050:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1572:testOsThreadSetPriority049:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1543:testOsThreadSetPriority048:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1514:testOsThreadSetPriority047:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1485:testOsThreadSetPriority046:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1456:testOsThreadSetPriority045:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1426:testOsThreadSetPriority044:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1396:testOsThreadSetPriority043:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1367:testOsThreadSetPriority042:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1338:testOsThreadSetPriority041:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1316:testOsThreadSetPriority040:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1294:testOsThreadSetPriority039:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1272:testOsThreadSetPriority038:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1250:testOsThreadSetPriority037:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1228:testOsThreadSetPriority036:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1206:testOsThreadSetPriority035:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1177:testOsThreadSetPriority034:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1148:testOsThreadSetPriority033:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1119:testOsThreadSetPriority032:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1097:testOsThreadSetPriority031:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1075:testOsThreadSetPriority030:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1053:testOsThreadSetPriority029:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1031:testOsThreadSetPriority028:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:1009:testOsThreadSetPriority027:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:987:testOsThreadSetPriority026:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:958:testOsThreadSetPriority025:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:929:testOsThreadSetPriority024:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:907:testOsThreadSetPriority023:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:885:testOsThreadSetPriority022:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:856:testOsThreadSetPriority021:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:827:testOsThreadSetPriority020:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:798:testOsThreadSetPriority019:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:769:testOsThreadSetPriority018:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:740:testOsThreadSetPriority017:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:711:testOsThreadSetPriority016:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:681:testOsThreadSetPriority015:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:651:testOsThreadSetPriority014:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:621:testOsThreadSetPriority013:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:592:testOsThreadSetPriority012:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:563:testOsThreadSetPriority011:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:534:testOsThreadSetPriority010:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:505:testOsThreadSetPriority009:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:476:testOsThreadSetPriority008:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:447:testOsThreadSetPriority007:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:417:testOsThreadSetPriority006:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:387:testOsThreadSetPriority005:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:358:testOsThreadSetPriority004:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:329:testOsThreadSetPriority003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:316:testOsThreadSetPriority002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:304:testOsThreadSetPriority001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:276:testOsThreadGetPriority010:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:255:testOsThreadGetPriority009:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:234:testOsThreadGetPriority008:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:212:testOsThreadGetPriority007:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:190:testOsThreadGetPriority006:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:168:testOsThreadGetPriority005:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:146:testOsThreadGetPriority004:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:133:testOsThreadGetPriority003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:121:testOsThreadGetPriority002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_task_pri_func_test.c:92:testOsThreadGetPriority001:PASS
++-------------------------------------------+
+
+-----------------------
+74 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:CmsisTimerFuncTestSuite
+
+[09:55:51.371]ÊÕ¡û¡ôRun test suite 1 times
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:650:testOsKernelGetSysTimerCount001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:638:testOsKernelGetSysTimerFreq001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:626:testOsKernelGetTickFreq001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:614:testOsTimerIsRunning009:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:594:testOsTimerIsRunning008:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:572:testOsTimerIsRunning007:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:552:testOsTimerIsRunning006:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:534:testOsTimerIsRunning005:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:514:testOsTimerIsRunning004:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:492:testOsTimerIsRunning003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:472:testOsTimerIsRunning002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:454:testOsTimerIsRunning001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:442:testOsTimerStop005:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:423:testOsTimerStop004:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:404:testOsTimerStop003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:383:testOsTimerStop002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:362:testOsTimerStop001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:350:testOsTimerDelete005:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:330:testOsTimerDelete004:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:310:testOsTimerDelete003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:292:testOsTimerDelete002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:274:testOsTimerDelete001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:261:testOsTimerStart007:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:244:testOsTimerStart006:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:227:testOsTimerStart005:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:205:testOsTimerStart004:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:183:testOsTimerStart003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:165:testOsTimerStart002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:147:testOsTimerStart001:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:133:testOsTimerNew005:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:119:testOsTimerNew004:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:105:testOsTimerNew003:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:90:testOsTimerNew002:PASS
+ohos/test/xts/acts/kernel_lite/kernelcmsis_hal/src/cmsis_timer_func_test.c:75:testOsTimerNew001:PASS
++-------------------------------------------+
+
+-----------------------
+34 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:KvStoreFuncTestSuite
+
+[09:55:52.505]ÊÕ¡û¡ôRun test suite 1 times
+
+[09:55:59.256]ÊÕ¡û¡ôohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:793:testKvStoreMaxSize004:PASS
+
+[09:56:02.632]ÊÕ¡û¡ôohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:765:testKvStoreMaxSize003:PASS
+
+[09:56:05.799]ÊÕ¡û¡ôohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:737:testKvStoreMaxSize002:PASS
+
+[09:56:08.973]ÊÕ¡û¡ôohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:709:testKvStoreMaxSize001:PASS
+
+[09:56:09.657]ÊÕ¡û¡ôohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:681:testKvStoreCacheSize003:PASS
+
+[09:56:10.260]ÊÕ¡û¡ôohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:653:testKvStoreCacheSize002:PASS
+
+[09:56:10.838]ÊÕ¡û¡ôohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:625:testKvStoreCacheSize001:PASS
+
+[09:56:10.950]ÊÕ¡û¡ôohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:590:testKvStoreClearCache002:PASS
+
+[09:56:11.046]ÊÕ¡û¡ôohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:561:testKvStoreClearCache001:PASS
+ohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:548:testKvStoreDeleteValue:PASS
+
+[09:56:11.077]ÊÕ¡û¡ôohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:524:testKvStoreGetValue005:PASS
+ohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:511:testKvStoreGetValue004:PASS
+
+[09:56:11.186]ÊÕ¡û¡ôohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:481:testKvStoreGetValue003:PASS
+
+[09:56:11.274]ÊÕ¡û¡ôohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:457:testKvStoreGetValue002:PASS
+ohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:433:testKvStoreGetValue001:PASS
+
+[09:56:11.392]ÊÕ¡û¡ôohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:417:testKvStoreSetValue017:PASS
+ohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:404:testKvStoreSetValue016:PASS
+ohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:388:testKvStoreSetValue015:PASS
+ohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:374:testKvStoreSetValue014:PASS
+ohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:360:testKvStoreSetValue013:PASS
+ohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:346:testKvStoreSetValue012:PASS
+
+[09:56:11.524]ÊÕ¡û¡ôohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:329:testKvStoreSetValue011:PASS
+ohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:316:testKvStoreSetValue010:PASS
+ohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:303:testKvStoreSetValue009:PASS
+ohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:290:testKvStoreSetValue008:PASS
+ohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:277:testKvStoreSetValue007:PASS
+ohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:264:testKvStoreSetValue006:PASS
+ohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:251:testKvStoreSetValue005:PASS
+ohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:235:testKvStoreSetValue004:PASS
+
+[09:56:11.655]ÊÕ¡û¡ôohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:219:testKvStoreSetValue003:PASS
+
+[09:56:11.752]ÊÕ¡û¡ôohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:203:testKvStoreSetValue002:PASS
+
+[09:56:11.780]ÊÕ¡û¡ôohos/test/xts/acts/distributeddatamgr_lite/kv_store_hal/src/kvstore_func_test.c:187:testKvStoreSetValue001:PASS
++-------------------------------------------+
+
+-----------------------
+32 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:IotFlashTestSuite
+
+[09:56:12.787]ÊÕ¡û¡ôRun test suite 1 times
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_flash_test.c:106:testIotFlash005:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_flash_test.c:96:testIotFlash004:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_flash_test.c:86:testIotFlash003:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_flash_test.c:75:testIotFlash002:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_flash_test.c:65:testIotFlash001:PASS
++-------------------------------------------+
+
+-----------------------
+5 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:IotGpioTestSuite
+
+[09:56:13.797]ÊÕ¡û¡ôRun test suite 1 times
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_gpio_test.c:174:testIoTGpio011:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_gpio_test.c:164:testIoTGpio010:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_gpio_test.c:154:testIoTGpio09:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_gpio_test.c:144:testIoTGpio008:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_gpio_test.c:130:testIoTGpio007:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_gpio_test.c:108:testIoTGpio006:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_gpio_test.c:97:testIoTGpio005:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_gpio_test.c:87:testIoTGpio004:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_gpio_test.c:76:testIoTGpio003:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_gpio_test.c:65:testIoTGpio002:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_gpio_test.c:55:testIoTGpio001:PASS
++-------------------------------------------+
+
+-----------------------
+11 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:IotI2cTestSuite
+
+[09:56:14.823]ÊÕ¡û¡ôRun test suite 1 times
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_i2c_test.c:122:testIotI2C005:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_i2c_test.c:111:testIotI2C004:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_i2c_test.c:95:testIotI2C003:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_i2c_test.c:77:testIotI2C002:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_i2c_test.c:66:testIotI2C001:PASS
++-------------------------------------------+
+
+-----------------------
+5 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:IotPwmTestSuite
+
+[09:56:15.837]ÊÕ¡û¡ôRun test suite 1 times
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_pwm_test.c:92:testIotPwm004:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_pwm_test.c:81:testIotPwm003:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_pwm_test.c:67:testIotPwm002:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_pwm_test.c:56:testIotPwm001:PASS
++-------------------------------------------+
+
+-----------------------
+4 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:IotUartTestSuite
+
+[09:56:16.845]ÊÕ¡û¡ôRun test suite 1 times
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_uart_test.c:107:testIotUart005:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_uart_test.c:97:testIotUart004:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_uart_test.c:86:testIotUart003:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_uart_test.c:75:testIotUart002:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_uart_test.c:56:testIotUart001:PASS
++-------------------------------------------+
+
+-----------------------
+5 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:IotWatchDogTestSuite
+
+[09:56:17.857]ÊÕ¡û¡ôRun test suite 1 times
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_watchdog_test.c:74:testIotWatchDog003:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_watchdog_test.c:64:testIotWatchDog002:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/iot_watchdog_test.c:54:testIotWatchDog001:PASS
++-------------------------------------------+
+
+-----------------------
+3 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:IotLowPowerTestSuite
+
+[09:56:18.864]ÊÕ¡û¡ôRun test suite 1 times
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/lowpower_test.c:65:testIotLowPower002:PASS
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/lowpower_test.c:55:testIotLowPower001:PASS
++-------------------------------------------+
+
+-----------------------
+2 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:IotResetTestSuite
+
+[09:56:19.868]ÊÕ¡û¡ôRun test suite 1 times
+ohos/test/xts/acts/iothardware_lite/peripheral_hal/src/reset_test.c:54:testIotReset001:PASS
++-------------------------------------------+
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:DeviceInfoFuncTestSuite
+
+[09:56:20.874]ÊÕ¡û¡ôRun test suite 1 times
+Hardware Profile=aout:true
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:783:testGetHardwareProfileFun001:PASS
+Build Root Hash=default
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:769:testGetBuildRootHashFun001:PASS
+Software Model=1.0.0
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:751:testGetSoftwareModelFun002:PASS
+Software Model=1.0.0
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:736:testGetSoftwareModelFun001:PASS
+Build Time=1774341016
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:718:testGetBuildTimeFun002:PASS
+Build Time=1774341016
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:703:testGetBuildTimeFun001:PASS
+Build Host=linux
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:685:testGetBuildHostFun002:PASS
+Build Host=linux
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:670:testGetBuildHostFun001:PASS
+Build User=jenkins
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:652:testGetBuildUserFun002:PASS
+Build User=jenkins
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:637:testGetBuildUserFun001:PASS
+Build Type=debug:nolog
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:619:testGetBuildTypeFun002:PASS
+Build Type=debug:nolog
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:604:testGetBuildTypeFun001:PASS
+Version Id=Microphone/Zhiying Technology/SYNCO/G Series/OpenHarmony-5.1.0.0/G4 Pro/1.0.0/12/version/debug:nolog
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:586:testGetVersionIdFun002:PASS
+Version Id=Microphone/Zhiying Technology/SYNCO/G Series/OpenHarmony-5.1.0.0/G4 Pro/1.0.0/12/version/debug:nolog
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:571:testGetVersionIdFun001:PASS
+Incremental Version=version
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:557:testGetIncrementalVersionFun001:PASS
+First Api Level=1
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:543:testGetFirstApiVersionFun001:PASS
+Sdk Api Level=12
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:529:testGetSdkApiVersionFun001:PASS
+Abi List=riscv-liteos
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:511:testGetAbiListFun002:PASS
+Abi List=riscv-liteos
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:496:testGetAbiListFun001:PASS
+Secure Patch Level=2025/06/17
+2025/06/17
+str=2025/06/17
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:461:testGetSecurityPatchTagFun003:PASS
+Secure Patch Level=2025/06/17
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:442:testGetSecurityPatchTagFun002:PASS
+Secure Patch Level=2025/06/17
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:427:testGetSecurityPatchTagFun001:PASS
+Bootloader Version=bootloader
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:409:testGetBootloaderVersionFun002:PASS
+Bootloader Version=bootloader
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:394:testGetBootloaderVersionFun001:PASS
+Display Version=1.0.0
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:376:testGetDisplayVersionFun002:PASS
+Display Version=1.0.0
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:361:testGetDisplayVersionFun001:PASS
+Os Name=OpenHarmony-5.1.0.0
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:343:testGetOSFullNameFun002:PASS
+Os Name=OpenHarmony-5.1.0.0
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:328:testGetOSFullNameFun001:PASS
+Serial=00179387
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:310:testGetSerialFun002:PASS
+Serial=00179387
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:295:testGetSerialFun001:PASS
+Hardware Model=1.0
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:277:testGetHardwareModel002:PASS
+Hardware Model=1.0
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:262:testGetHardwareModel001:PASS
+Product Model=G4 Pro
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:244:testGetProductModelFun002:PASS
+Product Model=G4 Pro
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:229:testGetProductModelFun001:PASS
+Product Series=G Series
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:211:testGetProductSeriesFun002:PASS
+Product Series=G Series
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:196:testGetProductSeriesFun001:PASS
+Market Name=SYNCO Wireless Microphone
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:178:testGetMarketNameFun002:PASS
+Market Name=SYNCO Wireless Microphone
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:163:testGetMarketNameFun001:PASS
+Brand=SYNCO
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:145:testGetBrandFun002:PASS
+Brand=SYNCO
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:130:testGetBrandFun001:PASS
+Manufacture=Zhiying Technology
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:112:testGetManufactureFun002:PASS
+Manufacture=Zhiying Technology
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:97:testGetManufactureFun001:PASS
+Device Type=Microphone
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:79:testGetDeviceTypeFun002:PASS
+Device Type=Microphone
+ohos/test/xts/acts/startup_lite/syspara_hal/src/deviceinfo_func_test.c:64:testGetDeviceTypeFun001:PASS
++--------------------------------------------+
+
+-----------------------
+44 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:ParameterFuncTestSuite
+
+[09:56:21.984]ÊÕ¡û¡ôRun test suite 1 times
+
+[09:56:22.084]ÊÕ¡û¡ôohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:694:testGetParameter020:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:675:testGetParameter019:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:657:testGetParameter018:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:639:testGetParameter017:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:620:testGetParameter016:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:602:testGetParameter015:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:585:testGetParameter014:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:567:testGetParameter013:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:548:testGetParameter012:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:532:testGetParameter011:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:515:testGetParameter010:PASS
+
+[09:56:22.213]ÊÕ¡û¡ôohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:495:testGetParameter009:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:474:testGetParameter008:PASS
+
+[09:56:22.327]ÊÕ¡û¡ôohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:445:testGetParameter007:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:427:testGetParameter006:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:408:testGetParameter005:PASS
+
+[09:56:22.435]ÊÕ¡û¡ôohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:388:testGetParameter004:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:369:testGetParameter003:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:349:testGetParameter002:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:330:testGetParameter001:PASS
+
+[09:56:22.559]ÊÕ¡û¡ôohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:314:testSetParameter013:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:284:testSetParameter012:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:265:testSetParameter011:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:246:testSetParameter010:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:228:testSetParameter009:PASS
+
+[09:56:22.648]ÊÕ¡û¡ôohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:203:testSetParameter008:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:179:testSetParameter007:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:155:testSetParameter006:PASS
+
+[09:56:22.684]ÊÕ¡û¡ôohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:131:testSetParameter005:PASS
+
+[09:56:22.762]ÊÕ¡û¡ôohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:114:testSetParameter004:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:98:testSetParameter003:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:81:testSetParameter002:PASS
+
+[09:56:22.866]ÊÕ¡û¡ôohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_func_test.c:65:testSetParameter001:PASS
++-------------------------------------------+
+
+-----------------------
+33 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:ParameterReliTestSuite
+
+[09:56:23.870]ÊÕ¡û¡ôRun test suite 1 times
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_reli_test.c:454:testObtainSysParaReli024:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_reli_test.c:437:testObtainSysParaReli023:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_reli_test.c:420:testObtainSysParaReli022:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_reli_test.c:403:testObtainSysParaReli021:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_reli_test.c:386:testObtainSysParaReli020:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_reli_test.c:369:testObtainSysParaReli019:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_reli_test.c:352:testObtainSysParaReli018:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_reli_test.c:335:testObtainSysParaReli017:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_reli_test.c:318:testObtainSysParaReli016:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_reli_test.c:300:testObtainSysParaReli015:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_reli_test.c:283:testObtainSysParaReli014:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_reli_test.c:266:testObtainSysParaReli013:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_reli_test.c:249:testObtainSysParaReli012:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_reli_test.c:232:testObtainSysParaReli011:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_reli_test.c:215:testObtainSysParaReli010:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_reli_test.c:195:testObtainSysParaReli009:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_reli_test.c:178:testObtainSysParaReli008:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_reli_test.c:161:testObtainSysParaReli007:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_reli_test.c:144:testObtainSysParaReli006:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_reli_test.c:127:testObtainSysParaReli005:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_reli_test.c:110:testObtainSysParaReli004:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_reli_test.c:93:testObtainSysParaReli003:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_reli_test.c:76:testObtainSysParaReli002:PASS
+ohos/test/xts/acts/startup_lite/syspara_hal/src/parameter_reli_test.c:59:testObtainSysParaReli001:PASS
++-------------------------------------------+
+
+-----------------------
+24 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:Broadcast02TestSuite
+
+[09:56:24.941]ÊÕ¡û¡ôRun test suite 1 times
+
+[09:56:27.856]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/broadcast_publish_func_test.c:318:testPublish0070:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/broadcast_publish_func_test.c:287:testPublish0060:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/broadcast_publish_func_test.c:257:testPublish0050:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/broadcast_publish_func_test.c:226:testPublish0040:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/broadcast_publish_func_test.c:192:testPublish0030:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/broadcast_publish_func_test.c:160:testPublish0020:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/broadcast_publish_func_test.c:129:testPublish0010:PASS
+
+-----------------------
+7 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:Broadcast01TestSuite
+
+[09:56:28.881]ÊÕ¡û¡ôRun test suite 1 times
+
+[09:56:29.080]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/broadcast_subscribe_func_test.c:502:testModifyConsumer0050:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/broadcast_subscribe_func_test.c:471:testModifyConsumer0040:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/broadcast_subscribe_func_test.c:440:testModifyConsumer0030:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/broadcast_subscribe_func_test.c:404:testModifyConsumer0020:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/broadcast_subscribe_func_test.c:374:testModifyConsumer0010:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/broadcast_subscribe_func_test.c:345:testUnsubscribe0030:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/broadcast_subscribe_func_test.c:314:testUnsubscribe0020:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/broadcast_subscribe_func_test.c:286:testUnsubscribe0010:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/broadcast_subscribe_func_test.c:258:testSubscribe0040:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/broadcast_subscribe_func_test.c:231:testSubscribe0030:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/broadcast_subscribe_func_test.c:206:testSubscribe0020:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/broadcast_subscribe_func_test.c:179:testSubscribe0010:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/broadcast_subscribe_func_test.c:151:testAddTopic0020:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/broadcast_subscribe_func_test.c:128:testAddTopic0010:PASS
+
+-----------------------
+14 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:CommonTestSuite
+
+[09:56:30.128]ÊÕ¡û¡ôRun test suite 1 times
+
+[09:56:30.330]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/common_func_test.c:348:testCommon0090:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/common_func_test.c:325:testCommon0080:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/common_func_test.c:308:testCommon0070:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/common_func_test.c:289:testCommon0060:PASS
+[hctest]test start 
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/common_func_test.c:232:testCommon0050:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/common_func_test.c:184:testCommon0040:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/common_func_test.c:131:testCommon0030:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/common_func_test.c:97:testCommon0020:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/common_func_test.c:65:testCommon0010:PASS
+
+-----------------------
+9 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:DefaultFeatureApiTestSuite
+
+[09:56:31.358]ÊÕ¡û¡ôRun test suite 1 times
+
+[09:56:33.178]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/defaultfeatureapi_func_test.c:257:testUnregisterDefaultFeatureApi0040:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/defaultfeatureapi_func_test.c:246:testUnregisterDefaultFeatureApi0030:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/defaultfeatureapi_func_test.c:228:testUnregisterDefaultFeatureApi0020:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/defaultfeatureapi_func_test.c:215:testUnregisterDefaultFeatureApi0010:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/defaultfeatureapi_func_test.c:199:testGetDefaultFeatureApi0040:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/defaultfeatureapi_func_test.c:184:testGetDefaultFeatureApi0030:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/defaultfeatureapi_func_test.c:169:testGetDefaultFeatureApi0020:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/defaultfeatureapi_func_test.c:154:testGetDefaultFeatureApi0010:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/defaultfeatureapi_func_test.c:140:testRegisterDefaultFeatureApi0050:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/defaultfeatureapi_func_test.c:129:testRegisterDefaultFeatureApi0040:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/defaultfeatureapi_func_test.c:118:testRegisterDefaultFeatureApi0030:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/defaultfeatureapi_func_test.c:107:testRegisterDefaultFeatureApi0020:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/defaultfeatureapi_func_test.c:94:testRegisterDefaultFeatureApi0010:PASS
+
+-----------------------
+13 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:FeatureTestSuite
+
+[09:56:34.227]ÊÕ¡û¡ôRun test suite 1 times
+
+[09:56:35.409]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/feature_func_test.c:327:testUnregisterFeature0070:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/feature_func_test.c:310:testUnregisterFeature0060:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/feature_func_test.c:295:testUnregisterFeature0050:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/feature_func_test.c:280:testUnregisterFeature0040:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/feature_func_test.c:262:testUnregisterFeature0030:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/feature_func_test.c:244:testUnregisterFeature0020:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/feature_func_test.c:231:testUnregisterFeature0010:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/feature_func_test.c:215:testRegisterFeature0060:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/feature_func_test.c:200:testRegisterFeature0050:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/feature_func_test.c:189:testRegisterFeature0040:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/feature_func_test.c:178:testRegisterFeature0030:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/feature_func_test.c:167:testRegisterFeature0020:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/feature_func_test.c:154:testRegisterFeature0010:PASS
+
+-----------------------
+13 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:FeatureApiTestSuite
+
+[09:56:36.455]ÊÕ¡û¡ôRun test suite 1 times
+
+[09:56:41.318]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/featureapi_func_test.c:492:testUnregisterFeatureApi0060:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/featureapi_func_test.c:473:testUnregisterFeatureApi0050:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/featureapi_func_test.c:454:testUnregisterFeatureApi0040:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/featureapi_func_test.c:435:testUnregisterFeatureApi0030:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/featureapi_func_test.c:414:testUnregisterFeatureApi0020:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/featureapi_func_test.c:396:testUnregisterFeatureApi0010:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/featureapi_func_test.c:376:testGetFeatureApi0060:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/featureapi_func_test.c:359:testGetFeatureApi0050:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/featureapi_func_test.c:340:testGetFeatureApi0040:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/featureapi_func_test.c:319:testGetFeatureApi0030:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/featureapi_func_test.c:298:testGetFeatureApi0020:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/featureapi_func_test.c:279:testGetFeatureApi0010:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/featureapi_func_test.c:259:testRegisterFeatureApi0080:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/featureapi_func_test.c:242:testRegisterFeatureApi0070:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/featureapi_func_test.c:225:testRegisterFeatureApi0060:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/featureapi_func_test.c:204:testRegisterFeatureApi0050:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/featureapi_func_test.c:187:testRegisterFeatureApi0040:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/featureapi_func_test.c:170:testRegisterFeatureApi0030:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/featureapi_func_test.c:150:testRegisterFeatureApi0020:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/featureapi_func_test.c:131:testRegisterFeatureApi0010:PASS
+
+-----------------------
+20 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:IUnknownTestSuite
+
+[09:56:42.391]ÊÕ¡û¡ôRun test suite 1 times
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/iunknown_func_test.c:232:testQueryInterface0030:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/iunknown_func_test.c:215:testQueryInterface0020:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/iunknown_func_test.c:196:testQueryInterface0010:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/iunknown_func_test.c:180:testGetObject0010:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/iunknown_func_test.c:169:testGetIUnknown0010:PASS
+
+-----------------------
+5 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:SendRequestTestSuite
+
+[09:56:43.407]ÊÕ¡û¡ôRun test suite 1 times
+
+[09:56:43.611]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/sendrequest_func_test.c:709:testSendRequest0090:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/sendrequest_func_test.c:674:testSendRequest0080:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/sendrequest_func_test.c:641:testSendRequest0070:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/sendrequest_func_test.c:603:testSendRequest0060:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/sendrequest_func_test.c:569:testSendRequest0050:PASS
+
+[09:56:43.826]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/sendrequest_func_test.c:541:testSendRequest0040:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/sendrequest_func_test.c:512:testSendRequest0030:PASS
+
+[09:56:44.034]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/sendrequest_func_test.c:475:testSendRequest0020:PASS
+
+[09:56:44.237]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/sendrequest_func_test.c:438:testSendRequest0010:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/sendrequest_func_test.c:410:testSyncCall0010:PASS
+
+-----------------------
+10 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:SendResponseTestSuite
+
+[09:56:45.242]ÊÕ¡û¡ôRun test suite 1 times
+
+[09:56:45.642]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/sendresponse_func_test.c:482:testSendResponseByIdentity0020:PASS
+
+[09:56:45.846]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/sendresponse_func_test.c:448:testSendResponseByIdentity0010:PASS
+
+[09:56:46.050]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/sendresponse_func_test.c:416:testSendResponse0030:PASS
+
+[09:56:46.252]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/sendresponse_func_test.c:384:testSendResponse0020:PASS
+
+[09:56:46.454]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/sendresponse_func_test.c:352:testSendResponse0010:PASS
+
+-----------------------
+5 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:SendSharedRequestTestSuite
+
+[09:56:47.459]ÊÕ¡û¡ôRun test suite 1 times
+
+[09:56:47.858]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/sendsharerequest_func_test.c:411:testSendSharedDirectRequest0010:PASS
+
+[09:56:48.061]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/sendsharerequest_func_test.c:374:testSendSharedRequest0010:PASS
+
+-----------------------
+2 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:ServiceTestSuite
+
+[09:56:49.066]ÊÕ¡û¡ôRun test suite 1 times
+
+[09:56:49.266]ÊÕ¡û¡ôOHOS [1970-01-01 00:04:39] [ERROR] SAMGR: Service<name:Service_NoTask, flag:255> create taskPool failed!
+
+[09:56:49.466]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/service_func_test.c:263:testBootstrap0010:PASS
+
+[09:56:51.126]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/service_func_test.c:246:testUnregisterService0060:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/service_func_test.c:229:testUnregisterService0050:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/service_func_test.c:212:testUnregisterService0040:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/service_func_test.c:201:testUnregisterService0030:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/service_func_test.c:187:testUnregisterService0020:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/service_func_test.c:173:testUnregisterService0010:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/service_func_test.c:160:testRegisterService0030:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/service_func_test.c:149:testRegisterService0020:PASS
+ohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/service_func_test.c:136:testRegisterService0010:PASS
+
+-----------------------
+10 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:TaskPoolNoTaskFuncTestSuite
+
+[09:56:52.154]ÊÕ¡û¡ôRun test suite 1 times
+
+[09:56:52.353]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/taskpool_notask_func_test.c:220:testNoTask0010:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:ShareTaskFuncTestSuite
+
+[09:56:53.357]ÊÕ¡û¡ôRun test suite 1 times
+
+[09:56:53.559]ÊÕ¡û¡ô[hctest]FEATURE_OnMessage request msgId is 1 
+[hctest]FEATURE_OnMessage request msgId is 2 
+
+[09:56:53.759]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/taskpool_sharedtask_func_test.c:438:testSharedTask0040:PASS
+
+[09:56:53.960]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/taskpool_sharedtask_func_test.c:400:testSharedTask0030:PASS
+[hctest]FEATURE_OnMessage request msgId is 0 
+
+[09:56:54.363]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/taskpool_sharedtask_func_test.c:349:testSharedTask0020:PASS
+[hctest]FEATURE_OnMessage request msgId is 0 
+
+[09:56:54.767]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/taskpool_sharedtask_func_test.c:298:testSharedTask0010:PASS
+
+-----------------------
+4 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:SingleTaskFuncTestSuite
+
+[09:56:55.771]ÊÕ¡û¡ôRun test suite 1 times
+
+[09:56:55.971]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/taskpool_singletask_func_test.c:562:testSingleTask0050:PASS
+
+[09:56:56.374]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/taskpool_singletask_func_test.c:507:testSingleTask0040:PASS
+
+[09:56:56.777]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/taskpool_singletask_func_test.c:452:testSingleTask0030:PASS
+
+[09:56:57.181]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/taskpool_singletask_func_test.c:397:testSingleTask0020:PASS
+
+[09:56:57.584]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/taskpool_singletask_func_test.c:340:testSingleTask0010:PASS
+
+-----------------------
+5 Tests 0 Failures 0 Ignored 
+OK
+Start to run test suite:SpecifiedTaskFuncTestSuite
+
+[09:56:58.588]ÊÕ¡û¡ôRun test suite 1 times
+
+[09:56:58.987]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/taskpool_specifiedtask_func_test.c:370:testSpecifiedTask0030:PASS
+
+[09:56:59.391]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/taskpool_specifiedtask_func_test.c:319:testSpecifiedTask0020:PASS
+
+[09:56:59.793]ÊÕ¡û¡ôohos/test/xts/acts/distributed_schedule_lite/system_ability_manager_hal/src/taskpool_specifiedtask_func_test.c:268:testSpecifiedTask0010:PASS
+
+-----------------------
+3 Tests 0 Failures 0 Ignored 
+OK
+All the test suites finished!
+
+[09:56:59.996]ÊÕ¡û¡ô€\0€€€\0€€\0\0€\0€\0\0€\0€€€\0€€\0€\0€€\0\0€€€€€€€\0€€\0\0\0\0€€€\0€\0\0€€€€€€\0€\0\0€€€€€\0€\0\0€\0€€\0\0€\0€€\0€€€\0€€\0€€\0\0€\0€€€€€€\0€€\0€\0\0€€\0\0€\0€\0€€€\0€€\0\0€\0€\0€€€€€\0\0€\0\0€\0€€\0€€\0€\0\0\0\0€€\0€\0€€\0\0\0€€€€€€€€€\0€\0\0€\0\0€€€\0€€€€\0\0€\0€\0€€€\0€€\0\0€\0€\0\0€€€€€€€€€\0\0\0\0€€€\0€\0\0€€€€€€€\0€€€€€€\0€\0€€\0€€\0€\0\0\0\0€\0\0\0\0\0€\0€€€\0€€\0€\0€€\0\0€€€€€€€\0€€€€€€\0€\0€€\0€€\0€\0€\0\0\0\0€€\0\0€\0€\0€€€\0€€\0\0€\0€\0\0€\0€€€\0€€\0€\0€€€€€\0€€€€\0\0€€€€\0€€€\0€€€\0€\0€€€€€\0\0€€\0€\0€\0\0\0\0€\0\0\0\0\0€\0€€€\0€€\0€\0€€€€€€\0€€\0\0€\0€\0\0\0\0€\0€\0\0€\0\0\0\0\0€\0€€€\0€€\0€\0€€\0\0€€\0€€\0€€€€€€€€€\0€\0€\0\0\0\0€\0\0\0€\0\0\0\0€€\0€€\0€\0€\0\0\0\0\0€€\0\0€\0€\0€€€\0€€\0\0€\0€\0\0€€€€€€€€€\0\0€€€€€€€\0€€\0\0\0\0€\0\0€€\0€€\0€€€\0€\0\0€\0€€€€€\0€\0€€\0€\0€\0\0€\0\0\0\0\0\0€€€€€\0€\0\0€€\0\0€\0€\0€€€\0€€\0\0€\0€€€€€€\0€\0\0€\0€€€€€€€€€\0€€\0€€\0€€€€€\0€€€\0€€€€€€€€\0€€€€€€€€\0€€\0€\0\0\0\0€\0\0\0€\0€€€€€€\0€€\0€€€€\0€€€€€€\0€\0\0€€€\0€\0\0€\0€\0€\0\0\0\0€€\0\0€\0€\0€€€\0€€\0\0€\0€€\0€€\0€€€\0€\0\0€\0€€\0\0\0\0€\0€€€\0€€\0€\0€€\0\0€€€€€€€\0€€\0€\0\0€\0\0€\0€€\0\0€\0€\0€€€\0€€\0\0€\0€€\0€\0€€€\0€€\0€\0\0\0\0€€€€€€€\0€€\0\0€€\0€\0\0€\0\0€\0€\0€€\0\0€\0€\0€€€\0€€\0\0€\0€€\0€€€\0€€\0€\0€€€€\0€€€€€\0\0\0€€€€€€€€€€\0€\0\0€\0\0€\0€\0€€€€\0\0€\0€\0€€€\0€€\0\0€\0€€\0€€€\0€€\0€\0€€€€\0€€€€€\0\0\0\0€€€€\0€\0\0€€€€€€€\0€€\0\0€\0€€\0€€€€€€\0€€€\0€\0€\0\0\0\0€\0\0€\0\0\0\0€\0\0\0€\0\0\0\0€€€€€\0€€€\0€\0€€\0\0\0\0€€€\0€\0\0€€€€€€€\0€€\0\0€\0€€€€€€€€\0€€\0€€\0€\0\0\0\0€\0\0\0€€\0€\0€€\0€€€\0€\0€\0€€€\0€€€€€\0€€\0\0\0\0€€€\0€\0\0€€€€€€€\0€€\0\0€\0€€€€€€€€\0€€\0€€\0€\0\0\0€€\0\0€\0€\0€€€\0€€\0\0€\0€€\0€\0€€€€\0€€\0€€€€€\0\0€\0€€€€\0€\0\0€\0€€€€€€\0€€\0€€\0€€\0€\0€\0\0\0\0\0€€\0\0€\0€\0€€€\0€€\0\0€\0€\0\0€€€€\0\0\0€€€€\0€€€\0€\0\0€\0\0\0€€€€€\0\0€€€€\0€€\0€\0\0€€\0€\0\0€€€\0€\0€\0\0€\0\0€\0€€\0\0€\0
+[09:57:00.124]ÊÕ¡û¡ô€\0€€€\0€€\0\0€\0€\0€€€€€€€€€€€\0€€€€\0€€€€€€€€€\0€€\0€€€€€€€\0€€\0€€€\0€\0\0\0€\0\0\0\0€€\0\0€\0
+[09:57:00.236]ÊÕ¡û¡ô[osal_irq_request:61]:LOS_HwiCreate failed! irq[68] ret = 0x2000904.
+cpu 0 entering scheduler
+APP|thread_main start 
+APP|sections max num = b
+APP|copy sections num = 0, type = 1, load_addr = 0, run_addr_gegin = a6004800, section_size = 3000
+APP|copy sections num = 1, type = 3, load_addr = 7020d8f0, run_addr_gegin = a6000400, section_size = 758
+APP|copy sections num = 2, type = 2, load_addr = 0, run_addr_gegin = a6000b60, section_size = 20c8
+APP|copy sections num = 3, type = 3, load_addr = 7020f748, run_addr_gegin = a6007800, section_size = 420
+APP|copy sections num = 4, type = 3, load_addr = 7020e048, run_addr_gegin = a6002c28, section_size = 1700
+APP|copy sections num = 5, type = 3, load_addr = 7020d498, run_addr_gegin = a6000000, section_size = 400
+APP|copy sections num = 6, type = 3, load_addr = 7026a3a0, run_addr_gegin = a6075f58, section_size = 1568
+APP|copy sections num = 7, type = 3, load_addr = 70214448, run_addr_gegin = a6020000, section_size = 55f58
+APP|copy sections num = 8, type = 3, load_addr = 70214444, run_addr_gegin = 60030000, section_size = 0
+APP|img download size:0x0 is not 4 byte aligned, type:3
+APP|copy sections num = 9, type = 3, load_addr = 7020fb68, run_addr_gegin = a6007c20, section_size = 48d8
+APP|copy sections num = a, type = 2, load_addr = 0, run_addr_gegin = a600c500, section_size = 7c50
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_mutex_lock_timeout:96]:LOS_MuxPend failed! ret = 0x2001d01.
+osal_mutex_lock_timeout fialed, ret = 33561857
+[osal_mutex_unlock:140]:LOS_MuxPost failed! ret = 0x2001d01.
+[osal_msg_queue_create:25]:qName:sap_msg qID=0x0 
+[osal_msg_queue_create:25]:qName:dfx_msg qID=0x1 
+[osal_msg_queue_create:25]:qName:transmit qID=0x2 
+[osal_msg_queue_create:25]:qName:ux_msg qID=0x3 
+[osal_msg_queue_create:25]:qName:app_queue qID=0x4 
+
+[09:57:00.374]ÊÕ¡û¡ô[osal_msg_queue_create:25]:qName:BGH_UX_MSG qID=0x5 
+[osal_msg_queue_create:25]:qName:BT_SERVICE_MSG qID=0x6 
+[osal_msg_queue_create:25]:qName:BGH_IPC_RECV qID=0x7 

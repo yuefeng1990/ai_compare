@@ -1,19 +1,123 @@
 import sys
 import os
 
-# 设置标准输出编码为UTF-8，解决Windows命令行中文乱码问题
+# 设置标准输出编码，跟随当前终端编码，避免中文打印乱码
 if sys.platform == 'win32':
-    import io
-    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
+    try:
+        sys.stdout.reconfigure(encoding=sys.stdout.encoding or 'utf-8', errors='replace')
+        sys.stderr.reconfigure(encoding=sys.stderr.encoding or 'utf-8', errors='replace')
+    except AttributeError:
+        import io
+        stdout_encoding = sys.stdout.encoding or 'utf-8'
+        stderr_encoding = sys.stderr.encoding or 'utf-8'
+        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding=stdout_encoding, errors='replace')
+        sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding=stderr_encoding, errors='replace')
 
 import pandas as pd
-from openpyxl import load_workbook
 from tools.excel_reader import ExcelReader
-from tools.txt_reader import TxtReader
 from tools.web_checker import WebChecker
 from tools.compare import CompareTool
 from auto_login import automate_browser, automate_browser_with_search
+
+def read_log_text(file_path):
+    """读取日志文本，兼容 UTF-8 和常见中文 Windows 编码。"""
+    candidates = []
+    for index, encoding in enumerate(('utf-8-sig', 'utf-8', 'gb18030', 'gbk')):
+        try:
+            with open(file_path, 'r', encoding=encoding, errors='strict') as f:
+                content = f.read()
+        except UnicodeDecodeError:
+            continue
+
+        candidates.append((_mojibake_score(content), index, content, encoding))
+
+    if candidates:
+        _, _, content, encoding = min(candidates, key=lambda item: (item[0], item[1]))
+        return content, encoding
+
+    with open(file_path, 'r', encoding='utf-8', errors='replace') as f:
+        return f.read(), 'utf-8(errors=replace)'
+
+
+def _mojibake_score(text):
+    """给解码结果打分，分数越高越像乱码。"""
+    score = 0
+    score += text.count('\ufffd') * 100
+    score += text.count('ï¿½') * 100
+    score += text.count('锟斤拷') * 80
+    score += text.count('锟') * 20
+    score += sum(1 for ch in text if '\u0370' <= ch <= '\u03ff') * 5
+    score += sum(1 for ch in text if '\u0400' <= ch <= '\u04ff') * 5
+    return score
+
+
+def has_mojibake_markers(text):
+    """判断日志内容是否已经包含常见乱码标记。"""
+    return any(marker in text for marker in ('\ufffd', 'ï¿½', '锟斤拷', '锟'))
+
+
+def is_os_version_greater_than(os_full_name, minimum_version='5.0'):
+    """判断 OsFullName 中的主/次版本是否大于指定版本。"""
+    import re
+
+    if not os_full_name:
+        return False, None
+
+    match = re.search(r'(\d+)\.(\d+)', str(os_full_name))
+    if not match:
+        return False, None
+
+    version_tuple = (int(match.group(1)), int(match.group(2)))
+    min_major, min_minor = (int(part) for part in minimum_version.split('.', 1))
+    return version_tuple > (min_major, min_minor), f"{version_tuple[0]}.{version_tuple[1]}"
+
+
+def extract_keywords_from_log(log_content):
+    """
+    从log.txt内容中提取关键字（key = value 或 key: value 格式中的key）。
+    如果存在 Product Params 标记，只提取 Start 和 End 之间的关键字。
+    支持中文关键字，并会去掉开头的 get 前缀。
+    """
+    import re
+    keywords = []
+    in_params = False
+    has_params_marker = 'To Obtain Product Params Start' in log_content
+    allowed_key_pattern = re.compile(r'^[a-zA-Z0-9_\s\u4e00-\u9fff（）()\-]+$')
+    seen = set()
+
+    for line in log_content.split('\n'):
+        line_stripped = line.strip()
+
+        # 检测参数段开始
+        if 'To Obtain Product Params Start' in line_stripped:
+            in_params = True
+            continue
+
+        # 检测参数段结束
+        if 'To Obtain Product Params End' in line_stripped:
+            break
+
+        if has_params_marker and not in_params:
+            continue
+
+        # 跳过空行
+        if not line_stripped:
+            continue
+
+        # 提取 key = value / key: value 格式中的key
+        separator = '=' if '=' in line_stripped else ':' if ':' in line_stripped else None
+        if separator:
+            key_part = line_stripped.split(separator, 1)[0].strip()
+            key_part = re.sub(r'^\s*get[\s_-]*', '', key_part, flags=re.IGNORECASE).strip()
+            normalized_key = CompareTool._normalize_keyword(key_part)
+
+            # 只保留干净的参数名：中英文、数字、空白和常见连接符/括号
+            if key_part and allowed_key_pattern.match(key_part) and normalized_key not in seen:
+                keywords.append(key_part)
+                seen.add(normalized_key)
+
+    return keywords
+
 
 def main(measurement_id=None):
     """
@@ -24,36 +128,53 @@ def main(measurement_id=None):
     current_dir = os.path.dirname(os.path.abspath(__file__))
     input_excel_path = os.path.join(current_dir, 'data', 'checklist.xlsx')
     keywords_txt_path = os.path.join(current_dir, 'data', 'keywords.txt')
-    log_txt_path = os.path.join(current_dir, 'data', 'log .txt')
+    log_txt_path = os.path.join(current_dir, 'data', 'test.txt')
     output_excel_path = os.path.join(current_dir, 'output', 'result.xlsx')
     
     # 网站URL定义
     WEB_URL = "https://compatibility.openharmony.cn/mng/index"
     
-    # 要提取的关键字列表
-    TARGET_KEYWORDS = [
-        'MarketName',      # 设备名称（传播名）
-        'ProductModel',    # 设备型号
-        'DeviceType',      # 设备类型
-        'Brand',           # 品牌英文名
-        'Manufacture',     # 企业简称（英文）
-        'DisplayVersion',  # 软件版本号
-        'SecurityPatchTag',# 安全补丁标签
-        'VersionId',       # 版本ID
-        'BuildRootHash',   # 版本Hash
-        'OsFullName'       # 操作系统版本号
-    ]
-    
     web_checker = None
     try:
-        # 1. 读取关键字模板
-        print("1. 读取关键字模板...")
-        txt_reader = TxtReader(keywords_txt_path)
-        all_keywords = txt_reader.get_keywords()
-        print(f"找到 {len(all_keywords)} 个关键字")
-        
-        # 2. 读取Excel检查清单（参考用）
-        print("\n2. 读取Excel检查清单...")
+        # 1. 读取log.txt内容
+        print("1. 读取log.txt内容...")
+        log_content = ""
+        if os.path.exists(log_txt_path):
+            log_content, log_encoding = read_log_text(log_txt_path)
+            print(f"log.txt文件大小: {len(log_content)} 字符，编码: {log_encoding}")
+            if has_mojibake_markers(log_content):
+                print("⚠ 日志内容仍包含乱码标记（如 � / 锟斤拷），请确认源日志未被错误编码保存。")
+        else:
+            print(f"警告: {log_txt_path} 不存在")
+            return
+
+        # 2. 从log.txt提取关键字
+        print("\n2. 从log.txt提取关键字...")
+        all_keywords = extract_keywords_from_log(log_content)
+        print(f"从log.txt提取到 {len(all_keywords)} 个关键字")
+        for kw in all_keywords:
+            print(f"    - {kw}")
+
+        # 保存关键字到 keyword.txt
+        print(f"\n   保存关键字到 {keywords_txt_path} ...")
+        with open(keywords_txt_path, 'w', encoding='utf-8') as f:
+            for kw in all_keywords:
+                f.write(kw + '\n')
+        print(f"   ✓ 已保存 {len(all_keywords)} 个关键字到 keyword.txt")
+
+        # 使用9个目标关键字作为检查清单（log提取值通过归一化匹配）
+        TARGET_KEYWORDS = [
+            'Manufacture', 'OsFullName', 'MarketName', 'ProductModel',
+            'Brand', 'DisplayVersion', 'VersionId',
+            'SecurityPatchTag', 'BuildRootHash'
+        ]
+        print(f"\n   目标关键字（共 {len(TARGET_KEYWORDS)} 个）:")
+        for kw in TARGET_KEYWORDS:
+            print(f"      - {kw}")
+        all_keywords = TARGET_KEYWORDS
+
+        # 3. 读取Excel检查清单（参考用）
+        print("\n3. 读取Excel检查清单...")
         excel_reader = ExcelReader(input_excel_path)
         checklist_data = excel_reader.read_excel()
         
@@ -62,17 +183,6 @@ def main(measurement_id=None):
             return
         
         print(f"检查清单包含 {len(checklist_data)} 行数据")
-        
-        # 3. 读取log.txt内容
-        print("\n3. 读取log.txt内容...")
-        log_content = ""
-        if os.path.exists(log_txt_path):
-            with open(log_txt_path, 'r', encoding='utf-8') as f:
-                log_content = f.read()
-            print(f"log.txt文件大小: {len(log_content)} 字符")
-        else:
-            print(f"警告: {log_txt_path} 不存在")
-            return
         
         # 4. 初始化对比工具（传入目标测评编号用于精确定位表格行）
         print("\n4. 初始化对比工具...")
@@ -90,7 +200,7 @@ def main(measurement_id=None):
             # 初始化WebChecker
             from tools.web_checker import WebChecker
             import time
-            web_checker = WebChecker(headless=False)
+            web_checker = WebChecker(headless=True)  # 可视化模式,False表示可视化，True表示无头模式
             
             try:
                 # 启动浏览器
@@ -170,7 +280,7 @@ def main(measurement_id=None):
         print("=" * 80)
         
         log_values = {}
-        for keyword in TARGET_KEYWORDS:
+        for keyword in all_keywords:
             value = compare_tool.extract_value_from_log(log_content, keyword)
             log_values[keyword] = value
             status = "✓" if value else "✗"
@@ -182,7 +292,7 @@ def main(measurement_id=None):
             print("\n7. 从网页提取关键字...")
             print("=" * 80)
             
-            for keyword in TARGET_KEYWORDS:
+            for keyword in all_keywords:
                 value = compare_tool.extract_value_from_web(web_content, keyword)
                 web_values[keyword] = value
                 status = "✓" if value else "✗"
@@ -196,9 +306,9 @@ def main(measurement_id=None):
         
         comparison_results = []
         matched_count = 0
-        total_count = len(TARGET_KEYWORDS)
+        total_count = len(all_keywords)
         
-        for keyword in TARGET_KEYWORDS:
+        for keyword in all_keywords:
             log_value = log_values.get(keyword)
             web_value = web_values.get(keyword)
             
@@ -219,7 +329,7 @@ def main(measurement_id=None):
                 '关键字': keyword,
                 'log값': log_value or '',
                 'web값': web_value or '',
-                '是否一致': '是' if is_match else '否'
+                '是否一致': '✓' if is_match else '❌'
             })
         
         # 9. 生成结果Excel
@@ -241,48 +351,72 @@ def main(measurement_id=None):
         
         from openpyxl import load_workbook
         
-        # 关键字 -> checklist C列匹配文本 映射
+        # 关键字（归一化）-> checklist C列匹配文本 映射
+        # 统一使用 CompareTool._normalize_keyword()，忽略大小写、空格和开头 get
+        _norm = CompareTool._normalize_keyword
         keyword_checklist_map = {
-            'MarketName': '设备名称（传播名）',
-            'ProductModel': '设备型号',
-            'DeviceType': '设备类型',
-            'Brand': '品牌英文名',
-            'Manufacture': '企业简称（英文）',
-            'DisplayVersion': '软件版本号',
-            'SecurityPatchTag': '安全补丁标签',
-            'VersionId': '版本id',
-            'BuildRootHash': '版本Hash',
-            'OsFullName': '操作系统版本号',
+            _norm('MarketName'): '设备名称（传播名）',
+            _norm('ProductModel'): '设备型号',
+            _norm('Manufacture'): '企业简称（英文）',
+            _norm('DisplayVersion'): '软件版本号',
+            _norm('SecurityPatchTag'): '安全补丁标签',
+            _norm('VersionId'): '版本id',
+            _norm('BuildRootHash'): '版本Hash',
+            _norm('OsFullName'): '操作系统版本号',
+            _norm('Brand'): '品牌英文名称',
         }
-        
+
         wb = load_workbook(input_excel_path)
         ws = wb.active
-        written_count = 0
-        
+
+        # 先清空F列（第6列，索引5）所有值
+        print("   清空F列现有值...")
+        cleared_count = 0
         for row in ws.iter_rows(min_row=5, max_row=ws.max_row):
+            if row[5].value is not None:
+                row[5].value = None
+                cleared_count += 1
+        print(f"   ✓ 已清空 {cleared_count} 个F列单元格")
+
+        written_count = 0
+
+        for row in ws.iter_rows(min_row=5, max_row=ws.max_row):
+            seq = row[0].value or ''
+            if row[0].row == 5:
+                os_full_name = log_values.get('OsFullName')
+                is_version_ok, os_version = is_os_version_greater_than(os_full_name, '5.0')
+                row[5].value = "✔" if is_version_ok else "❌"
+                written_count += 1
+                version_text = os_version or '未提取到版本'
+                print(f"  {'✓' if is_version_ok else '❌'} [序号{seq}] OsFullName版本 {version_text} > 5.0: 已写入结果")
+                continue
+
             c_value = row[2].value  # C列 - 测试检查项
             if c_value is None:
                 continue
-            
+
             c_text = str(c_value)
-            
+
             for keyword, search_text in keyword_checklist_map.items():
                 if search_text in c_text:
-                    # 检查该关键字是否匹配一致
+                    # 检查该关键字（归一化后）是否匹配一致
                     result_item = next(
-                        (item for item in comparison_results if item['关键字'] == keyword),
+                        (item for item in comparison_results if _norm(item['关键字']) == keyword),
                         None
                     )
-                    if result_item and result_item['是否一致'] == '是':  # ✓
-                        # 写入F列（第6列，索引5）——自检结果
-                        row[5].value = f"✔"
-                        written_count += 1
-                        seq = row[0].value or ''
-                        print(f"  ✓ [序号{seq}] {keyword}: 已写入一致结果")
+                    if result_item:
+                        if result_item['是否一致'] == '✓':
+                            row[5].value = f"✔"
+                            written_count += 1
+                            print(f"  ✓ [序号{seq}] {result_item['关键字']}: 已写入一致结果")
+                        elif result_item['是否一致'] == '❌':
+                            row[5].value = f"❌"
+                            written_count += 1
+                            print(f"  ❌ [序号{seq}] {result_item['关键字']}: 已写入不一致结果")
                     break
         
         wb.save(input_excel_path)
-        print(f"  ✓ 共 {written_count} 项一致数据已写入checklist.xlsx")
+        print(f"  ✓ 共 {written_count} 项结果已写入checklist.xlsx")
         
         # 统计一致性
         print(f"\n统计信息:")

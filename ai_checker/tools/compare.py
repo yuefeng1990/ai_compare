@@ -1,41 +1,83 @@
 class CompareTool:
+    # 关键字到中文标签的映射（类常量，供 log 和 web 提取共用）
+    KEYWORD_MAPPING = {
+        'MarketName': ['设备名称（传播名）'],
+        'ProductModel': ['设备型号'],
+        'DeviceType': ['设备类型'],
+        'Brand': ['品牌英文名'],
+        'Manufacture': ['企业简称（英文）'],
+        'DisplayVersion': ['软件版本号'],
+        'Security Patch': ['安全补丁标签'],
+        'SecurityPatchTag': ['安全补丁标签'],
+        'VersionId': ['版本Id'],
+        'BuildRootHash': ['版本Hash'],
+        'OsFullName': ['操作系统版本号']
+    }
+
     def __init__(self, target_measurement_id=None):
         self.results = {}
         self._target_measurement_id = target_measurement_id  # 保存目标测评编号用于表格数据定位
     
+    @staticmethod
+    def _normalize_keyword(text):
+        """
+        标准化关键字：忽略开头的 get、移除空白/常见分隔符并转小写。
+        使 'GetMarketName'/'marketName'/'Market Name'/'Market_Name' 归一化为 'marketname'。
+        """
+        import re
+        normalized = re.sub(r'[\s_-]+', '', str(text)).lower()
+        if normalized.startswith('get') and len(normalized) > 3:
+            normalized = normalized[3:]
+        return normalized
+
     def extract_value_from_log(self, log_content, keyword):
-        """从log.txt中提取关键字对应的值"""
-        lines = log_content.split('\n')
-        for line in lines:
-            # 匹配格式: keyword = value 或 keyword: value
-            if '=' in line or ':' in line:
-                parts = line.split('=', 1) if '=' in line else line.split(':', 1)
-                if len(parts) == 2:
-                    key_part = parts[0].strip()
-                    value_part = parts[1].strip()
-                    # 不区分大小写比较关键字
-                    if key_part.lower() == keyword.lower():
-                        return value_part
+        """
+        从log.txt中提取关键字对应的值。
+        支持大小写、空格和开头 get 不敏感匹配：两边都归一化后比较。
+        如果直接匹配失败，会通过 KEYWORD_MAPPING 查找别名二次匹配。
+        例如关键字 'SecurityPatchTag' 可匹配日志中的 'GetSecurityPatchTag = 2026/04/01'。
+        """
+        # 收集所有需要尝试的关键字名称变体
+        keywords_to_try = [keyword]
+
+        # 通过 KEYWORD_MAPPING 查找共享中文标签的别名
+        keyword_labels = set(self.KEYWORD_MAPPING.get(keyword, []))
+        if keyword_labels:
+            for map_key, labels in self.KEYWORD_MAPPING.items():
+                if map_key != keyword:
+                    if keyword_labels & set(labels):  # 共享中文标签
+                        keywords_to_try.append(map_key)
+
+        # 逐个尝试，避免重复
+        tried = set()
+        for kw in keywords_to_try:
+            normalized_kw = self._normalize_keyword(kw)
+            if normalized_kw in tried:
+                continue
+            tried.add(normalized_kw)
+
+            lines = log_content.split('\n')
+            for line in lines:
+                if '=' in line or ':' in line:
+                    parts = line.split('=', 1) if '=' in line else line.split(':', 1)
+                    if len(parts) == 2:
+                        key_part = parts[0].strip()
+                        value_part = parts[1].strip()
+                        # 两边都归一化后比较，忽略大小写、空格和开头 get
+                        if self._normalize_keyword(key_part) == normalized_kw:
+                            return value_part
         return None
     
     def extract_value_from_web(self, web_content, keyword):
         """从网页内容中提取关键字对应的值（中文）"""
-        # 建立英文关键字到中文标签的精确映射关系
-        keyword_mapping = {
-            'MarketName': ['设备名称（传播名）'],
-            'ProductModel': ['设备型号'],
-            'DeviceType': ['设备类型'],
-            'Brand': ['品牌英文名'],
-            'Manufacture': ['企业简称（英文）'],
-            'DisplayVersion': ['软件版本号'],
-            'SecurityPatchTag': ['安全补丁标签'],
-            'VersionId': ['版本Id'],
-            'BuildRootHash': ['版本Hash'],
-            'OsFullName': ['操作系统版本号']
-        }
-        
-        # 获取可能的中文标签
-        chinese_labels = keyword_mapping.get(keyword, [keyword])
+        # 对关键字做归一化（去除空格、小写）后再查找映射
+        # 例如 log提取的 "marketName" 可以匹配到 "MarketName" 的中文标签
+        normalized_keyword = self._normalize_keyword(keyword)
+        chinese_labels = [keyword]  # 默认用关键字本身
+        for map_key, labels in self.KEYWORD_MAPPING.items():
+            if self._normalize_keyword(map_key) == normalized_keyword:
+                chinese_labels = labels
+                break
         
         # 方法1：尝试从结构化HTML中提取（label + text结构，包括成对div）
         # 这是最精确的提取方式，优先使用

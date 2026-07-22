@@ -1,0 +1,35 @@
+#begetctl dump api 
+Begin dump syspara 
+====================
+DeviceType:DDC
+Manufacture:HYPCON 
+Brand:HYPCON
+MarketName:FCS200系列控制器
+ProductSeries:CS210 
+ProductModel:CS210
+ProductModelAlias:CS210 
+SoftwareModel:CS210
+HardwareModel:EMSBOX_MAIN_V1.1
+Serial:d6010338384133393811c21f4ca04c8d 
+OSFullName:OpenHarmony-5.1.0.108 
+DisplayVersion:V1.0
+BootloaderVersion:u-boot-2017.09 
+GetSecurityPatchTag:2025/05/01 
+AbiList:armeabi-v7a-linux 
+IncrementalVersion:1.0.0.0
+VersionId:DDC/HYPCON/HYPCON/CS210/OpenHarmony-5.1.0.108/CS210/CS210/18/1.0.0.0/default 
+BuildType:default 
+BuildUser:default 
+BuildHost:default 
+BuildTime:default
+BuildRootHash:default
+GetOsReleaseType:Release
+GetHardwareProfile:aout:true,display:false 
+FirstApiVersion:1
+GetSerial:d6010338384133393811c21f4ca04c8d
+GetDevUdid:OB7H3N5L2X8F1J6M9C4D2R7W5K3T9V1P8GOS6Y2A4E9U1Q3Z7H5N8B0X6L2F 
+Version:5.1.0.108 
+GetSdkApiVersion:18 
+GetSystemCommitId:46 
+=================
+End dump syspara
